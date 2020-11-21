@@ -1268,7 +1268,7 @@ button.DialogButton:enabled:active:hover {
 
 .sharedappdetailsheader_TopCapsule_NZMJ6.sharedappdetailsheader_TopCapsule_NZMJ6 {
     overflow: visible;
-    max-height: 220px;
+    max-height: 250px;
     display: flex;
     justify-content: center;
 }
@@ -1285,6 +1285,10 @@ button.DialogButton:enabled:active:hover {
     margin-right: auto;
     display: flex;
     justify-content: center;
+}
+
+.appdetails_Header_2gZXh.appdetails_HeaderLoaded_tXlLv {
+    opacity: 1;
 }
 
 .library_AppDetailsMain_2Nq6o {
@@ -1535,7 +1539,7 @@ div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection
     padding-bottom: 14px;
     border-radius: 3px;
     background: transparent;
-    color: #fff;
+    color: #ccc;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -1602,9 +1606,9 @@ div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
 }
 
 .appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
-    color: #8a8a8a;
+    color: #ccc;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 0px;
     letter-spacing: 0px;
 }
