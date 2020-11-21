@@ -1104,6 +1104,13 @@ button.DialogButton:enabled:active:hover {
       flex-shrink: 0;
       margin-left: 4px; }
 
+.gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 2px 4px 2px 2px;
+}
+
 .library_LibraryWindowDivider_276E6 {
     width: 8px;
     height: calc( 100%);
