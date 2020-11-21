@@ -377,6 +377,13 @@ button.DialogButton:enabled:active:hover {
 	display:none;
 }
 
+.title-area-icon .SVGIcon_X_Line {
+    width: 14px;
+    height: 14px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
 .ModalPosition_Dismiss .closeButton {
     width: 21px;
     height: 20px;
@@ -1599,6 +1606,15 @@ div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
     font-size: 12px;
 }
 
+.appactivityday_PartnerEventLargeUpdate_39Zk3 {
+    border: 0px solid transparent;
+    border-image-source: none;
+    border-image-width: 1px;
+    border-image-repeat: stretch;
+    border-image-slice: 7;
+    box-shadow: none;
+}
+
 .appactivityday_AppActivityDay_S2Fu9 {
     margin-bottom: 5px;
     border: 1px solid transparent;
@@ -1613,6 +1629,12 @@ div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
     letter-spacing: 0px;
 }
 
+.appactivityday_PartnerEventMediumImage_Title_1gljE {
+    font-size: 14px;
+    font-weight: 300;
+    color: #ccc;
+}
+
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
     background: transparent;
     box-sizing: border-box;
@@ -1620,7 +1642,6 @@ div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
 
     transition: all 0s ease-out;
 }
-
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
     background: transparent;
     box-sizing: border-box;
@@ -1628,10 +1649,17 @@ div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
     transition: all 0s ease-out;
 }
 
-.appactivityday_PartnerEventMediumImage_Title_1gljE {
-    font-size: 14px;
-    font-weight: 300;
-    color: #ccc;
+.appactivityday_PartnerEventLargeImage_Container_Libri {
+	background: transparent;
+	transition: all 0.2s ease-out; }
+.appactivityday_PartnerEventLargeImage_Container_Libri:hover {
+	background: transparent;
+	cursor: pointer; }
+.appactivityday_PartnerEventLargeImage_Container_Libri:hover .appactivityday_PartnerEventLargeImage_Title_3fsjz {
+	color: white; }
+
+.appactivityday_PartnerEventLargeImage_Image_fGDsm.appactivityday_Blur_3cX_v {
+	display: none;
 }
 
 .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
