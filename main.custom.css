@@ -7,13 +7,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #3e4637; }
+/*    background: #3e4637; } */
+	background-image: url(images/piston_loading.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 128px;
+	background-color: #4c5844;
+	}
     .index_Container_2mu1w.index_PreloadThrobber_2dqG9 :first-child {
-      filter: saturate(0.8); }
+      display:none; }
   .index_Container_2mu1w .index_ThreeDots_1yjvY {
-    display: flex;
-    justify-content: center;
-    padding-top: 12px; }
+    display: none; }
     .index_Container_2mu1w .index_ThreeDots_1yjvY .index_Dot_Wd5cq {
       width: 10px;
       height: 10px;
@@ -29,3 +33,19 @@
         animation-delay: 0.25s; }
       .index_Container_2mu1w .index_ThreeDots_1yjvY .index_Dot_Wd5cq.index_Dot3_3uYAQ {
         animation-delay: 0.5s; }
+		
+.throbber_LoadingWrapper_2wAKy {
+	background-image: url(images/piston_loading.gif);
+	background-size: 64px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #4c5844; }
+
+.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber {
+	display: none; }
+
+.throbber_LoadingWrapper_2wAKy .SVGIcon_Throbber.throbber_blur_1ctjA {
+  filter: none;
+  position: absolute;
+  left: 0;
+  top: 0px; }

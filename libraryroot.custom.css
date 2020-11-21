@@ -2,7 +2,7 @@ libraryrootcustom.css
 
 .allcollections_ScrollContainer_u1xD3 {
     box-sizing: border-box;
-    background: #3e4637;
+    background-color: #3e4637;
     padding: 24px;
     padding-bottom: 0;
     border: 1px solid rgba(0, 0, 0, 0);
@@ -10,6 +10,12 @@ libraryrootcustom.css
     overflow-x: hidden;
     min-height: 100%;
     user-select: none;
+}
+
+body {
+    font-family: "Tahoma";
+	font-size: 12px;
+	font-weight: 100;
 }
 
 .collapseicon_Container_3SFRZ {
@@ -29,7 +35,7 @@ libraryrootcustom.css
     .collapseicon_Container_3SFRZ .SVGIcon_PlusCircle .verticalLine {
       transform: scaleY(0);
       transform-origin: 50% 50%;
-      transition: transform .21s ease-in-out; }
+      transition: transform 0s ease-in-out; }
   .collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ:hover {
     stroke: white; }
   .collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
@@ -121,25 +127,203 @@ libraryrootcustom.css
       opacity: 0;
 }
 
-.DialogTextInputBase,
-._DialogInputContainer {
-  background: none;
-  color: #fff;
-  font-size: 14px;
-  font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
-  font-weight: 100;
-  margin: 0;
-  padding: 0;
-  border: none;
-  border-radius: none;
-  box-shadow: none;
-  transition: none;
+.DialogContent, .DialogContentTransition {
+    background: #4c5844;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #808080 #282e22 #282e22 #808080;
+    user-select: none;
 }
 
-.DialogTextInputBase:focus {
-  background: none;
+.DialogContent_InnerWidth {
+    max-width: 300px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    /* border: 0.5px dashed #f805; */
+}
+
+.DialogTwoColLayout > ._DialogLayout {
+    max-width: 80px;
+    min-width: 60px;
+}
+
+.uninstalldialog_UninstallDialog_7au1m {
+    min-width: 300px;
+}
+
+.DialogHeader {
+    animation: none;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: none;
+    flex-shrink: 0;
+    user-select: none;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.DialogBodyText {
+    color: #fff;
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 100;
+    margin-bottom: 32px;
+    user-select: none;
+}
+
+.DialogFooter {
+    margin-top: 0px;
+    flex-shrink: 0;
+}
+
+button.DialogButton.Primary {
+    background: #4c5844;
+    background-position: 25%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #808080 #282e22 #282e22 #808080;
+    background-size: 330% 100%;
+}
+
+button.DialogButton::before {
+  pointer-events: none;
+  user-select: none;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   box-shadow: none;
-  padding-left: 11px; }
+  opacity: 0;
+  transition: none; }
+
+button.DialogButton.Primary:hover {
+    background: #4c5844;
+    background-position: 25%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #808080 #282e22 #282e22 #808080;
+    background-size: 330% 100%;
+}
+
+button.DialogButton.Primary:enabled:active,
+button.DialogButton.Primary:enabled:hover:active {
+    background: #4c5844;
+    background-position: 25%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #282e22 #808080 #808080 #282e22;
+    background-size: 330% 100%;
+}
+
+button.DialogButton {
+    background: #4c5844;
+    background-position: 25%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #808080 #282e22 #282e22 #808080;
+    background-size: 330% 100%;
+	transition: none;
+}
+
+button.DialogButton:hover {
+    background: #4c5844;
+    background-position: 25%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #808080 #282e22 #282e22 #808080;
+    background-size: 330% 100%;
+}
+
+button.DialogButton:enabled:active,
+button.DialogButton:enabled:active:hover {
+    background: #4c5844;
+    background-position: 25%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #282e22 #808080 #808080 #282e22;
+    background-size: 330% 100%;
+	box-shadow: none;
+}
+
+.appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA:disabled, .appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA:disabled:hover {
+    color: gray;
+    background: none;
+    pointer-events: none;
+}
+
+.ModalPosition_TopBar {
+	display:none;
+}
+
+.ModalPosition_Dismiss .closeButton {
+    width: 21px;
+    height: 20px;
+    margin-top: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+    background-image: url(images/Window-Close.png);
+	background-position: center;
+    border-radius: 0px;
+	box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #808080 #282e22 #282e22 #808080;
+}
+
+.ModalPosition_Dismiss .closeButton:active {
+    width: 21px;
+    height: 20px;
+    cursor: pointer;
+    background-image: url(images/Window-Close.png);
+	background-position: center;
+    border-radius: 0px;
+	box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #282e22 #808080 #808080 #282e22;
+}
+
+.ModalPosition_Dismiss .closeButton .SVGIcon_X_Line line {
+	display:none;
+}
+
+.DialogCheckbox {
+    width: 22px;
+    height: 22px;
+    background-color: #3e4637;
+    padding: 0;
+    box-shadow: none;
+    cursor: pointer;
+    border-radius: 0px;
+	box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #282e22 #808080 #808080 #282e22;
+}
+
+.appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .appfilterpane_FilterBucketBoxes_32e6r .appfilterpane_Row_1J53P .appfilterpane_Checkbox_2AOkQ svg {
+    width: 14px;
+    height: 14px;
+    margin-left: 0px;
+}
+
+.DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled), .DialogCheckbox:hover:not(.Disabled), .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled), .DialogCheckbox:focus:not(.Disabled) {
+    background-color: #3e4637;
+}
 
 .gamelist_Container_1ijTa {
     box-sizing: border-box;
@@ -171,17 +355,17 @@ libraryrootcustom.css
 }
 
       .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg {
-        fill: #d8ded3; }
+        fill: gray; }
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg g path {
-          fill: #d8ded3; }
+          fill: gray; }
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg path, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg line, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg polyline, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg circle {
-          stroke: #d8ded3; }
+          stroke: gray; }
       .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg {
-        fill: white; }
+        fill: darkgray; }
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg g path {
-          fill: white; }
+          fill: darkgray; }
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg path, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg line, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg polyline, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg circle {
-          stroke: white; }
+          stroke: darkgray; }
       .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk svg {
         fill: #c4b550; }
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk svg g path {
@@ -189,17 +373,39 @@ libraryrootcustom.css
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk svg path, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk svg line, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk svg polyline, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk svg circle {
           stroke: #c4b550; }
       .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg {
-        fill: white; }
+        fill: #fff; }
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg g path {
-          fill: white; }
+          fill: #fff; }
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg path, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg line, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg polyline, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk:hover svg circle {
-          stroke: white; }
+          stroke: #fff; }
       .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Disabled_1MAuQ svg {
         fill: dimgray; }
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Disabled_1MAuQ svg g path {
           fill: dimgray; }
         .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Disabled_1MAuQ svg path, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Disabled_1MAuQ svg line, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Disabled_1MAuQ svg polyline, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Disabled_1MAuQ svg circle {
           stroke: dimgray; }
+      .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_Installed {
+        transform: translateY(-4px); }
+        .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_Installed .Catch {
+          stroke-width: 14px; }
+      .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_LinuxLogo2 {
+        width: 14px;
+        height: 14px; }
+      .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_AppleLogo {
+        width: 14px;
+        height: 14px; }
+      .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_SortBy {
+        transform: translateX(2px) scale(1.25); }
+        .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_SortBy circle,
+        .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_SortBy polyline {
+          stroke-width: 14px; }
+        .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_SortBy .Arrow {
+          display: none; }
+      .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_ReadyToPlay {
+        transform: scale(1.25); }
+        .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_ReadyToPlay circle,
+        .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_ReadyToPlay polyline {
+          stroke-width: 14px; }
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
     outline: none;
@@ -241,6 +447,42 @@ libraryrootcustom.css
     flex: 1;
 }
 
+.gamelistdropdown_DropDown_EDl_m {
+  box-sizing: border-box; }
+  .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX {
+    border-top: none;
+    padding: 3px 20px 3px 28px;
+    font-size: 12px;
+    text-transform: none;
+	font-weight: 100;
+    color: #fff; }
+    .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX:hover {
+      color: #fff; }
+    .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4 {
+      display: flex;
+      min-width: 0;
+      padding-left: 4px;
+      padding-right: 8px; }
+      .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4 svg {
+        width: 14px;
+        height: 14px;
+        margin-left: 1px; }
+      .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4.gamelistdropdown_Disabled_1MAuQ, .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4.gamelistdropdown_Disabled_1MAuQ:hover {
+        color: dimgray; }
+      .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4.DialogCheckbox_Container {
+        margin-bottom: 0px; }
+      .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4 .DialogCheckbox {
+        width: 16px;
+        height: 16px;
+        flex: 0; }
+      .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4 .DialogToggle_Label, .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4 .DialogToggle_Label > span {
+        display: flex;
+        min-width: 0; }
+  .gamelistdropdown_DropDown_EDl_m .gamelistdropdown_Rule_2kvdT {
+    height: 1px;
+    margin: 2px 4px;
+    background-color: dimgray; }
+
 .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_HasContextMenuOpen_1dcGF {
     box-sizing: border-box;
     border-style: solid;
@@ -276,7 +518,7 @@ libraryrootcustom.css
     display: flex;
     flex-grow: 0;
     user-select: none;
-    color: white;
+    color: #fff;
     font-size: 8px;
     outline: none;
     position: relative;
@@ -288,8 +530,8 @@ libraryrootcustom.css
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY {
     box-sizing: border-box;
     position: relative;
-    background-color: rgba(33, 33, 36, 0.6);
-    color: rgba(255, 255, 255, 0.8);
+    background-color: none;
+    color: #fff;
     font-weight: 100;
     border-radius: 0px;
     height: 32px;
@@ -304,11 +546,134 @@ libraryrootcustom.css
     cursor: text;
     position: relative;
     flex: 1;
-    color: #888;
+    color: #fff;
     font-style: normal;
     box-sizing: border-box;
     min-height: 32px;
     border-radius: 0px;
+}
+
+.gamelistsearchbar_SearchFilterInput_172OF {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  align-self: stretch;
+  padding: 2px;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-style: normal;
+  color: white;
+  padding-right: 24px; }
+  .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_SearchByTypePrompt_2zPn_ {
+    font-size: 14px;
+    padding: 4px 18px; }
+  .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_ {
+    background-color: #91863c;
+    margin: 2px 2px;
+    padding: 2px 6px 6px;
+    border-radius: 0px;
+    height: 14px;
+    cursor: default;
+    display: flex; }
+    .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_ .gamelistsearchbar_FiltertagSpacer_bAVLo {
+      width: 0px;
+      height: 10px; }
+    .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_ svg {
+      width: 10px;
+      height: 10px;
+      opacity: .3;
+      margin-left: 4px;
+      cursor: pointer; }
+      .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_ svg:hover {
+        opacity: 1; }
+    .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_.gamelistsearchbar_RemovedAppTag_14AvU {
+      color: #8f3636;
+      background-color: rgba(85, 6, 6, 0.4);
+      text-decoration: line-through;
+      text-decoration-color: rgba(197, 75, 75, 0.7); }
+      .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_.gamelistsearchbar_RemovedAppTag_14AvU .gamelistsearchbar_GameIcon_2uTOQ {
+        filter: saturate(2); }
+        .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_.gamelistsearchbar_RemovedAppTag_14AvU .gamelistsearchbar_GameIcon_2uTOQ:before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: rgba(131, 0, 0, 0.5);
+          transition: all .3s linear; }
+    .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_ .gamelistsearchbar_GameIcon_2uTOQ {
+      width: 18px;
+      height: 18px;
+      margin-left: -4px;
+      margin-right: 4px;
+      border-radius: 3px;
+      overflow: hidden; }
+  .gamelistsearchbar_SearchFilterInput_172OF.gamelistsearchbar_Disabled_1Gjk2 .gamelistsearchbar_FilterTag_3gzh_ {
+    opacity: 0.75; }
+    .gamelistsearchbar_SearchFilterInput_172OF.gamelistsearchbar_Disabled_1Gjk2 .gamelistsearchbar_FilterTag_3gzh_.gamelistsearchbar_RemovedAppTag_14AvU {
+      opacity: .75; }
+    .gamelistsearchbar_SearchFilterInput_172OF.gamelistsearchbar_Disabled_1Gjk2 .gamelistsearchbar_FilterTag_3gzh_ .gamelistsearchbar_FiltertagSpacer_bAVLo {
+      width: 7px;
+      height: 10px; }
+    .gamelistsearchbar_SearchFilterInput_172OF.gamelistsearchbar_Disabled_1Gjk2 .gamelistsearchbar_FilterTag_3gzh_ svg {
+      cursor: default; }
+      .gamelistsearchbar_SearchFilterInput_172OF.gamelistsearchbar_Disabled_1Gjk2 .gamelistsearchbar_FilterTag_3gzh_ svg:hover {
+        opacity: .3; }
+
+.DialogTextInputBase {
+  background: #3e4637;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Tahoma;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  border-radius: 0px;
+  box-shadow: none;
+  transition: all .2s ease-in-out; }
+
+.DialogTextInputBase:focus {
+  background: #3e4637;
+  box-shadow: none;
+  padding-left: 11px; }
+
+.DialogTextInputBase:not(disabled):hover {
+  background: #3e4637; }
+
+.DialogTextInputBase:disabled:hover {
+  background: #3e4637; }
+
+.appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .DialogInput_Wrapper .DialogTextInputBase {
+    font-size: 12px;
+    padding: 2px 8px;
+    background: #3e4637;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #282e22 #808080 #808080 #282e22;
+}
+
+.appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .DialogInput_Wrapper .DialogTextInputBase:hover {
+    font-size: 12px;
+    padding: 2px 8px;
+    background: #3e4637;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #282e22 #808080 #808080 #282e22;
+}
+
+.appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .DialogInput_Wrapper {
+    margin-top: 6px;
+    border-radius: 0px;
+    outline: none;
+}
+
+.appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .appfilterpane_FilterBucketLabel_3iV2v {
+    font-size: 14px;
+    text-transform: none;
+    color: #fff;
+    font-weight: 100;
 }
 
 .gamelistsectionheader_Container_2sYIg {
@@ -413,22 +778,16 @@ libraryrootcustom.css
     color: #fff;
     font-style: normal;
     box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #282e22 #808080 #808080 #282e22;
     min-height: 32px;
 	background-color: #3e4637;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #282e22 #808080 #808080 #282e22;
 }
 
-.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase {
-    padding-left: 32px;
-    border-radius: 0;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACfUlEQ…Uxop4ApSD+/R31ACgLUS+AviCWkG0b/hcQX2FfnWP3rbdXsIgAtEnQ2wAAAABJRU5ErkJggg==);
-    background-color: none;
-    background-size: 18px 18px;
-    background-repeat: no-repeat;
-    background-position: 8px 8px;
-    padding-right: 24px;
+.gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_SearchByTypePrompt_2zPn_ {
+    font-size: 14px;
+    padding: 4px 8px;
 }
 
 .gamelistdropdown_ScrollToTop_uE7Pj.gamelistdropdown_Visible_rkfSf {
@@ -451,7 +810,7 @@ libraryrootcustom.css
 	border-radius: 0;
     opacity: 1;
     flex: 0;
-    transition: all .2s ease-in-out;
+    transition: none;
 }
 
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow:hover {
@@ -466,7 +825,34 @@ libraryrootcustom.css
 	border-radius: 0;
     opacity: 1;
     flex: 0;
-    transition: all .2s ease-in-out;
+    transition: none;
+}
+
+.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow:active {
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    background-color: #4c5844;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #282e22 #808080 #808080 #282e22;
+	border-radius: 0;
+    opacity: 1;
+    flex: 0;
+    transition: all 0s ease-in-out;
+}
+
+.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow polyline {
+    margin-top: -1px;
+    transition: none;
+    stroke-width: 20px;
+    stroke: darkgray;
+}
+
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m .gamelistdropdown_Arrow_15aGn polygon {
+    fill: darkgray;
+    transition: none;
 }
 
 .gamelistsearchbar_Container_20QAC {
@@ -518,7 +904,7 @@ libraryrootcustom.css
       bottom: 0;
       z-index: 2;
       outline: none;
-      transition: background-position .21s ease-in-out;
+      transition: background-position 0s ease-in-out;
       background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACfUlEQVRYhcXWSYhUVxTG8V+LiDYOYAytiwYJRIwSsaMbJ1A0QsABk6AQ0IULF4K9cFg4LAqkRUFF0YAiSCKiiAsVXZgEYnBAIWAgKI0SFXuldkLi0M7SLu7pVCNdVa9emcoHj3Mu7957/u+8Oxz+ZzVAoVCo1G8yWjAGg/AP2vErbuYNXigU9K/QZzxWYAFG9/H+Ko5hPx7mgehX5l0brqG1V/AnuIeX0f4M26RsLH1fAANxDhuifQPrIlgTmsPOwk48wygcwvb3AfATZobfhk9i4t/wFK+lNfAL1mAsTkb/NdhSC0Abpoe/ApvQXWGODizC3mivx5w8AKMV074VB7JOElqFi+EfzAOwOmyH9BV5tCxsM76sBmAiFoe/K2dwuIPT4S+pBmCatLLhhxoAKC7IKdUAfBS2C7drBPgjbDM+zAowMOwjPK8R4Fkvf0hWgMdhP8gyqIKGhX2Dv7ICtIcdgHE1AkwIe0OG+6EH4HwMgK9rBPgm7IUsnXsA7igeHisxOGfw2ZgU/nfVAMC30gJsxJEcwRtxOPxLuFItQBeWhz8fu6sIPlw6hkfiFuZmHfjuZXQUO8JvxY+KKS2leVJl1BLtJsWdUFF9VURr8UK6mD6P55R0TbdLmRqOT7EQU2PcAwyV1s956XR9kAcANuIyNkv3xMJ4SumsVBE14QQ+xs9S0dJZDqBcSXZGSutifC/tlB69wu/YE0G+wJ+4jhlhx0uVVdnjuFJRCsfjaYjJBklH9t8l+t8PqHO9IEpmolwG3lW39E/vlgneo84IWjET1QBUq1IQDfUCKAUxop4ApSD+/R31ACgLUS+AviCWkG0b/hcQX2FfnWP3rbdXsIgAtEnQ2wAAAABJRU5ErkJggg==);
       background-size: 18px 18px;
       background-repeat: no-repeat;
@@ -526,7 +912,7 @@ libraryrootcustom.css
       .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogInput_Wrapper .DialogInputPlaceholder::placeholder,
       .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogInput_Wrapper .DialogInputPlaceholder::-webkit-input-placeholder {
         color: transparent;
-        transition: color .21s ease-in-out, transform .21s ease-in-out; }
+        transition: color 0s ease-in-out, transform 0s ease-in-out; }
       .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogInput_Wrapper:hover .DialogInputPlaceholder::placeholder,
       .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogInput_Wrapper:hover .DialogInputPlaceholder::-webkit-input-placeholder {
         color: rgba(255, 255, 255, 0.15); }
@@ -581,7 +967,7 @@ libraryrootcustom.css
 	    border-radius: 0;
         opacity: 0;
         transform: scale(0.1);
-        transition: transform .21s ease-in-out, opacity .21s ease-in-out;
+        transition: transform 0s ease-in-out, opacity 0s ease-in-out;
         transform-origin: 0 0; }
         .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k:before {
           content: '';
@@ -611,7 +997,7 @@ libraryrootcustom.css
         width: 22px;
         height: 22px;
         margin-top: 4px;
-        transition: all .21s ease-in-out; }
+        transition: all 0s ease-in-out; }
         .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path {
           fill: gray; }
     .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Disabled_1Gjk2 {
@@ -705,10 +1091,10 @@ libraryrootcustom.css
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
-    min-width: 256px;
+    max-width: 450px;
 /*	min-width: 100%; */
     width: 600px;
-    max-width: calc( min( 50%, 100% - 400px ));
+/*    max-width: calc( min( 50%, 100% - 400px )); */
     position: relative;
     border-style: solid;
     border-width: 1px;
@@ -788,3 +1174,110 @@ libraryrootcustom.css
 .libraryhome_WhatsNewContainer_gdZT7 {
     display: none;
 }
+
+.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- {
+  margin-left: -12px;
+  overflow: hidden;
+  /* stylelint-disable */ }
+  .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer {
+    overflow: hidden auto;
+    box-sizing: border-box;
+    padding: 8px 0;
+    box-shadow: none !important;
+    border: 0.5px solid #5a6a50;
+    border-radius: 0;
+    background: #3e4637 !important;
+    color: white;
+    width: 200px;
+    height: 100%;
+    margin-bottom: 8px;
+    /* stylelint-enable */ }
+    .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar {
+      width: 12px; }
+    .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-thumb {
+      width: 4px;
+      border: 4px solid transparent;
+      background-image: none; }
+      .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-thumb:hover {
+        background-color: #606774;
+        background-clip: padding-box; }
+    .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-track, .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-button {
+      display: none; }
+  .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- .libraryhomeshowcases_DropDownItems_lYnGt {
+    box-sizing: border-box;
+    padding: 3px 12px;
+    line-height: initial;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-transform: none;
+    margin-left: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+    .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- .libraryhomeshowcases_DropDownItems_lYnGt:hover {
+      background-color: #91863c; }
+
+.Throbber_Blur {
+  display: none; }
+  
+.tooltip_TextToolTip_2FxbH {
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 100;
+  background-color: #3e4637;
+  border-radius: 2px;
+  color: #fff;
+  padding: 6px 8px;
+  box-shadow: none;
+  max-width: 300px;
+  user-select: none; 
+  border-style: solid;
+  border-width: 1px;
+  border-color: #5a6a50;
+}
+
+.tooltip_ToolTipCustom_3XGRk {
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 100;
+  background-color: #3e4637;
+  border-radius: 2px;
+  color: #fff;
+  padding: 6px 8px;
+  box-shadow: none;
+  max-width: 300px;
+  user-select: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #5a6a50;  }
+  .tooltip_ToolTipCustom_3XGRk .tooltip_ToolTipTitle_1LhVf {
+    color: #fff; }
+    .tooltip_ToolTipCustom_3XGRk .tooltip_ToolTipTitle_1LhVf.tooltip_Center_2ZDqE {
+      text-align: center; }
+  .tooltip_ToolTipCustom_3XGRk .tooltip_ToolTipInsetContent_i4LuY {
+    color: #fff;
+    margin: 6px 4px; }
+
+.library_Container_3xRRJ *::-webkit-scrollbar, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar {
+  width: 12px; }
+
+.library_Container_3xRRJ *::-webkit-scrollbar-thumb, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb {
+  width: 4px;
+  border: 3px solid transparent;
+  background-image: none;
+  background-color: #5a6a50; }
+
+.library_Container_3xRRJ *::-webkit-scrollbar-track, .library_Container_3xRRJ *::-webkit-scrollbar-button, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-track, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-button {
+  display: none; }
+
+.library_Container_3xRRJ *::-webkit-scrollbar-thumb:hover, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb:hover {
+  background-color: #5a6a50;
+  background-clip: padding-box; }
+
+.library_Container_3xRRJ *::-webkit-scrollbar-thumb:active, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb:active {
+  background-color: #5a6a50;
+  border: 2px solid transparent; }
+
+.library_Container_3xRRJ *::-webkit-scrollbar-corner, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-corner {
+  background-color: #5a6a50; }
