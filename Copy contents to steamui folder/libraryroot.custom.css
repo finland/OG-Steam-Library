@@ -751,7 +751,7 @@ button.DialogButton:enabled:active:hover {
     width: 18px;
     vertical-align: middle;
     margin-right: 5px;
-    border-radius: 2px;
+    border-radius: 0px;
     flex-shrink: 0;
     transition: none;
 }
