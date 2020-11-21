@@ -1253,29 +1253,38 @@ button.DialogButton:enabled:active:hover {
 
 .sharedappdetailsheader_TopCapsule_NZMJ6.sharedappdetailsheader_TopCapsule_NZMJ6 {
     overflow: visible;
-    max-height: 200px;
+    max-height: 100%;
     display: flex;
     justify-content: center;
 }
 
 .sharedappdetailsheader_HeaderBackgroundImage_1IX7F {
     flex: 1;
-    max-height: 200px;
-	max-width: 50%;
+    height: 100%;
+	max-width: 100%;
     position: relative;
     -moz-transform: scale(1);
 }
 
 .sharedappdetailsheader_TopCapsule_NZMJ6.sharedappdetailsheader_TopCapsule_NZMJ6 {
     overflow: visible;
-    max-height: 200px;
+    max-height: 220px;
     display: flex;
     justify-content: center;
-    background: #000;
 }
 
 .sharedappdetailsheader_ImgSrc_HNbe3.sharedappdetailsheader_ImgBlurBackdrop_3_IUV, .sharedappdetailsheader_ImgSrc_HNbe3.sharedappdetailsheader_ImgBlur_HSQWw {
 	display:none;
+}
+
+.sharedappdetailsheader_ImgContainer_QlR9E {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .library_AppDetailsMain_2Nq6o {
@@ -1536,6 +1545,13 @@ div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection
     padding: 10px 20px 10px 20px;
 }
 
+.appdetailssection_AppDetailsSection_2r4TK {
+    font-family: "Motiva Sans", Arial, Helvetica, Sans-serif;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 0px;
+}
+
 .appdetailsplaysection_MenuButton_3qDWQ {
     box-sizing: border-box;
 	border-style: solid;
@@ -1569,6 +1585,29 @@ div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection
 div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
   background-color: transparent;
   animation: none; }
+
+.appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq {
+    color: #8a8a8a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 4px 4px 0px;
+    font-size: 12px;
+}
+
+.appactivityday_AppActivityDay_S2Fu9 {
+    margin-bottom: 5px;
+    border: 1px solid transparent;
+    padding: 4px 0px 0px 0px;
+}
+
+.appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
+    color: #8a8a8a;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 0px;
+    letter-spacing: 0px;
+}
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
     background: transparent;
