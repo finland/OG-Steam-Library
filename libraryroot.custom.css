@@ -228,6 +228,8 @@ button.DialogButton.Primary:enabled:hover:active {
 
 button.DialogButton {
     background: #4c5844;
+    color: #fff;
+    font-size: 12px;	
     background-position: 25%;
     box-sizing: border-box;
     border-style: solid;
@@ -239,6 +241,8 @@ button.DialogButton {
 
 button.DialogButton:hover {
     background: #4c5844;
+	color: #fff;
+    font-size: 12px;
     background-position: 25%;
     box-sizing: border-box;
     border-style: solid;
@@ -246,6 +250,110 @@ button.DialogButton:hover {
     border-color: #808080 #282e22 #282e22 #808080;
     background-size: 330% 100%;
 }
+
+div.LowPerfMode .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
+    background: #3e4637;
+}
+
+div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
+    background: transparent;
+}
+
+.appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_Links_DgVQa {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    width: 100%;
+}
+
+.appdetailsprimarylinkssection_LinkInner_7k4qm {
+  position: absolute;
+  padding: 4px 20px 4px 0px;
+  margin-right: -11px; }
+  .NavArea .appdetailsprimarylinkssection_LinkInner_7k4qm {
+    margin-right: 8px; }
+  .appdetailsprimarylinkssection_LinkInner_7k4qm:last-child {
+    padding-right: 0px; }
+  .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY {
+    background: #4c5844;
+	box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #808080 #282e22 #282e22 #808080;
+    text-align: center;
+    padding: 2px 12px 4px 12px;
+    border-radius: 2px;
+    transition: 0s all;
+    transition: all 0s ease-out; }
+  .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:active {
+    background: #4c5844;
+	box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #282e22 #808080 #808080 #282e22;
+    text-align: center;
+    padding: 2px 12px 4px 12px;
+    border-radius: 2px;
+    transition: 0s all;
+    transition: all 0s ease-out; }
+    .NavArea .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY {
+      outline: none; }
+      .NavArea .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {
+        outline: none; }
+    .FocusGroup .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:focus-within {
+      color: #ffffff;
+      outline: none; }
+      .FocusGroup .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:focus-within .appdetailsprimarylinkssection_Text_2sNDj {
+        color: #ffffff; }
+    .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:hover {
+      background-color: #4c5844;
+      cursor: pointer; }
+      .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:hover .appdetailsprimarylinkssection_Text_2sNDj {
+        color: white; }
+  .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Text_2sNDj {
+    align-self: center;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap; }
+
+.appdetailsspotlight_ReviewContainer_3LE-6 {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 10px;
+    background-color: transparent;
+    color: #969696;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.writereview_RatingContainer_2SAb6 {
+    background-color: transparent;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_LinksSectionBody_25f0f {
+    padding: 4px 10px 2px 10px;
+    flex-direction: row;
+    background: #4c5844;
+}
+
+button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ {
+    text-align: center;
+    margin-top: 0;
+    padding: 4px 12px;
+    align-self: center;
+	box-sizing: border-box;
+    background: #4c5844;
+    color: #fff;
+    font-size: 12px;
+	}
+    button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ:hover {
+      background-color: #4c5844;
+      cursor: pointer; }
 
 button.DialogButton:enabled:active,
 button.DialogButton:enabled:active:hover {
@@ -652,13 +760,14 @@ button.DialogButton:enabled:active:hover {
   background: #3e4637;
   color: #fff;
   font-size: 12px;
-  font-family: "Tahoma;
+  font-family: "Tahoma";
   font-weight: 100;
   margin: 0;
   padding: 0;
   border-radius: 0px;
   box-shadow: none;
-  transition: all .2s ease-in-out; }
+  transition: all 0s ease-in-out;
+}
 
 .DialogTextInputBase:focus {
   background: #3e4637;
@@ -1142,6 +1251,20 @@ button.DialogButton:enabled:active:hover {
     background-color: #4c5844;
 }
 
+.sharedappdetailsheader_TopCapsule_NZMJ6.sharedappdetailsheader_TopCapsule_NZMJ6 {
+    overflow: visible;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.sharedappdetailsheader_HeaderBackgroundImage_1IX7F {
+    flex: 1;
+    max-height: 200px;
+    position: relative;
+    -moz-transform: scale(1);
+}
+
 .library_AppDetailsMain_2Nq6o {
     flex-grow: 1;
     display: flex;
@@ -1158,6 +1281,35 @@ button.DialogButton:enabled:active:hover {
     border-style: solid;
     border-width: 1px;
     border-color: #282e22 #808080 #808080 #282e22;
+}
+
+.appdetailsoverview_Glassy_2OOzY .appdetailsoverview_ColumnContainer_OhSdL {
+    background: #3e4637;
+}
+
+.appdetailssectionheader_SectionHeader_1Q2q_ {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: none;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    color: #fff;
+}
+
+.appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
+    border-image-source: none;
+    border-image-width: 1px;
+    border-image-repeat: stretch;
+    border-image-slice: 7;
+	border-style: solid;
+    border-width: 1px;
+	border-color: #808080 #282e22 #282e22 #808080;
+	background: #4c5844;
+	box-shadow: none;
+    /* background: radial-gradient(100% 80% at 64% 95%, rgba(153, 174, 204, 0.3) 0%, rgba(125, 150, 184, 0.13) 40%, rgba(83, 104, 104, 0.1) 100%); */
+    /* box-shadow: 0 0 12px #00000025; */
 }
 
 .library_Container_3xRRJ {
@@ -1250,6 +1402,213 @@ button.DialogButton:enabled:active:hover {
     text-overflow: ellipsis; }
     .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- .libraryhomeshowcases_DropDownItems_lYnGt:hover {
       background-color: #91863c; }
+
+.appdetailssection_Highlight_38t1m {
+    background: transparent;
+    box-shadow: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #ccc;
+    position: relative;
+    margin-bottom: 8px;
+    border-radius: 2px;
+}
+
+button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
+  box-sizing: border-box;
+  background: #4c5844;
+  color: #fff;
+  font-size: 12px;
+  padding: 0 0px;
+  line-height: initial;
+  align-self: flex-end;
+  text-align: left;
+  width: fit-content;
+  margin-bottom: 0; }
+  button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin:hover, button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin:active:hover, button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin:active {
+    background: #4c5844;
+    color: white;
+    box-shadow: none; }
+  button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin:hover::before {
+    opacity: 0; }
+  button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ {
+    text-align: center;
+    margin-top: 0;
+    padding: 4px 12px;
+    align-self: center; }
+    button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ:hover {
+      background-color: #4c5844;
+      cursor: pointer; }
+  button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY {
+    text-align: right;
+    margin-top: 8px;
+    padding: 4px 12px; }
+    button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY:hover {
+      background-color: #4c5844;
+      cursor: pointer; }
+  button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL {
+    text-align: left;
+    padding: 4px 12px; }
+    button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL:hover {
+      background-color: #4c5844;
+      color: white;
+      cursor: pointer; }
+  button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh {
+    text-align: left;
+    padding: 4px 12px;
+    color: #cacbcd;
+    background-color: #4c5844; }
+    button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh:hover {
+      background-color: #4c5844;
+      color: white;
+      cursor: pointer; }
+
+.appdetails_ScrollContainer_2l416 {
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #3e4637;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    user-select: none;
+}
+
+.appdetails_Glassy_3Fmxx.appdetails_ScrollContainer_2l416 {
+    background-image: none;
+	background: #3e4637;
+}
+
+.appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
+    background: transparent;
+	box-shadow: none;
+}
+
+div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_Glassy_3DeO9 {
+    backdrop-filter: blur(10px);
+	background: #282e22;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ {
+    box-sizing: border-box;
+	border-style: solid;
+    border-width: 1px;
+    border-color: #808080 #282e22 #282e22 #808080;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    padding: 7px;
+    border-radius: 0px;
+    background-color: #4c5844;
+    cursor: pointer;
+    transition: background-color none;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ {
+  box-sizing: border-box;
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  padding: 7px;
+  border-radius: 0px;
+  background-color: rgba(211, 216, 224, 0.14);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0s ease-in-out; }
+
+.appactivityday_PartnerEventMediumImage_Container_1HZy7 {
+    background: #4c5844;
+    box-sizing: border-box;
+	border-style: solid;
+    border-width: 1px;
+	border-color: #808080 #282e22 #282e22 #808080;
+    transition: all 0s ease-out;
+}
+
+.appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
+    background: #4c5844;
+    box-sizing: border-box;
+	border-style: solid;
+    border-width: 1px;
+	border-color: #808080 #282e22 #282e22 #808080;
+    transition: all 0s ease-out;
+}
+
+.appactivityday_PartnerEventMediumImage_Title_1gljE {
+    font-size: 14px;
+    font-weight: 300;
+    color: #ccc;
+}
+
+.appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
+    background: transparent;
+    border-image-width: none;
+    border-image-repeat: stretch;
+    border-image-slice: 7;
+    box-shadow: none;
+    margin-left: 12px;
+}
+
+.appactivityday_PartnerEvent_1AYE1 {
+    border: 1px solid transparent;
+    border-image-source: none;
+    border-image-width: 1px;
+    border-image-repeat: stretch;
+    border-image-slice: 7;
+    box-shadow: none;
+    background: none;
+}
+
+.appdetailscommunityfeed_HeaderStyles_2lNdD {
+    padding-top: 12px;
+    padding-bottom: 14px;
+    border-radius: 3px;
+    background: transparent;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.smartscrollcontainer_ScrollToTopButton_1J21t {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 24px;
+  padding-top: 10px;
+  overflow: hidden;
+  text-align: center;
+  transition-property: transform, opacity, filter;
+  transition-duration: .3s, .3s, .12s;
+  transition-timing-function: ease-in-out;
+  pointer-events: none;
+  font-size: 12px;
+  color: #fff;
+  z-index: 100;
+  user-select: none;
+  opacity: 0;
+  transform: translateY(30px); }
+  .smartscrollcontainer_ScrollToTopButton_1J21t div {
+    pointer-events: all;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 4px 32px 4px 32px;
+    background: #5a6a50;
+	border-style: solid;
+    border-width: 1px;
+    border-color: #808080 #282e22 #282e22 #808080;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .smartscrollcontainer_ScrollToTopButton_1J21t.smartscrollcontainer_Visible_28ZR8 {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-duration: .3s, .02s, .12s; }
+  .smartscrollcontainer_ScrollToTopButton_1J21t:hover.smartscrollcontainer_Visible_28ZR8 {
+    filter: none; }
+}
 
 .Throbber_Blur {
   display: none; }
