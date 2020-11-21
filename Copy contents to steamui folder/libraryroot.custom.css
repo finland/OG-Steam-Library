@@ -248,23 +248,23 @@ button.DialogButton:hover {
     border-style: solid;
     border-width: 1px;
     border-color: #808080 #282e22 #282e22 #808080;
-    background-size: 330% 100%;
-}
+    background-size: 330% 100%; }
 
+.appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
+	background: #3e4637; }
 div.LowPerfMode .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
-    background: #3e4637;
-}
+    background: #3e4637; }
 
+.appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
+    background: transparent; }
 div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
-    background: transparent;
-}
+    background: transparent; }
 
 .appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_Links_DgVQa {
     position: relative;
     display: block;
     font-size: 12px;
-    width: 100%;
-}
+    width: 100%; }
 
 .appdetailsprimarylinkssection_LinkInner_7k4qm {
   position: absolute;
@@ -1509,6 +1509,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
   .appdetailsplaysection_StickyHeaderShadow_2_86Q.appdetailsplaysection_Visible_2sKVn {
     opacity: 1; }
 
+.appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_Glassy_3DeO9 {
+    backdrop-filter: blur(10px);
+	background: #282e22;
+	box-sizing: border-box;
+}
+
 div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_Glassy_3DeO9 {
     backdrop-filter: blur(10px);
 	background: #282e22;
@@ -1556,6 +1562,13 @@ div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection
   border: none;
   cursor: pointer;
   transition: background-color 0s ease-in-out; }
+
+.appdetailsactivitysection_Loading_3UShz {
+  background-color: transparent;
+  animation: none; }
+div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
+  background-color: transparent;
+  animation: none; }
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
     background: transparent;
