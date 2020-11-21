@@ -323,7 +323,7 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
     padding-right: 10px;
     background-color: transparent;
     color: #969696;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 200;
 }
 
@@ -673,7 +673,7 @@ button.DialogButton:enabled:active:hover {
   color: white;
   padding-right: 24px; }
   .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_SearchByTypePrompt_2zPn_ {
-    font-size: 14px;
+    font-size: 12px;
     padding: 4px 18px; }
   .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_ {
     background-color: #91863c;
@@ -921,7 +921,7 @@ button.DialogButton:enabled:active:hover {
 }
 
 .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_SearchByTypePrompt_2zPn_ {
-    font-size: 14px;
+    font-size: 12px;
     padding: 4px 8px;
 }
 
@@ -1407,7 +1407,7 @@ button.DialogButton:enabled:active:hover {
     background: transparent;
     box-shadow: none;
     padding: 10px;
-    font-size: 13px;
+    font-size: 12px;
     color: #ccc;
     position: relative;
     margin-bottom: 8px;
@@ -1489,6 +1489,16 @@ div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection
 	background: #282e22;
 }
 
+.appdetailscommunityfeed_HeaderStyles_2lNdD {
+    padding-top: 12px;
+    padding-bottom: 14px;
+    border-radius: 3px;
+    background: transparent;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .appdetailsplaysection_MenuButton_3qDWQ {
     box-sizing: border-box;
 	border-style: solid;
@@ -1517,20 +1527,17 @@ div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection
   transition: background-color 0s ease-in-out; }
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
-    background: #4c5844;
+    background: transparent;
     box-sizing: border-box;
-	border-style: solid;
-    border-width: 1px;
-	border-color: #808080 #282e22 #282e22 #808080;
+	border: none;
+
     transition: all 0s ease-out;
 }
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
-    background: #4c5844;
+    background: transparent;
     box-sizing: border-box;
-	border-style: solid;
-    border-width: 1px;
-	border-color: #808080 #282e22 #282e22 #808080;
+	border: none;
     transition: all 0s ease-out;
 }
 
@@ -1550,24 +1557,115 @@ div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection
 }
 
 .appactivityday_PartnerEvent_1AYE1 {
-    border: 1px solid transparent;
+    border: none;
     border-image-source: none;
     border-image-width: 1px;
     border-image-repeat: stretch;
     border-image-slice: 7;
     box-shadow: none;
-    background: none;
+    background: transparent;
 }
 
-.appdetailscommunityfeed_HeaderStyles_2lNdD {
-    padding-top: 12px;
-    padding-bottom: 14px;
-    border-radius: 3px;
+  .appactivityday_PartnerEventTextOnly_3QRf-:hover {
     background: transparent;
-    color: #fff;
-    margin-left: 10px;
-    margin-right: 10px;
+    cursor: pointer; }
+    .appactivityday_PartnerEventTextOnly_3QRf-:hover .appactivityday_PartnerEventTextOnly_Title_1Cva_ {
+      color: white; }
+
+.comment_thread_ActivityCommentThread_39nna {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    height: fit-content;
+    margin-left: 12px;
+    padding-top: 6px;
+    padding-left: 18px;
 }
+
+.comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL .comment_thread_CommentBody_1ltVe .comment_thread_CommentText_3Xbao {
+    font-size: 12px;
+    word-wrap: break-word;
+    min-width: 0;
+}
+
+.comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL .comment_thread_CommentHeader_25wbo .comment_thread_CommentTime_2310B {
+    margin-left: 5px;
+    color: #a0a0a0;
+    font-size: 12px;
+}
+
+.personanameandstatus_playerNickname_2saJT {
+    padding-left: 5px;
+    color: #a0a0a0;
+}
+
+.comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL {
+    display: flex;
+    flex-direction: row;
+    padding: 4px 8px 4px 0px;
+    box-sizing: border-box;
+    margin: 1px 0 1px 0;
+    width: 100%;
+    color: #a0a0a0;
+    transition-timing-function: ease-in-out;
+    transition-property: opacity, transform;
+    transition-duration: 0.5s;
+}
+
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {
+    align-self: center;
+    justify-self: center;
+    user-select: none;
+    padding: 4px 20px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0px;
+    background: #4c5844;
+	border-style: solid;
+    border-width: 1px;
+    border-color: #808080 #282e22 #282e22 #808080;
+    transition: none;
+}
+    .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur:hover {
+      background-color: #4c5844;
+      color: white;
+      cursor: pointer; }
+	.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur:active {
+      background-color: #4c5844;
+	  border-color: #282e22 #808080 #808080 #282e22;
+      color: white;
+      cursor: pointer; }
+
+.appdetailscommunityfeed_LoadContentButton_2RSxE {
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    display: inline-block;
+    align-self: center;
+    justify-self: center;
+    user-select: none;
+    padding: 4px 20px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0px;
+    background: #4c5844;
+	border-style: solid;
+    border-width: 1px;
+    border-color: #808080 #282e22 #282e22 #808080;
+    transition-property: background-color, color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+  .appdetailscommunityfeed_LoadContentButton_2RSxE:hover {
+    background-color: #4c5844;
+    color: white;
+    cursor: pointer; }
+  .appdetailscommunityfeed_LoadContentButton_2RSxE:active {
+    background-color: #4c5844;
+	border-color: #282e22 #808080 #808080 #282e22;
+    color: white;
+    cursor: pointer; }
 
 .smartscrollcontainer_ScrollToTopButton_1J21t {
   position: fixed;
@@ -1596,10 +1694,10 @@ div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     padding: 4px 32px 4px 32px;
-    background: #5a6a50;
+    background: #4c5844;
 	border-style: solid;
     border-width: 1px;
-    border-color: #808080 #282e22 #282e22 #808080;
+    border-color: #808080 #282e22 transparent #808080;
     text-transform: uppercase;
     letter-spacing: 1px; }
   .smartscrollcontainer_ScrollToTopButton_1J21t.smartscrollcontainer_Visible_28ZR8 {
