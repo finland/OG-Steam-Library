@@ -1619,6 +1619,26 @@ div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection
     height: 32px;
 }
 
+.appactionbutton_Disabled_1Pb6P > .appactionbutton_ButtonChild_2AzIX {
+    box-sizing: border-box;
+    background: #4c5844;
+    color: #ffffff80;
+    cursor: default;
+}
+
+.appactionbutton_PlayButton_3ydig .appactionbutton_ThrobberContainer_yYVX6 {
+    height: 100%;
+    width: auto;
+    opacity: 1;
+}
+
+.appactionbutton_PlayButton_3ydig .appactionbutton_ThrobberContainer_yYVX6 .appactionbutton_Throbber_gGXex {
+    opacity: 1.0;
+    animation: none;
+    margin: auto;
+    width: 64px;
+}
+
 .appdetailscommunityfeed_HeaderStyles_2lNdD {
     padding-top: 12px;
     padding-bottom: 14px;
@@ -1674,6 +1694,30 @@ div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection
 div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
   background-color: transparent;
   animation: none; }
+
+.spotlightgameplaysummary_SummaryContainer_3pCMW:first-child {
+    margin-left: 13px;
+}
+
+.spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
+  height: 170px;
+  background: #3e4637;
+  position: relative;
+  padding: 10px 0px 5px 0px;
+  border-radius: 0px; }
+  .spotlightgameplaysummary_GamePlaySummaryShort_Y7DmD .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
+    height: 90px; }
+  .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI:after {
+    content: '';
+    box-shadow: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    user-select: none;
+    border-radius: 3px; }
 
 .posttextentry_PostTextEntry_3x31A {
   overflow: hidden;
