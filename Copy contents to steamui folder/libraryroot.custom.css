@@ -342,18 +342,48 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
     font-weight: 200;
 }
 
+.appdetailsspotlight_ReviewContainer_3LE-6 .appdetailsspotlight_RatingContainer_1E_EN {
+    margin-top: 7px;
+	margin-left: -8px;
+    margin-bottom: 7px;
+}
+
 .writereview_RatingContainer_2SAb6 {
     background-color: transparent;
-    padding: 15px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
-    margin: 30px 0;
+    margin: 0px;
 }
 
 .appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_LinksSectionBody_25f0f {
     padding: 4px 10px 2px 10px;
     flex-direction: row;
     background: #4c5844;
+}
+
+.appdetailsoverview_Container_27RcN .appdetailsoverview_Spotlights_11kuV > div:last-child {
+    margin-bottom: 8px;
+}
+
+.appdetailsoverview_Container_27RcN .appdetailsoverview_Spotlights_11kuV > div:not(:first-child) {
+    margin-top: 5px;
+}
+
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
+    width: 33%;
+    margin-left: 0px;
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.appactivityday_TradingCardSection_2IS7Z {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 8px 0 8px 8px;
 }
 
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ {
@@ -1255,7 +1285,7 @@ button.DialogButton:enabled:active:hover {
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
-    max-width: 400px;
+    max-width: 390px;
 /*	min-width: 100%; */
     width: 600px;
 /*    max-width: calc( min( 50%, 100% - 400px )); */
@@ -1335,15 +1365,42 @@ button.DialogButton:enabled:active:hover {
     background: #3e4637;
 }
 
-.appdetailssectionheader_SectionHeader_1Q2q_ {
+.spotlightgameplaysummary_GamePlaySummaryHeader_2_sR8 {
     font-size: 14px;
     letter-spacing: 1px;
-    text-transform: none;
-    padding-left: 10px;
+    text-transform: uppercase;
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    color: #fff;
+    color: #ccc;
+    line-height: 20px;
+}
+
+.appdetailssectionheader_SectionHeader_1Q2q_ {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    color: #ccc;
+}
+
+.appdetailsoverview_Container_27RcN .appdetailsoverview_ColumnContainer_OhSdL {
+    box-sizing: border-box;
+    width: 100%;
+	padding: 0px 10px 0px 10px;
+    background-color: #3e4637;
+    font-size: 0px;
+}
+
+.appdetailssection_AppDetailsSectionContainer_31ptF {
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 0px solid transparent;
+    border-radius: 2px;
 }
 
 .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
@@ -1358,6 +1415,7 @@ button.DialogButton:enabled:active:hover {
 	box-shadow: none;
     /* background: radial-gradient(100% 80% at 64% 95%, rgba(153, 174, 204, 0.3) 0%, rgba(125, 150, 184, 0.13) 40%, rgba(83, 104, 104, 0.1) 100%); */
     /* box-shadow: 0 0 12px #00000025; */
+	margin-left: 10px;
 }
 
 .library_Container_3xRRJ {
@@ -1539,7 +1597,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
   opacity: 0;
   position: sticky;
   top: -2px;
-  margin-bottom: -10px;
+  margin-bottom: -31px;
   z-index: 2 !important; }
   .appdetailsplaysection_StickyHeaderShadow_2_86Q.appdetailsplaysection_Visible_2sKVn {
     opacity: 1; }
@@ -1554,6 +1612,11 @@ div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection
     backdrop-filter: blur(10px);
 	background: #282e22;
 	box-sizing: border-box;
+}
+
+.appdetailsplaysection_ActionSection_2zxzS {
+    flex: none;
+    height: 32px;
 }
 
 .appdetailscommunityfeed_HeaderStyles_2lNdD {
@@ -1612,13 +1675,155 @@ div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
   background-color: transparent;
   animation: none; }
 
+.posttextentry_PostTextEntry_3x31A {
+  overflow: hidden;
+  height: fit-content;
+  box-sizing: border-box;
+  padding: 0px 10px; }
+  .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
+    border: 1px solid transparent;
+    border-radius: 0px;
+    background: #3e4637;
+    box-shadow: none;
+    color: #b1b0b0;
+    resize: none;
+    font-family: Tahoma;
+    padding: 8px;
+    font-size: 14px;
+    line-height: 12px;
+    width: calc( 100% - 16px - 2px);
+    transition: all .18s ease-in-out; }
+    .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2::placeholder {
+      font-style: italic;
+      color: rgba(148, 161, 166, 0.562); }
+    .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus {
+      outline: none;
+      background: #3e4637;
+      box-shadow: none; }
+      .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus::placeholder {
+        margin-left: 2px; }
+  .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    justify-content: flex-end;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.25s; }
+    .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D.posttextentry_Active_1_KMh {
+      max-height: 50px;
+      margin-top: 4px;
+      padding-bottom: 16px;
+      margin-bottom: -6px; }
+    .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_FormattingSpacer_33rj8 {
+      flex: 2; }
+    .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu {
+      background-color: #4c5844;
+      color: #8492a4;
+	  box-sizing: border-box;
+	  border-style: solid;
+      border-width: 1px;
+      border-color: #808080 #282e22 #282e22 #808080; }
+      .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu:hover {
+        background-color: #4c5844;
+        color: white;
+		box-sizing: border-box;
+	    border-style: solid;
+        border-width: 1px;
+        border-color: #808080 #282e22 #282e22 #808080; }
+    .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_EmoticonButton_bACIu {
+      position: relative;
+      margin: 0px;
+      width: 40px;
+      height: 40px;
+      padding: 4px;
+      background-image: none;
+      background-size: 22px 22px;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 2px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.21s; }
+      .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_EmoticonButton_bACIu:focus {
+        outline: none; }
+      .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_EmoticonButton_bACIu line,
+      .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_EmoticonButton_bACIu circle,
+      .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_EmoticonButton_bACIu path {
+        stroke: #8492a4;
+        transition: stroke 0.21s; }
+      .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_EmoticonButton_bACIu:hover line,
+      .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_EmoticonButton_bACIu:hover circle,
+      .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_EmoticonButton_bACIu:hover path {
+        stroke: white; }
+    .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA {
+      background-color: #4c5844;
+      border: none;
+      border-radius: 0px;
+      padding: 10px 18px;
+      font-size: 14px;
+      color: #cacbcd;
+      text-align: center;
+      width: 120px;
+      margin-left: 8px;
+	  box-sizing: border-box;
+	  border-style: solid;
+      border-width: 1px;
+      border-color: #808080 #282e22 #282e22 #808080; }
+      .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA .posttextentry_Label_3jvEk {
+        margin: 0px;
+        color: #888; }
+      .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja {
+        background: #4c5844;
+        background-position: 25%;
+        background-size: 330% 100%;
+        transition: none;
+        cursor: pointer; }
+        .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja:hover {
+          background: #4c5844;
+          background-position: 0%;
+          background-size: 330% 100%;
+          color: white;
+          cursor: pointer;
+		  box-sizing: border-box;
+		  border-style: solid;
+		  border-width: 1px;
+		  border-color: #808080 #282e22 #282e22 #808080; }
+		    .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja:active {
+			  background: #4c5844;
+			  background-position: 0%;
+			  background-size: 330% 100%;
+			  color: white;
+			  cursor: pointer;
+			  box-sizing: border-box;
+			  border-style: solid;
+			  border-width: 1px;
+			  border-color: #282e22 #808080 #808080 #282e22; }
+        .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja .posttextentry_Label_3jvEk {
+          color: white; }
+
+.appactivityday_Event_UVeN0 {
+    position: relative;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
 .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq {
     color: #8a8a8a;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 4px 4px 4px 0px;
+    padding: 0px 4px 4px 0px;
     font-size: 12px;
+}
+
+.appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
+    background: transparent;
+    border-image-width: none;
+    border-image-repeat: stretch;
+    border-image-slice: 7;
+    box-shadow: none;
+    margin-left: 12px;
 }
 
 .appactivityday_PartnerEventLargeUpdate_39Zk3 {
@@ -1631,16 +1836,16 @@ div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
 }
 
 .appactivityday_AppActivityDay_S2Fu9 {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     border: 1px solid transparent;
-    padding: 4px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
     color: #ccc;
     text-transform: uppercase;
     font-size: 14px;
-    margin-bottom: 0px;
+    margin-bottom: 8px;
     letter-spacing: 0px;
 }
 
@@ -1664,6 +1869,13 @@ div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
     transition: all 0s ease-out;
 }
 
+.appactivityday_PartnerEventMediumImage_Contents_2gv3E {
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+    padding: 0px;
+}
+
 .appactivityday_PartnerEventLargeImage_Container_Libri {
 	background: transparent;
 	transition: all 0.2s ease-out; }
@@ -1677,13 +1889,14 @@ div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
 	display: none;
 }
 
-.appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
-    background: transparent;
-    border-image-width: none;
-    border-image-repeat: stretch;
-    border-image-slice: 7;
-    box-shadow: none;
-    margin-left: 12px;
+.appactivityday_ActivityAchievementUnlocked_yJLy7 {
+    padding: 0px;
+    display: flex;
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 8px 16px;
 }
 
 .appactivityday_PartnerEvent_1AYE1 {
@@ -1713,6 +1926,15 @@ div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
     padding-left: 18px;
 }
 
+.comment_thread_ActivityCommentThreadMinimized_EhWKR {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 0px;
+    opacity: 0;
+}
+
 .comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL .comment_thread_CommentBody_1ltVe .comment_thread_CommentText_3Xbao {
     font-size: 12px;
     word-wrap: break-word;
@@ -1725,10 +1947,55 @@ div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
     font-size: 12px;
 }
 
-.personanameandstatus_playerNickname_2saJT {
-    padding-left: 5px;
-    color: #a0a0a0;
-}
+
+  .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H {
+    border-radius: 0px; }
+  .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb {
+    border-radius: 0px; }
+  .comment_thread_RatingBar_1yWgP .comment_thread_LikeCount_3grvn,
+  .comment_thread_RatingBar_1yWgP .comment_thread_CommentCount_2RkIc,
+  .comment_thread_RatingBar_1yWgP .comment_thread_ReactionCount_1S3Q9 {
+    color: #707070;
+    user-select: none;
+    font-size: 14px; }
+  .comment_thread_RatingBar_1yWgP .comment_thread_ButtonSpacer_21jcw {
+    width: 10px; }
+  .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK,
+  .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H,
+  .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6px;
+    border-radius: 2px;
+    position: relative;
+	background-color: #4c5844;
+    transition: all 0.2s ease-out; }
+    .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover,
+    .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover,
+    .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover {
+      cursor: pointer;
+      background-color: #4c5844; }
+      .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover .comment_thread_LikeCount_3grvn, .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover .comment_thread_CommentCount_2RkIc, .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover .comment_thread_ReactionCount_1S3Q9,
+      .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover .comment_thread_LikeCount_3grvn,
+      .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover .comment_thread_CommentCount_2RkIc,
+      .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover .comment_thread_ReactionCount_1S3Q9,
+      .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover .comment_thread_LikeCount_3grvn,
+      .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover .comment_thread_CommentCount_2RkIc,
+      .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover .comment_thread_ReactionCount_1S3Q9 {
+        color: #cccccc; }
+      .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover .comment_thread_RatingIcon_2AVfX,
+      .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover .comment_thread_RatingIcon_2AVfX,
+      .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover .comment_thread_RatingIcon_2AVfX {
+        width: auto;
+        height: inherit;
+        fill: #cccccc;
+        stroke: #cccccc; }
+      .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover .comment_thread_ReactionSvg_1Wl4V path,
+      .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover .comment_thread_ReactionSvg_1Wl4V path,
+      .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover .comment_thread_ReactionSvg_1Wl4V path {
+        fill: #cccccc; }
 
 .comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL {
     display: flex;
@@ -1741,6 +2008,11 @@ div.LowPerfMode .appdetailsactivitysection_Loading_3UShz {
     transition-timing-function: ease-in-out;
     transition-property: opacity, transform;
     transition-duration: 0.5s;
+}
+
+.personanameandstatus_playerNickname_2saJT {
+    padding-left: 5px;
+    color: #a0a0a0;
 }
 
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {
