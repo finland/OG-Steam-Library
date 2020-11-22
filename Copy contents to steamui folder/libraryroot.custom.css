@@ -16,6 +16,7 @@ body {
     font-family: "Tahoma";
 	font-size: 12px;
 	font-weight: 100;
+	background-color: #3e4637;
 }
 
 .collapseicon_Container_3SFRZ {
@@ -251,9 +252,23 @@ button.DialogButton:hover {
     background-size: 330% 100%; }
 
 .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
-	background: #3e4637; }
+    box-sizing: border-box;
+    display: block;
+    height: 450px;
+    width: 100%;
+    backdrop-filter: blur(8px);
+    background: #3e4637;
+    z-index: 0;
+}
 div.LowPerfMode .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
-    background: #3e4637; }
+    box-sizing: border-box;
+    display: block;
+    height: 450px;
+    width: 100%;
+    backdrop-filter: blur(8px);
+    background: #3e4637;
+    z-index: 0;
+}
 
 .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
     background: transparent; }
@@ -1275,7 +1290,7 @@ button.DialogButton:enabled:active:hover {
 
 .sharedappdetailsheader_TopCapsule_NZMJ6.sharedappdetailsheader_TopCapsule_NZMJ6 {
     overflow: visible;
-    max-height: 250px;
+    max-height: 275px;
     display: flex;
     justify-content: center;
 }
