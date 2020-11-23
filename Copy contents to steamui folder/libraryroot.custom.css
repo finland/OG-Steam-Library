@@ -833,7 +833,7 @@ html.contextmenu_ContextMenuPopup_14wqd .contextmenu_contextMenuItem_1n7Wl {
 .contextmenu_contextMenuItem_1n7Wl {
   font-size: 13px;
   font-weight: 100;
-  padding: 0px 6px;
+  padding: 2px 5px 2px 5px;
   line-height: 20px;
   color: #fff;
   border-top: none;
@@ -1177,46 +1177,52 @@ body.modals_BodyNoScrollDialog_105OB {
 .savecollectiondialog_TwoOptionsContainer_33bWW {
   display: flex;
   justify-content: space-between;
-  background-color: #fff1;
+  background: transparent;
   border-radius: 4px;
-  align-self: stretch; }
+  align-self: stretch;
+  margin-bottom: 10px; }
   .savecollectiondialog_TwoOptionsContainer_33bWW .savecollectiondialog_Option_3vDq3:last-child {
     margin-left: 0; }
   .savecollectiondialog_TwoOptionsContainer_33bWW .savecollectiondialog_Option_3vDq3.savecollectiondialog_Disabled_3Jmn3 {
     cursor: default;
-    pointer-events: none; }
+    pointer-events: none;
+	margin: 0px 16px 0px 0px; }
     .savecollectiondialog_TwoOptionsContainer_33bWW .savecollectiondialog_Option_3vDq3.savecollectiondialog_Disabled_3Jmn3 .savecollectiondialog_ActionLabel_25n_z {
-      color: #b5d1fd;
-      filter: saturate(0.2);
-      cursor: default; }
+    color: #666360;
+    filter: none;
+    cursor: default; }
   .savecollectiondialog_TwoOptionsContainer_33bWW .savecollectiondialog_Option_3vDq3.savecollectiondialog_Disabled_3Jmn3:hover {
     pointer-events: none; }
   .savecollectiondialog_TwoOptionsContainer_33bWW .savecollectiondialog_Option_3vDq3 .savecollectiondialog_ActionLabel_25n_z {
-    background: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
+    background: #4c5844;
     background-position: 25%;
     background-size: 330% 100%;
     text-transform: uppercase;
     color: #dfe3e6;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
-    border-radius: 2px;
+    border-radius: 0px;
     align-self: stretch;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border: 1px solid #0000; }
+    padding-top: 4px;
+    padding-bottom: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #808080 #282e22 #282e22 #808080;
+	margin-left: 0px; }
     .savecollectiondialog_TwoOptionsContainer_33bWW .savecollectiondialog_Option_3vDq3 .savecollectiondialog_ActionLabel_25n_z:focus {
-      border: 1px solid #47bfff; }
+	border-color: #808080 #282e22 #282e22 #808080; }
     .savecollectiondialog_TwoOptionsContainer_33bWW .savecollectiondialog_Option_3vDq3 .savecollectiondialog_ActionLabel_25n_z:hover {
-      cursor: pointer; }
+      cursor: pointer;
+	  margin-left: 0px; }
     .savecollectiondialog_TwoOptionsContainer_33bWW .savecollectiondialog_Option_3vDq3 .savecollectiondialog_ActionLabel_25n_z svg {
       width: 20px;
       height: 20px;
-      margin-bottom: -6px;
+      margin-bottom: 0px;
       margin-right: 4px; }
 
 .savecollectiondialog_Option_3vDq3 {
   flex: 1;
-  margin: 8px;
+  margin: 0px 16px 0px 0px;
   pointer-events: initial;
   display: flex;
   flex-direction: column;
@@ -1226,10 +1232,10 @@ body.modals_BodyNoScrollDialog_105OB {
 
 .savecollectiondialog_Description_3uOEr {
   align-self: stretch;
-  padding: 8px;
+  padding: 0px;
   flex: 1;
-  background: linear-gradient(to bottom, rgba(85, 85, 85, 0.644), rgba(94, 94, 94, 0.4));
-  color: #a2acbb; }
+  background: transparent;
+  color: #fff; }
 
 .savecollectiondialog_SelectedFilters_1R9cY {
   margin-top: 16px; }
@@ -12445,7 +12451,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   min-width: 0;
   padding: 3px 9px;
   padding-left: 0;
-  color: #cae4fb; }
+  color: #d8ded3; }
   .gamelistsectionheader_SectionHeaderContent_3cV3O .gamelistsectionheader_SectionName_2mZ8L {
     text-transform: none; }
   .gamelistsectionheader_SectionHeaderContent_3cV3O:hover .gamelistsectionheader_SectionName_2mZ8L {
@@ -22181,7 +22187,7 @@ button.DialogButton {
   box-sizing: content-box; }
 
 button.DialogButton {
-  background: #4c5844;
+  background: #4c5844 !important;
   color: #fff;
   font-size: 12px;	
   background-position: 25%;
@@ -22418,7 +22424,7 @@ button.DialogButton::-moz-focus-inner {
   justify-content: space-around; }
 
 .DialogContent_InnerWidth {
-  max-width: 400px;
+  max-width: 500px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -22496,7 +22502,7 @@ button.DialogButton::-moz-focus-inner {
   color: #4297f8; }
 
 .DialogFooter {
-  margin-top: 0px;
+  margin: 0px 0px 0px 15px;
   flex-shrink: 0; }
 
 .DialogBodyText {
@@ -23467,7 +23473,7 @@ body.in_global_drag .title-area {
   margin-top: 10px; }
 
 .GenericConfirmDialog .DialogButton {
-  background: #4c5844;
+  background: #4c5844 !important;
   min-width: 60px;
   margin-left: 8px; }
 
