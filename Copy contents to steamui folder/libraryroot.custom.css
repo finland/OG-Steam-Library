@@ -1663,7 +1663,7 @@ body.modals_BodyNoScrollDialog_105OB {
   border-radius: 2px;
   color: #fff;
   padding: 6px 8px;
-  box-shadow:none;
+  box-shadow: none;
   max-width: 300px;
   user-select: none;
   border-style: solid;
@@ -1757,7 +1757,7 @@ body.modals_BodyNoScrollDialog_105OB {
 
 .allcollections_ScrollContainer_u1xD3 {
   box-sizing: border-box;
-  background-color: #3e4637;
+  background-color: #3e4637 !important;
   padding: 24px;
   padding-bottom: 0;
   border: 1px solid rgba(0, 0, 0, 0);
@@ -5502,7 +5502,7 @@ img.emoticon_emoticon_AB86v {
   background-color: #3b3938;
   border: 1px solid #797979;
   margin: 12px;
-  box-shadow: 0 0 12px #000000;
+  box-shadow: none;
   white-space: nowrap; }
 
 .emoticon_hover_content.client {
@@ -5538,7 +5538,7 @@ img.emoticon_emoticon_AB86v {
   align-items: center;
   background-color: #1c1d22;
   border-radius: 4px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4); }
+  box-shadow: none; }
   .emoticon_EmoticonHover_36iQ4 .emoticon_Info_1EGMu {
     display: flex;
     flex-direction: column;
@@ -11664,7 +11664,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     .appgrid_SortingDropDown_1tBzy ._DialogInputContainer.DialogDropDown.Disabled:hover {
       color: #ccc; }
     .appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_CurrentDisplay {
-      background-color: rgba(255, 255, 255, 0.1);
+      background-color: transparent;
       padding-left: 6px;
       padding-right: 6px;
       padding-top: 1px;
@@ -11678,7 +11678,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
       padding-left: 0px;
       padding-top: 2px;
       padding-right: 3px;
-      background-color: rgba(255, 255, 255, 0.1);
+      background-color: transparent;
       border-top-right-radius: 3px;
       border-bottom-right-radius: 3px; }
       .appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_Arrow svg {
@@ -11688,13 +11688,12 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   margin-left: -12px; }
   .appgrid_SortingDropDownContainer_1ZpBQ > div {
     box-sizing: border-box;
-    padding: 8px 0;
-    box-shadow: 1px 8px 32px 1px #0009 !important;
-    border: 0.5px solid #6e6e6e;
+    padding: 0px;
+    box-shadow: none !important;
+    border: 0.5px solid #5a6a50;
     border-radius: 0;
-    background: #75767c !important;
-    color: white;
-    border-left: 1px solid white; }
+    background: #3e4637 !important;
+    color: white; }
   .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS {
     box-sizing: border-box;
     padding: 3px 12px;
@@ -11708,7 +11707,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
       color: #ffffff;
       outline: none; }
     .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS:hover {
-      background-color: #9899a1; }
+      background-color: #91863c; }
 
 .appgrid_CollectionOptionsRightJustified_3t1pL {
   margin-left: auto;
@@ -18477,7 +18476,7 @@ img.broadcastplayer_BroadcastPlaceholderImg_3hxn9 {
   --main-text-color: #dbe2e6;
   --main-light-blue-background: #93b3c8;
   --main-text-on-light-blue: rgb(209, 209, 209);
-  --main-top-image-bg: #1f2126;
+  --main-top-image-bg: #3e4637;
   --main-editor-bg-color: #363a43;
   --main-editor-text-color: #e6e7e8;
   --main-editor-input-bg-color: #30333b;
@@ -18790,7 +18789,7 @@ textarea {
   filter: blur(30px) saturate(0.9); }
 
 .partnereventdisplay_DetailArtworkAgeNotAppropriate_3x5pK .partnereventdisplay_EventBackgroundBlur_stsss {
-  background: #1f2126;
+  background: #3e4637;
   background-image: none !important;
   opacity: 1; }
 
@@ -21661,7 +21660,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
   .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer {
     overflow: hidden auto;
     box-sizing: border-box;
-    padding: 8px 0;
+    padding: 0px;
     box-shadow: none !important;
     border: 1px solid #5a6a50;
     border-radius: 0;
@@ -21669,7 +21668,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     color: white;
     width: auto;
     height: 100%;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
     /* stylelint-enable */ }
     .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar {
       width: 12px; }
@@ -23577,7 +23576,7 @@ body.in_global_drag .title-area {
 .WaitingForInterFaceReadyContainer {
   width: 100%;
   height: 100%;
-  background-color: #1f2126;
+  background-color: #3e4637;
   display: flex; }
 
 .WaitingForInterFaceReadyThrobber {
