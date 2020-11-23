@@ -2921,12 +2921,12 @@ svg.appproperties_SmallCheck_2eOY0 {
 .appactionbutton_PlayButtonContainer_1FnJ6 {
   box-sizing: border-box;
   height: 100%;
-  min-width: 150px;
+  min-width: 164px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap; }
   .appactionbutton_PlayButtonContainer_1FnJ6.appactionbutton_ShowingStreaming_1hhB2 {
-    min-width: 218px; }
+    min-width: 164px; }
   .appactionbutton_PlayButtonContainer_1FnJ6.appactionbutton_LongButton_20gjC {
     width: 190px;
     height: 28px;
@@ -2940,7 +2940,7 @@ svg.appproperties_SmallCheck_2eOY0 {
       min-width: 168px; }
 
 .appactionbutton_ButtonChild_2AzIX {
-  background: #4c5844;
+  background: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
   background-position: 25%;
   background-size: 330% 100%;
   transition: none;
@@ -2948,7 +2948,7 @@ svg.appproperties_SmallCheck_2eOY0 {
   .appactionbutton_ButtonChild_2AzIX.Focusable:focus {
     outline: none; }
   .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ {
-    background: #4c5844;
+    background: linear-gradient(to right, #235ecf 0%, #235ecf 60%)
     background-position: 0%;
     background-size: 330% 100%; }
   :not(.appactionbutton_Disabled_1Pb6P) > .appactionbutton_ButtonChild_2AzIX svg {
@@ -2960,7 +2960,7 @@ svg.appproperties_SmallCheck_2eOY0 {
       stroke: #c1f8ff;
       fill: #c1f8ff; }
   :not(.appactionbutton_Disabled_1Pb6P) > .appactionbutton_ButtonChild_2AzIX:hover {
-    background: #4c5844;
+    background: linear-gradient(to right, #47bfff 0%, #1a44c2 60%)
     background-position: 0%;
     background-size: 330% 100%;
     color: white; }
@@ -2973,24 +2973,16 @@ svg.appproperties_SmallCheck_2eOY0 {
         fill: white; }
   .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX {
     background: linear-gradient(to right, #70d61d 0%, #01a75b 60%);
-	border-style: solid;
-	border-width: 1px;
-	border-color: #808080 #282e22 #282e22 #808080;
-    background-position: 25%;
-    background-size: 330% 100%;
-    transition: none; }
-  .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX:active {
-    background: linear-gradient(to right, #70d61d 0%, #01a75b 60%);
-	border-style: solid;
-	border-width: 1px;
-	border-color: #282e22 #808080 #808080 #282e22;
     background-position: 25%;
     background-size: 330% 100%;
     transition: none; }
     .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ {
       background: background: linear-gradient(to right, #70d61d 0%, #01a75b 60%);
       background-position: 25%;
-      background-size: 330% 100%; }
+      background-size: 330% 100%;
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: #808080 #282e22 #282e22 #808080; }
     :not(.appactionbutton_Disabled_1Pb6P) > .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX:hover {
       background: linear-gradient(to right, #70d61d 0%, #01a75b 60%);
       background-position: 0%;
@@ -3002,6 +2994,9 @@ svg.appproperties_SmallCheck_2eOY0 {
       fill: #c1ffcb; }
   .appactionbutton_Disabled_1Pb6P > .appactionbutton_ButtonChild_2AzIX {
     box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #808080 #282e22 #282e22 #808080;
     background: #4c5844;
     color: #ffffff80;
     cursor: default; }
@@ -3012,11 +3007,15 @@ svg.appproperties_SmallCheck_2eOY0 {
   flex: 1 0 auto;
   padding: 4px 12px 4px 12px;
   border-radius: 0px;
-  border: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080 #282e22 #282e22 #808080;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center; }
+.appactionbutton_PlayButton_3ydig:active {
+  border-color: #282e22 #808080 #808080 #282e22; }
   .appactionbutton_ShowingStreaming_1hhB2 .appactionbutton_PlayButton_3ydig {
     border-radius: 2px 0px 0px 2px; }
   .appactionbutton_PlayButton_3ydig.appactionbutton_NoAction_5lnmC {
@@ -6657,13 +6656,13 @@ img.emoticon_emoticon_AB86v {
     padding-left: 6px;
     border-radius: 0px;
     position: relative;
-	background-color: #4c5844;
+	background-color: transparent;
     transition: none; }
     .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover,
     .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover,
     .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover {
       cursor: pointer;
-      background-color: #4c5844; }
+      background-color: transparent; }
       .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover .comment_thread_LikeCount_3grvn, .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover .comment_thread_CommentCount_2RkIc, .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover .comment_thread_ReactionCount_1S3Q9,
       .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover .comment_thread_LikeCount_3grvn,
       .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover .comment_thread_CommentCount_2RkIc,
@@ -7821,7 +7820,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     background-color: #4a4a4a; }
 
 .appdetailsactivitysection_AddToFeed_2bqRp {
-  margin-bottom: 6px; }
+  margin-bottom: 8px; }
 
 .appdetailsactivitysection_PostTextEntry_YFAtL {
   padding: 0px; }
@@ -7901,7 +7900,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   background: transparent;
   color: #8c9193;
   font-size: 13px;
-  font-family: "Motiva Sans", Arial, Helvetica, Sans-serif;
+  font-family: "Tahoma";
   padding: 4px 12px;
   line-height: initial;
   align-self: flex-end;
@@ -7909,10 +7908,10 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   width: fit-content;
   margin-bottom: 0;
   border-radius: 2px;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  transition: none;
   cursor: pointer; }
   .appdetailsactivitysection_ViewLastNews_1EC1x:hover {
-    background-color: rgba(101, 113, 128, 0.356);
+    background-color: transparent;
     color: white; }
 
 .appdetailssoundtrack_SoundtrackPanel_23zCI {
@@ -12194,10 +12193,10 @@ div.appgrid_CoverSizeSlider_U4J9B {
     color: #a3aab9;
 	background-color: transparent; }
   .gamelistentry_Container_2-O4Z.gamelistentry_Updating_1LVQp {
-    color: #26b7ff;
+    color: #d8ded3;
     font-weight: 300; }
   .gamelistentry_Container_2-O4Z.gamelistentry_Selected_1UBpA.gamelistentry_Updating_1LVQp, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z.gamelistentry_Updating_1LVQp {
-    color: #74d1ff; }
+    color: #ffffff; }
   .gamelistentry_Container_2-O4Z.gamelistentry_Installed_2ws8D {
     color: #d8ded3; }
   .gamelistentry_Container_2-O4Z.gamelistentry_Selected_1UBpA.gamelistentry_Installed_2ws8D {
@@ -12280,8 +12279,8 @@ div.appgrid_CoverSizeSlider_U4J9B {
 .gamelistentry_AppIconDownloading_2kzMb {
   box-sizing: border-box;
   margin-right: 5px;
-  height: 20px;
-  width: 20px;
+  height: 16px;
+  width: 16px;
   border-radius: 50%;
   overflow: hidden;
   position: relative; }
