@@ -10440,7 +10440,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 			- The 10px of left padding is to align the left of child elements with left column contents
 			*/
       display: inline-block;
-      width: calc( 67% - 42px);
+      width: calc( 100% - 10px);
       padding: 0px 0px 0px 10px;
       box-sizing: border-box; }
       div.UltraNarrowRightPanel .appdetailsoverview_Container_27RcN .appdetailsoverview_Spotlights_11kuV.appdetailsoverview_SpotlightLeftColumn_3wbnd {
