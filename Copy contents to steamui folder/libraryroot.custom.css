@@ -10114,10 +10114,13 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 
 .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
   height: 170px;
-  background: #3e4637;
+  background: #4c5844;
   position: relative;
   padding: 10px 0px 5px 0px;
-  border-radius: 0px; }
+  border-radius: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080 #282e22 #282e22 #808080;  }
   .spotlightgameplaysummary_GamePlaySummaryShort_Y7DmD .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
     height: 90px; }
   .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI:after {
