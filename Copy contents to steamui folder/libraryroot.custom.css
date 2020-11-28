@@ -1165,7 +1165,7 @@ body.modals_BodyNoScrollDialog_105OB {
   display: flex;
   flex-direction: column; }
   .savecollectiondialog_SaveCollectionContainer_z-cTL .DialogBodyText {
-    margin-bottom: 0; }
+    margin-bottom: 8px; }
   .savecollectiondialog_SaveCollectionContainer_z-cTL .DialogTextInputBase {
     font-size: 14px;
     text-transform: uppercase;
@@ -11879,7 +11879,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   align-items: center;
   position: sticky;
   top: 0;
-  box-shadow: 0 0px 0px #0004;
+  box-shadow: none;
   z-index: 30; }
   .appgrid_AppGridSectionHeader_3bWIS::after {
     content: '';
@@ -11889,8 +11889,8 @@ div.appgrid_CoverSizeSlider_U4J9B {
     top: 0;
     bottom: 0;
     z-index: -1;
-    background: radial-gradient(103% 98vh at 33% 44vh, #313d53 0%, #101314 100%);
-    box-shadow: 0px 4px 4px #0004;
+    background: #3e4637;
+    box-shadow: none;
     opacity: var(--sticky-header-background-opacity);
     pointer-events: none; }
   .appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
@@ -11898,7 +11898,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     height: 1px;
     align-self: center;
     margin-left: 10px;
-    background: linear-gradient(to right, rgba(126, 102, 102, 0.2), rgba(255, 255, 255, 0)); }
+    background: #3e4637; }
   .appgrid_AppGridSectionHeader_3bWIS .appgrid_CoverSizePickerContainer_2Uoqg {
     display: none;
     margin-right: 20px; }
@@ -12394,14 +12394,11 @@ div.appgrid_CoverSizeSlider_U4J9B {
 
 .gamelistsectionheader_Container_2sYIg {
   box-sizing: border-box;
-  color: #4c5844;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #808080 #282e22 #282e22 #808080;
+  color: #c4b550;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  background: #4c5844;
+  background: #3e4637;
   display: flex;
   flex-grow: 0;
   user-select: none;
@@ -12409,25 +12406,25 @@ div.appgrid_CoverSizeSlider_U4J9B {
   .gamelistsectionheader_Container_2sYIg:focus {
     outline: none; }
   .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_HoverOverlay_2zGph {
-    background-color: #4c5844;
+    background-color: #3e4637;
     border-radius: 3px; }
   .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs {
     box-sizing: border-box;
-    background: #4c5844;
+    background: #3e4637;
     box-shadow: none; }
     .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs .gamelistsectionheader_SectionHeaderContent_3cV3O {
-      color: white; }
+      color: #c4b550; }
   .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_HasContextMenuOpen_1dcGF {
     box-sizing: border-box;
     border-style: solid;
     border-width: 1px;
-    border-color: #808080 #282e22 #282e22 #808080;
-    background-color: #4c5844; }
+    border-color: #3e4637;
+    background-color: #3e4637; }
     .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_HasContextMenuOpen_1dcGF .gamelistsectionheader_SectionHeaderContent_3cV3O {
-      color: white; }
+      color: #c4b550; }
   .gamelistsectionheader_Container_2sYIg:hover {
     box-sizing: border-box;
-    background: #4c5844; }
+    background: #3e4637; }
   .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_DropOption_2iS5r {
     box-sizing: border-box;
     border-radius: 8px 8px 0px 0px;
@@ -12453,11 +12450,11 @@ div.appgrid_CoverSizeSlider_U4J9B {
   min-width: 0;
   padding: 3px 9px;
   padding-left: 0;
-  color: #d8ded3; }
+  color: #c4b550; }
   .gamelistsectionheader_SectionHeaderContent_3cV3O .gamelistsectionheader_SectionName_2mZ8L {
-    text-transform: none; }
+    text-transform: uppercase; }
   .gamelistsectionheader_SectionHeaderContent_3cV3O:hover .gamelistsectionheader_SectionName_2mZ8L {
-    color: white; }
+    color: #c4b550; }
   .gamelistsectionheader_SectionHeaderContent_3cV3O svg {
     width: 16px;
     height: 16px;
@@ -12469,7 +12466,6 @@ div.appgrid_CoverSizeSlider_U4J9B {
 
 .gamelistsectionheader_SectionName_2mZ8L {
   font-size: 12px;
-  text-transform: uppercase;
   letter-spacing: 1px;
   height: 16px;
   overflow: hidden;
