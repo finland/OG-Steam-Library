@@ -768,7 +768,7 @@ steamui\libraryrootcustom.css
   justify-content: space-between;
   align-items: center;
   padding: 12px;
-  border-radius: 3px;
+  border-radius: 0px;
   background-color: rgba(59, 63, 72, 0.5); }
   .toggle_ToggleRow_NnxzA .toggle_Label_xK7Vv {
     color: #dfe3e6;
@@ -1481,7 +1481,7 @@ body.modals_BodyNoScrollDialog_105OB {
       height: 18px;
       margin-left: -4px;
       margin-right: 4px;
-      border-radius: 3px;
+      border-radius: 0px;
       overflow: hidden; }
   .gamelistsearchbar_SearchFilterInput_172OF.gamelistsearchbar_Disabled_1Gjk2 .gamelistsearchbar_FilterTag_3gzh_ {
     opacity: 0.75; }
@@ -2865,7 +2865,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
     padding: 5px 20px;
     background-color: rgba(59, 63, 72, 0.2);
     margin: 5px 0 0 20px;
-    border-radius: 3px; }
+    border-radius: 0px; }
     .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_SteamInputStatusGrid_3lj3- .appproperties_SteamInputStatus_2H4Ly {
       color: #dfe3e6; }
 
@@ -2883,7 +2883,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
   cursor: pointer;
   color: #dfe3e6;
   background: rgba(59, 63, 72, 0.5);
-  border-radius: 3px; }
+  border-radius: 0px; }
   .appproperties_LabeledCheckBox_24AsB:hover {
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.16); }
   .appproperties_LabeledCheckBox_24AsB:focus {
@@ -3791,7 +3791,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
       height: 32px;
       width: 32px;
       margin-right: 6px;
-      border-radius: 3px;
+      border-radius: 0px;
       overflow: hidden; }
   .appdetailsplaysection_StatusAndStats_1YbtI.appdetailsplaysection_PermanentlyUnavailable_3CYvy .appdetailsplaysection_GameStatsSection_1mDAV {
     position: relative; }
@@ -5260,7 +5260,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   height: 8px;
   align-self: stretch;
   background-color: black;
-  border-radius: 3px;
+  border-radius: 0px;
   margin: 6px 0; }
   .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
     background-color: #2d73ff;
@@ -5328,7 +5328,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   display: table;
   box-sizing: border-box;
   border: 1px solid #56707f;
-  border-radius: 3px;
+  border-radius: 0px;
   padding: 12px;
   margin: 8px;
   font-size: 92%; }
@@ -5341,7 +5341,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   display: block;
   box-sizing: border-box;
   border: 1px solid #535354;
-  border-radius: 3px;
+  border-radius: 0px;
   padding: 12px;
   margin: 8px;
   font-size: 11px;
@@ -6301,7 +6301,7 @@ img.emoticon_emoticon_AB86v {
       color: #189AD3; }
   .awardmodal_GrantAwardModal_2ilpH .awardmodal_SubmitButton_2FENd, .awardmodal_GrantAwardModal_2ilpH .awardmodal_BackButton_32qks {
     box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.25);
-    border-radius: 3px;
+    border-radius: 0px;
     padding: 4px 20px;
     letter-spacing: 0.025em;
     color: #E4E4E4; }
@@ -8038,7 +8038,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
         align-self: stretch;
         padding: 6px;
         max-width: 1024px;
-        border-radius: 3px; }
+        border-radius: 0px; }
         .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_Disc_17Yl1 {
           background: linear-gradient(to right, rgba(44, 49, 51, 0.842) 0%, transparent 100%);
           padding-left: 6px;
@@ -8060,7 +8060,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
           font-weight: 300; }
           .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP:hover {
             background-color: #aaa4;
-            border-radius: 3px;
+            border-radius: 0px;
             cursor: pointer;
             color: white; }
             .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_TrackListing_2c5PP:hover .appdetailssoundtrack_TrackNumber_NZZPO {
@@ -8553,7 +8553,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     position: absolute;
     left: 4px;
     bottom: 4px;
-    border-radius: 3px;
+    border-radius: 0px;
     background-color: #666c;
     cursor: pointer;
     opacity: .25;
@@ -8800,10 +8800,27 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 .writereview_CompactThumbButton_35_Og {
   padding: 6px 15px;
   background: #4c5844;
-  border: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080 #282e22 #282e22 #808080;
   color: #fff;
   text-decoration: none !important;
-  margin-top: -4px;
+  margin-top: 1px;
+  position: relative;
+  cursor: pointer;
+  font-size: 12px;
+  outline: none;
+  border-radius: 0px; }
+
+.writereview_CompactThumbButton_35_Og:active {
+  padding: 6px 15px;
+  background: #4c5844;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #282e22 #808080 #808080 #282e22;
+  color: #fff;
+  text-decoration: none !important;
+  margin-top: 1px;
   position: relative;
   cursor: pointer;
   font-size: 12px;
@@ -8870,8 +8887,8 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   width: calc( 100% - 6px);
   min-height: 100px;
   resize: vertical;
-  background: #434953;
-  color: #dbdbdb;
+  background: #3e4637;
+  color: #fff;
   font-family: "Motiva Sans", Arial, Helvetica, sans-serif; }
 
 .writereview_OptionSvg_3Wesr {
@@ -8912,7 +8929,9 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   font-size: 17px; }
 
 .writereview_FormContainer_sK8bm .writereview_ReviewTextArea_392iE {
-  border: 1px solid #485562; }
+	border-style: solid;
+	border-width: 1px;
+	border-color: #282e22 #808080 #808080 #282e22; }
 
 .writereview_FormContainer_sK8bm .writereview_ReviewSettingsRow_11okU > span {
   margin-right: 10px;
@@ -9038,7 +9057,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 .appdetailsreviewsection_ReviewPresentGroup_1dJCM {
   display: flex;
   flex-flow: column;
-  border-radius: 3px; }
+  border-radius: 0px; }
 
 .appdetailsreviewsection_ButtonsGroup_3d2-p {
   display: flex;
@@ -9725,7 +9744,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   font-size: 10px;
   text-transform: uppercase;
   background: #185c6c;
-  border-radius: 3px;
+  border-radius: 0px;
   padding: 2px 8px 0 8px;
   color: white;
   z-index: 101;
@@ -10266,7 +10285,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   overflow: hidden;
   font-size: 13px;
   padding: 16px 32px;
-  border-radius: 3px;
+  border-radius: 0px;
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 12px;
   min-height: 120px;
@@ -10289,7 +10308,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   overflow: hidden;
   font-size: 13px;
   padding: 16px 32px;
-  border-radius: 3px;
+  border-radius: 0px;
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 12px;
   min-height: 120px;
@@ -10424,7 +10443,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     box-sizing: border-box;
     width: 100%;
 	padding: 0px 10px 0px 10px;
-    background-color: #3e4637;
+    background-color: #4c5844;
     font-size: 0px; }
   .appdetailsoverview_Container_27RcN .appdetailsoverview_Spotlights_11kuV {
     padding: 0px 10px 0px 10px;
@@ -11077,7 +11096,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   z-index: 11;
   background-color: #797b83;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
-  border-radius: 3px;
+  border-radius: 0px;
   padding: 2px 16px;
   width: fit-content;
   max-width: 100%;
@@ -12097,7 +12116,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
       margin-right: 8px; }
     .collectionview_Container_2q70u .collectionview_Header_2rqTS .DialogInput_Wrapper {
       width: 340px;
-      border-radius: 3px;
+      border-radius: 0px;
       outline: none;
       margin-left: -8px;
       margin-top: 0px;
@@ -12192,7 +12211,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     background-color: transparent; }
   .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
     background-color: #282e22;
-    border-radius: 3px; }
+    border-radius: 0px; }
   .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
     color: #a3aab9; }
   .gamelistentry_Container_2-O4Z.gamelistentry_Selected_1UBpA.gamelistentry_Uninstalled_5YTBr, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
@@ -12407,7 +12426,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     outline: none; }
   .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_HoverOverlay_2zGph {
     background-color: #3e4637;
-    border-radius: 3px; }
+    border-radius: 0px; }
   .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs {
     box-sizing: border-box;
     background: #3e4637;
@@ -12873,7 +12892,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   background-color: #3d3f47;
   margin: 6px 32px;
   padding: 2px 6px 6px;
-  border-radius: 3px;
+  border-radius: 0px;
   height: 14px;
   cursor: pointer;
   display: flex;
@@ -12997,7 +13016,7 @@ b {
   .partnereventshared_EventEditorTextTitleCtn_htm7d .partnereventshared_doclink_1-bAK {
     float: right;
     background: #30343b;
-    border-radius: 3px;
+    border-radius: 0px;
     font-size: 12px;
     text-transform: uppercase;
     color: #bbbdbf;
@@ -13051,7 +13070,7 @@ b {
 
 .partnereventshared_EventSectionMoreBtn_uckBi {
   border: 1px solid #ffffff;
-  border-radius: 3px;
+  border-radius: 0px;
   padding: 4px 12px;
   color: #ffffff;
   font-size: 11px;
@@ -13131,7 +13150,7 @@ b {
   background-size: 32px 32px;
   height: 28px;
   padding: 6px 20px 6px 45px;
-  border-radius: 3px; }
+  border-radius: 0px; }
   .partnereventshared_EventBarBack_s3r9b:hover {
     background-color: #32373f;
     color: #ffffff;
@@ -13143,7 +13162,7 @@ b {
   min-width: 100px;
   padding: 4px 20px;
   margin-left: 12px;
-  border-radius: 3px;
+  border-radius: 0px;
   line-height: 26px;
   text-align: center;
   background: #3d434d;
@@ -13156,7 +13175,7 @@ b {
 .partnereventshared_BrowseMoreButton_1Yrcl {
   display: inline-block;
   padding: 10px 20px;
-  border-radius: 3px;
+  border-radius: 0px;
   text-align: center;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   text-decoration: none; }
@@ -13478,7 +13497,7 @@ button.Primary.partnereventshared_AddSectionButton_2_djj {
   color: #909090;
   background-color: rgba(0, 0, 0, 0.2);
   border: 1px solid #000;
-  border-radius: 3px; }
+  border-radius: 0px; }
 
 .discussionwidget_ShareIcon_3qVz2 {
   width: 19px;
@@ -13508,7 +13527,7 @@ button.Primary.partnereventshared_AddSectionButton_2_djj {
 
 .discussionwidget_share_controls_ctn_3F-Ry {
   background-color: rgba(59, 63, 72, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   padding: 10px;
   text-align: left;
   margin-top: 16px; }
@@ -13627,7 +13646,7 @@ button.Primary.partnereventshared_AddSectionButton_2_djj {
   float: left;
   margin-right: 10px;
   margin-top: 2px;
-  border-radius: 3px; }
+  border-radius: 0px; }
 
 .sharewithfriends_ShareDescription_3CqiH {
   width: calc(100% - 20px);
@@ -13684,7 +13703,7 @@ span.suggestdialog_mentionSearchMatch_2_0t_ {
 
 .emoticonsuggestion_Emoticon_Toggle_Y5J3n {
   margin-right: 8px;
-  border-radius: 3px;
+  border-radius: 0px;
   cursor: pointer;
   padding: 4px 6px; }
 
@@ -13699,7 +13718,7 @@ span.suggestdialog_mentionSearchMatch_2_0t_ {
 
 .bbcodesuggestions_BBCode_Toggle_3dX8- {
   margin-right: 8px;
-  border-radius: 3px;
+  border-radius: 0px;
   cursor: pointer;
   padding: 4px 6px; }
 
@@ -13892,7 +13911,7 @@ iframe.eventbbcodeyoutubeembed_PreviewYouTubeVideo_2sJoC.eventbbcodeyoutubeembed
 
 .eventbbcodeparser_BlockQuote_2cY7b {
   border: 1px solid #56707f;
-  border-radius: 3px;
+  border-radius: 0px;
   padding: 12px;
   margin: 8px;
   font-size: 92%;
@@ -13907,7 +13926,7 @@ iframe.eventbbcodeyoutubeembed_PreviewYouTubeVideo_2sJoC.eventbbcodeyoutubeembed
   width: 33%;
   min-width: 200px;
   float: right;
-  border-radius: 3px;
+  border-radius: 0px;
   font-size: 22px;
   font-weight: 500;
   color: white;
@@ -13918,7 +13937,7 @@ iframe.eventbbcodeyoutubeembed_PreviewYouTubeVideo_2sJoC.eventbbcodeyoutubeembed
 
 .eventbbcodeparser_Code_1zoQP {
   border: 1px solid #535354;
-  border-radius: 3px;
+  border-radius: 0px;
   padding: 12px;
   margin: 8px;
   font-size: 11px;
@@ -13978,7 +13997,7 @@ a.eventbbcodeparser_LinkButton_2HnDg {
   font-size: 14px;
   padding: 6px 20px;
   display: inline-block;
-  border-radius: 3px;
+  border-radius: 0px;
   margin: 4px 0px; }
   a.eventbbcodeparser_LinkButton_2HnDg span {
     color: white;
@@ -14427,7 +14446,7 @@ textarea:-webkit-autofill:focus,
 
 .login_CaptchaContainer_1waDj .login_CaptchaImageBox_dzf2f {
   border: 1px solid black;
-  border-radius: 3px;
+  border-radius: 0px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   overflow: hidden;
@@ -14681,7 +14700,7 @@ textarea:-webkit-autofill:focus,
       position: relative; }
   .eventreminder_ReminderCheckBox_vPo2j.eventreminder_TextMode_553rC, .eventreminder_ReminderCheckBox_vPo2j.eventreminder_IconMode_1YjsR:hover, .eventreminder_ReminderDialog_3YUEY .eventreminder_ReminderCheckBox_vPo2j {
     background-image: radial-gradient(circle at top left, #399aec 10%, #225dce 80%);
-    border-radius: 3px; }
+    border-radius: 0px; }
     .eventreminder_ReminderCheckBox_vPo2j.eventreminder_TextMode_553rC:hover, .eventreminder_ReminderCheckBox_vPo2j.eventreminder_IconMode_1YjsR:hover:hover, .eventreminder_ReminderDialog_3YUEY .eventreminder_ReminderCheckBox_vPo2j:hover {
       cursor: pointer;
       box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5); }
@@ -15540,7 +15559,7 @@ textarea:-webkit-autofill:focus,
 .salepreviewwidgets_CapsuleContainer_22Acx {
   display: flex;
   flex-direction: column;
-  border-radius: 3px;
+  border-radius: 0px;
   overflow: hidden;
   position: relative;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -15769,7 +15788,7 @@ textarea:-webkit-autofill:focus,
 .salepreviewwidgets_BundleContentItem_2sdNO {
   margin-bottom: 4px; }
   .salepreviewwidgets_BundleContentItem_2sdNO .salepreviewwidgets_StoreSaleWidgetContainer_2hhNO {
-    border-radius: 3px;
+    border-radius: 0px;
     background: -webkit-linear-gradient(-210deg, rgba(255, 255, 255, 0.1) 5%, rgba(255, 255, 255, 0.02) 95%);
     background: linear-gradient(-210deg, rgba(255, 255, 255, 0.1) 5%, rgba(255, 255, 255, 0.02) 95%); }
     .salepreviewwidgets_BundleContentItem_2sdNO .salepreviewwidgets_StoreSaleWidgetContainer_2hhNO .salepreviewwidgets_Action_2zssE, .salepreviewwidgets_BundleContentItem_2sdNO .salepreviewwidgets_StoreSaleWidgetContainer_2hhNO .salepreviewwidgets_WishList_1djkd {
@@ -15802,7 +15821,7 @@ textarea:-webkit-autofill:focus,
 .salepreviewwidgets_SaleItemBrowserRow_gASJ2 {
   margin-bottom: 4px; }
   .salepreviewwidgets_SaleItemBrowserRow_gASJ2 .salepreviewwidgets_StoreSaleWidgetContainer_2hhNO {
-    border-radius: 3px;
+    border-radius: 0px;
     background: -webkit-linear-gradient(-210deg, rgba(255, 255, 255, 0.1) 5%, rgba(255, 255, 255, 0.02) 95%);
     background: linear-gradient(-210deg, rgba(255, 255, 255, 0.1) 5%, rgba(255, 255, 255, 0.02) 95%); }
     .salepreviewwidgets_SaleItemBrowserRow_gASJ2 .salepreviewwidgets_StoreSaleWidgetContainer_2hhNO .salepreviewwidgets_Action_2zssE, .salepreviewwidgets_SaleItemBrowserRow_gASJ2 .salepreviewwidgets_StoreSaleWidgetContainer_2hhNO .salepreviewwidgets_WishList_1djkd {
@@ -16201,7 +16220,7 @@ span.partnersaledisplay_vr_required_1P__h {
   .partnersaledisplay_TabButtonsCtn_21-6t .partnersaledisplay_TabButton_1Gz4s {
     display: flex;
     background: linear-gradient(0deg, #3D5244 0%, #324336 100%);
-    border-radius: 3px;
+    border-radius: 0px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
     padding: 20px 40px;
     margin: 10px;
@@ -16348,7 +16367,7 @@ span.partnersaledisplay_vr_required_1P__h {
   cursor: pointer;
   user-select: none;
   background-image: radial-gradient(101.49% 168.36% at 1.01% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
-  border-radius: 3px;
+  border-radius: 0px;
   color: #dfe3e6; }
   .salesectioneventschedule_SaleSchedRow_3l83c:hover {
     background-color: rgba(255, 255, 255, 0.3);
@@ -16941,7 +16960,7 @@ span.partnersaledisplay_vr_required_1P__h {
   position: absolute;
   top: 6px;
   right: 4px;
-  border-radius: 3px;
+  border-radius: 0px;
   padding: 0px 8px;
   z-index: 46;
   color: black;
@@ -18511,7 +18530,7 @@ img.broadcastplayer_BroadcastPlaceholderImg_3hxn9 {
     background: rgba(59, 63, 72, 0.5);
     border: none;
     box-shadow: inset 0px 0px 0px #0000;
-    border-radius: 3px; }
+    border-radius: 0px; }
     .bbcodeeditor_EventEditorLinkInput_25nbu input:focus {
       background: rgba(67, 73, 83, 0.6);
       box-shadow: inset 1px 1px 8px #000a;
@@ -18594,7 +18613,7 @@ img.broadcastplayer_BroadcastPlaceholderImg_3hxn9 {
     background: rgba(59, 63, 72, 0.5);
     border: none;
     box-shadow: inset 0px 0px 0px #0000;
-    border-radius: 3px; }
+    border-radius: 0px; }
     .bbcodeeditor_YouTubeInput_3WXTC input[type=text]:focus {
       background: rgba(67, 73, 83, 0.6);
       box-shadow: inset 1px 1px 8px #000a;
@@ -18658,7 +18677,7 @@ textarea {
   color: #909090;
   background-color: rgba(0, 0, 0, 0.2);
   border: 1px solid #000;
-  border-radius: 3px; }
+  border-radius: 0px; }
 
 .cropmodal_CropImage_3qfqT {
   position: relative;
@@ -19282,7 +19301,7 @@ textarea {
         text-align: center;
         background-color: #DD3E3E;
         padding: 5px 20px;
-        border-radius: 3px;
+        border-radius: 0px;
         display: block; }
     .partnereventdisplay_LunarNewYearHeader_1g4Yf .partnereventdisplay_EnvelopeArea_39E2F .partnereventdisplay_EnvelopeContainer_1g0zs {
       position: relative;
@@ -19325,7 +19344,7 @@ textarea {
         text-transform: uppercase;
         text-align: center;
         padding: 5px 20px;
-        border-radius: 3px;
+        border-radius: 0px;
         background: #DD3E3E;
         color: #eeeeeeaa;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3); }
@@ -19447,7 +19466,7 @@ textarea {
       text-align: center;
       margin: 0px 4px;
       padding: 5px 20px;
-      border-radius: 3px;
+      border-radius: 0px;
       background: #DD3E3E;
       color: #eee;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
@@ -19752,7 +19771,7 @@ html:not(.client) .partner_events .apppartnereventspage_AppPartnerEventsBody_1XL
             display: none; } }
   .apppartnereventspage_AppBannerGroup_qexk- .apppartnereventspage_AppBannerLogoCtn_2EV_W {
     padding: 3px;
-    border-radius: 3px;
+    border-radius: 0px;
     background: rgba(0, 0, 0, 0.2);
     height: 100%;
     box-sizing: border-box;
@@ -19866,7 +19885,7 @@ div.apppartnereventspage_EventDetailsBody_3NW5v {
           object-fit: cover;
           width: 100%;
           height: 100%;
-          border-radius: 3px;
+          border-radius: 0px;
           padding: 8px;
           box-sizing: border-box;
           transition: filter .1s ease-in-out; }
@@ -20074,7 +20093,7 @@ div.apppartnereventspage_EventDetailsBody_3NW5v {
   display: flex;
   flex-direction: row;
   background: rgba(0, 0, 0, 0.2);
-  border-radius: 3px;
+  border-radius: 0px;
   padding: 4px;
   margin-bottom: 4px;
   height: fit-content; }
@@ -20124,7 +20143,7 @@ div.creatorhomeembed_SocialContainer_1o1Ds {
   padding: 2px 8px 2px 3px;
   margin-right: 4px;
   margin-bottom: 4px;
-  border-radius: 3px;
+  border-radius: 0px;
   color: #8e9093; }
   .creatorhomeembed_SocialLink_3eCVb:hover {
     background-color: #54a5d4;
@@ -20495,7 +20514,7 @@ div.creatorhomeembed_SocialContainer_1o1Ds {
     margin-bottom: 16px;
     padding: 0 16px;
     padding-top: 0px;
-    border-radius: 3px;
+    border-radius: 0px;
     background: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
     background-position: 25%;
     background-size: 330% 100%;
@@ -20714,7 +20733,7 @@ div.creatorhomeembed_SocialContainer_1o1Ds {
   background-color: #e5e5e5;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAYAAAFCA9WQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODQ4Mjg5MjM4M0RCMTFFODlBQUU4QTVBRUEzN0JFMUIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODQ4Mjg5MjQ4M0RCMTFFODlBQUU4QTVBRUEzN0JFMUIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4NDgyODkyMTgzREIxMUU4OUFBRThBNUFFQTM3QkUxQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4NDgyODkyMjgzREIxMUU4OUFBRThBNUFFQTM3QkUxQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pk5spocAAACYSURBVHjaYjCw898LEEAM////ZwAIIEYgK4yBgeEZQACBeSBh5o37L9gARW4BBBBM5A4Ig9gsDBAQDqUZAAIIJBsEVRXEBBS4aGgfsANEgzjHzx/c4AGiYQZdA9EAAQay0AAouhWIG4AqZgO1pILYQOwNkpwGZEwH4pdA3APEJUAsDsSZTEDVWVDOJSB+AqXFQeKMILNxAQD6oEHxJrq4qAAAAABJRU5ErkJggg==);
   background-position: 4px 4px;
-  border-radius: 3px;
+  border-radius: 0px;
   background-repeat: no-repeat;
   box-shadow: 0 0 3px #000; }
 
@@ -22164,7 +22183,7 @@ img {
   margin: 0;
   padding: 4px;
   border: none;
-  border-radius: 3px;
+  border-radius: 0px;
   box-shadow: inset 0px 0px 0px #0000;
   transition: all .2s ease-in-out; }
   .shared_common_SummaryTextArea_cNMZ-:focus {
@@ -22896,7 +22915,7 @@ button.TextButton:focus {
   position: relative;
   line-height: 30px;
   overflow: hidden;
-  border-radius: 3px;
+  border-radius: 0px;
   background: #3a3f48;
   color: rgba(223, 227, 230, 0.5);
   font-size: 14px;
