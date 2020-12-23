@@ -2802,7 +2802,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
   border-width: 1px;
   border-color: #808080 #282e22 #282e22 #808080;
   margin: -10px 6px 6px 6px;
-  padding: 10px; }
+  padding: 20px 10px 10px 20px; }
   .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY.appproperties_NoScroll_3puO0 {
     overflow-y: hidden; }
   .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY::-webkit-scrollbar-thumb {
@@ -2813,7 +2813,8 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
     background-clip: padding-box; }
   .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_SectionTopLine_r3hOL {
     margin-top: 20px;
-    border-top: solid rgba(59, 63, 72, 0.5) 1px;
+	box-shadow: 0 -1px 0 #282e22;
+    border-top: 1px solid #808080;
     padding-top: 20px; }
   .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_BlueHighlight_1KmR8 {
     color: #fff; }
@@ -2897,7 +2898,8 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
       color: #dfe3e6; }
   .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_DlcTopRow_ZII4C {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+	margin-right: 10px; }
     .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_DlcTopRow_ZII4C .appproperties_ViewMore_3jITh {
       flex: 1 1 0;
       margin: 0 10px 0 0; }
@@ -2912,7 +2914,9 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	background: #3e4637;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #282e22 #808080 #808080 #282e22; }
+	border-color: #282e22 #808080 #808080 #282e22;
+	margin-right: 10px;
+	margin-bottom: 10px; }
     .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_DlcGrid_3sXdO::-webkit-scrollbar-thumb {
       background-color: #4c5844;
       background-clip: padding-box; }
@@ -22626,7 +22630,7 @@ button.DialogButton::-moz-focus-inner {
   box-shadow: 0px 8px 38px 5px rgba(0, 0, 0, 0.75);
   margin: auto;
   font-weight: 300;
-  color: #969696;
+  color: #fff;
   font-size: 16px;
   position: relative;
   display: flex;
