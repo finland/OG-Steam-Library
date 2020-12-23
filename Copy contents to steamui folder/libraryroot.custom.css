@@ -1232,7 +1232,8 @@ body.modals_BodyNoScrollDialog_105OB {
 
 .savecollectiondialog_Description_3uOEr {
   align-self: stretch;
-  padding: 0px;
+  padding: 10px;
+  max-width: 180px;
   flex: 1;
   background: transparent;
   color: #fff; }
@@ -22509,7 +22510,8 @@ button.DialogButton::-moz-focus-inner {
   height: initial;
   width: initial;
   max-width: 88vw;
-  max-height: 90vh; }
+  max-height: 90vh;
+  min-height: 300px; }
 
 @media screen and (max-height: 640px) {
   .FullModalOverlay .ModalPosition_Content {
@@ -22537,6 +22539,10 @@ button.DialogButton::-moz-focus-inner {
 
 .DialogBody {
   /*border: 2px dotted #f005;*/
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080 #282e22 #282e22 #808080;
+  margin: 6px 6px 6px 4px;
   display: flex;
   flex-direction: column;
   flex: 1;
