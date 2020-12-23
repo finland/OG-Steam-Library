@@ -2928,15 +2928,18 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
     .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0 {
       position: sticky;
       top: 0;
-      background: #3e4637;
+      background: #4c5844;
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: #808080 #282e22 #282e22 #808080;
       z-index: 1;
-      padding: 8px;
+      padding: 2px;
       display: flex;
       flex-direction: row;
       align-items: center;
       cursor: pointer; }
       .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0:hover {
-        background: none; }
+        background: #4c5844; }
       .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0 .appproperties_TriangleHide_1A_JF {
         margin-left: 4px;
         width: 8px; }
@@ -22511,8 +22514,7 @@ button.DialogButton::-moz-focus-inner {
   height: initial;
   width: initial;
   max-width: 88vw;
-  max-height: 90vh;
-  min-height: 300px; }
+  max-height: 90vh; }
 
 @media screen and (max-height: 640px) {
   .FullModalOverlay .ModalPosition_Content {
@@ -22540,9 +22542,11 @@ button.DialogButton::-moz-focus-inner {
 
 .DialogBody {
   /*border: 2px dotted #f005;*/
+/*
   border-style: solid;
   border-width: 1px;
   border-color: #808080 #282e22 #282e22 #808080;
+*/
   margin: 6px 6px 6px 4px;
   display: flex;
   flex-direction: column;
@@ -22788,7 +22792,7 @@ button.DialogButton::-moz-focus-inner {
   font-size: 12px;
   line-height: 19px;
   font-weight: 100;
-  margin: 8px 15px 20px 15px;
+  margin: 10px;
   user-select: none; }
 
 .DialogBodyText p {
@@ -23265,7 +23269,8 @@ button.TextButton:focus {
 ._DialogColLayout {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  margin-bottom: 0px; }
 
 ._DialogColLayout > ._DialogLayout {
   flex: 1;
@@ -23665,7 +23670,7 @@ body.in_global_drag .title-area {
 .title-area-icon {
   width: 20px;
   height: 19px;
-  margin-top: 8px;
+  margin-top: 7px;
   margin-right: 5px;
   cursor: pointer;
   background-image: url(images/Window-Close.png);
@@ -23781,7 +23786,8 @@ body.in_global_drag .title-area {
 .GenericConfirmDialog .DialogButton {
   background: #4c5844 !important;
   min-width: 60px;
-  margin-left: 8px; }
+  margin-left: 8px;
+  margin-right: 0px;  }
 
 .GenericConfirmDialog .DialogButton:hover {
   background: #4c5844;
