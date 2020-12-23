@@ -2796,15 +2796,14 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
   font-size: 12px;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
-  margin: 10px; }
+  overflow-y: scroll; }
   .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY.appproperties_NoScroll_3puO0 {
     overflow-y: hidden; }
   .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY::-webkit-scrollbar-thumb {
-    background-color: #3d4450;
+    background-color: #4c5844;
     background-clip: padding-box; }
   .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY::-webkit-scrollbar-thumb:hover {
-    background-color: #464d58;
+    background-color: #4c5844;
     background-clip: padding-box; }
   .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_SectionTopLine_r3hOL {
     margin-top: 20px;
@@ -2909,10 +2908,10 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	border-width: 1px;
 	border-color: #282e22 #808080 #808080 #282e22; }
     .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_DlcGrid_3sXdO::-webkit-scrollbar-thumb {
-      background-color: #3e4637;
+      background-color: #4c5844;
       background-clip: padding-box; }
     .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_DlcGrid_3sXdO::-webkit-scrollbar-thumb:hover {
-      background-color: #3e4637;
+      background-color: #4c5844;
       background-clip: padding-box; }
     .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0 {
       position: sticky;
