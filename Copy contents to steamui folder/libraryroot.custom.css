@@ -1190,7 +1190,8 @@ body.modals_BodyNoScrollDialog_105OB {
     .savecollectiondialog_TwoOptionsContainer_33bWW .savecollectiondialog_Option_3vDq3.savecollectiondialog_Disabled_3Jmn3 .savecollectiondialog_ActionLabel_25n_z {
     color: #666360;
     filter: none;
-    cursor: default; }
+    cursor: default;
+	font-size: 11px; }
   .savecollectiondialog_TwoOptionsContainer_33bWW .savecollectiondialog_Option_3vDq3.savecollectiondialog_Disabled_3Jmn3:hover {
     pointer-events: none; }
   .savecollectiondialog_TwoOptionsContainer_33bWW .savecollectiondialog_Option_3vDq3 .savecollectiondialog_ActionLabel_25n_z {
@@ -1199,7 +1200,7 @@ body.modals_BodyNoScrollDialog_105OB {
     background-size: 330% 100%;
     text-transform: uppercase;
     color: #dfe3e6;
-    font-size: 12px;
+    font-size: 11px;
     text-align: center;
     border-radius: 0px;
     align-self: stretch;
