@@ -926,10 +926,10 @@ html.contextmenu_ContextMenuPopup_14wqd .contextmenu_contextMenuItem_1n7Wl {
     word-wrap: break-word; }
 
 .dropdown_DialogDropDownMenu_Item_2oAiZ {
-  padding: 10px 15px;
+  padding: 2px;
   cursor: pointer; }
   .dropdown_DialogDropDownMenu_Item_2oAiZ:hover {
-    background: #4c5844; }
+    background: #282e22; }
 
 .dropdown_DialogDropDownMenu_30wJO._DialogInputContainer {
   background: #3e4637;
@@ -2796,7 +2796,13 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
   font-size: 12px;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  height: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080 #282e22 #282e22 #808080;
+  margin: -10px 6px 6px 6px;
+  padding: 10px; }
   .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY.appproperties_NoScroll_3puO0 {
     overflow-y: hidden; }
   .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY::-webkit-scrollbar-thumb {
@@ -22911,7 +22917,7 @@ button.DialogButton::-moz-focus-inner {
   background: #4c5844; }
 
 ._DialogInputContainer {
-  padding: 12px;
+  padding: 2px;
   line-height: 18px;
   margin-bottom: 22px; }
 
@@ -23239,11 +23245,11 @@ button.TextButton:focus {
 .DialogDropDown_Arrow {
   position: absolute;
   width: 18px;
-  top: 14px;
-  right: 10px; }
+  top: 5px;
+  right: 5px; }
 
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
-  fill: #189cff; }
+  fill: #969696; }
 
 ._DialogColLayout {
   display: flex;
