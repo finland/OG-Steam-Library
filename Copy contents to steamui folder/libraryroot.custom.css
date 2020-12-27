@@ -12683,13 +12683,17 @@ div.appgrid_CoverSizeSlider_U4J9B {
   user-select: none;
   cursor: pointer; }
   .gamelistsectionheader_Container_2sYIg:focus {
-    outline: none; }
+	outline: none; }
   .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_HoverOverlay_2zGph {
     background-color: #3e4637;
     border-radius: 0px; }
   .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs {
     box-sizing: border-box;
-    background: #3e4637;
+    background: #282e22;
+    box-shadow: none; }
+  .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs:hover {
+    box-sizing: border-box;
+    background: #282e22;
     box-shadow: none; }
     .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs .gamelistsectionheader_SectionHeaderContent_3cV3O {
       color: #c4b550; }
@@ -12697,8 +12701,8 @@ div.appgrid_CoverSizeSlider_U4J9B {
     box-sizing: border-box;
     border-style: solid;
     border-width: 1px;
-    border-color: #3e4637;
-    background-color: #3e4637; }
+    border-color: #282e22;
+    background-color: #282e22; }
     .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_HasContextMenuOpen_1dcGF .gamelistsectionheader_SectionHeaderContent_3cV3O {
       color: #c4b550; }
   .gamelistsectionheader_Container_2sYIg:hover {
@@ -12733,7 +12737,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   .gamelistsectionheader_SectionHeaderContent_3cV3O .gamelistsectionheader_SectionName_2mZ8L {
     text-transform: uppercase; }
   .gamelistsectionheader_SectionHeaderContent_3cV3O:hover .gamelistsectionheader_SectionName_2mZ8L {
-    color: #c4b550; }
+    color: #fff; }
   .gamelistsectionheader_SectionHeaderContent_3cV3O svg {
     width: 16px;
     height: 16px;
