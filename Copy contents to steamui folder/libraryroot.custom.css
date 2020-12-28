@@ -3294,7 +3294,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
       opacity: 1.0;
       animation: none;
       margin: auto;
-      width: 64px; }
+/*      width: 64px; */ }
   .appactionbutton_PlayButton_3ydig .appactionbutton_ButtonText_33cnX {
     vertical-align: middle;
     font-size: 20px;
@@ -22351,7 +22351,7 @@ img {
   background: #202020; }
 
 ::selection {
-  background: #54a5d4;
+  background: #91863c;
   text-shadow: 1px 1px 2px #000000aa;
   color: #fff; }
 
