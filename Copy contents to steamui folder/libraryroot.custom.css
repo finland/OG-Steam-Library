@@ -329,7 +329,7 @@ steamui\libraryrootcustom.css
   color: #c9bdf7; }
 
 .miniprofile_miniProfileContent_1xTAT .miniprofile_playerContent_2-pwJ .miniprofile_persona_3c5GO .miniprofile_personaName_qiP8a.miniprofile_hasNickname_2TAWS {
-  color: #888;
+  color: #cacbcd;
   font-size: 14px; }
 
 .miniprofile_miniProfileContent_1xTAT .miniprofile_playerContent_2-pwJ .miniprofile_persona_3c5GO .miniprofile_personaName_qiP8a.miniprofile_hasNickname_2TAWS .miniprofile_personaNameLabel_2VUw8 {
@@ -3582,7 +3582,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
   color: #cccccc; }
 
 .ChatTabs .personanameandstatus_compactView_3bbRZ .offline .personanameandstatus_richPresenceLabel_2Ri00 {
-  color: #888; }
+  color: #cacbcd; }
 
 .titleBarContainer .currentUserContainer .personanameandstatus_richPresenceLabel_2Ri00 {
   margin-top: -1px;
@@ -3871,7 +3871,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
 button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
   cursor: pointer;
   font-size: 13px;
-  color: #888;
+  color: #cacbcd;
   margin-top: 5px; }
   button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
     color: #aaa; }
@@ -3901,7 +3901,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
 
 .appdetailsfriendssection_LoggedOut_1pkru {
   font-size: 13px;
-  color: #888;
+  color: #cacbcd;
   cursor: pointer; }
 
 .appdetailsfriendssection_PlaytimeSection_1s3b9 {
@@ -5092,7 +5092,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   fill: #ec666d; }
 
 .appactivityday_ReviewIconVoteColor_1yQFT {
-  fill: #8c8d8d; }
+  fill: #cacbcd; }
 
 .appactivityday_ThumbsDown_3oboj {
   width: auto;
@@ -5148,7 +5148,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
 
 .appactivityday_PlayedForTime_2r-N9 {
   font-size: 12px;
-  color: #8c8d8d;
+  color: #cacbcd;
   padding-bottom: 12px; }
 
 .appactivityday_ReviewMetadata_2ByGW {
@@ -5220,7 +5220,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
     color: #ccc; }
   .appactivityday_BadgeInfo_36fG0 .appactivityday_BadgeLevel_1p820 {
     font-size: 14px;
-    color: #888; }
+    color: #cacbcd; }
 
 .appdetailshover_AppDetailsHover_38FqI {
   box-sizing: border-box;
@@ -5485,7 +5485,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
     box-sizing: border-box;
     background: linear-gradient(to bottom, rgba(24, 26, 30, 0.7) 5%, rgba(24, 26, 30, 0.4) 95%);
     font-size: 13px;
-    color: #888; }
+    color: #cacbcd; }
     .appdetailsachievementssection_Hover_37Lk8 .appdetailsachievementssection_Unlocked_2KA0p .appdetailsachievementssection_RareLabel_3aoiM {
       color: #e4a74a; }
 
@@ -5506,11 +5506,11 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   color: #ccc; }
 
 .appdetailsachievementssection_UnlockedLabelPercent_14kZV {
-  color: #888; }
+  color: #cacbcd; }
 
 .appdetailsachievementssection_GlobalStatLabel_1LNAL {
   text-decoration: underline;
-  color: #888;
+  color: #cacbcd;
   cursor: pointer;
   align-self: flex-end; }
   .appdetailsachievementssection_GlobalStatLabel_1LNAL:hover {
@@ -5534,7 +5534,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   padding-top: 8px; }
 
 .appdetailsachievementssection_UnachievedSection_3ca11 .appdetailsachievementssection_Label_uoFNF {
-  color: #8c8d8d;
+  color: #cacbcd;
   font-size: 13px;
   margin-bottom: 5px; }
 
@@ -6436,7 +6436,7 @@ img.emoticon_emoticon_AB86v {
       border-color: #808080 #282e22 #282e22 #808080; }
       .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA .posttextentry_Label_3jvEk {
         margin: 0px;
-        color: #888; }
+        color: #cacbcd; }
         .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja {
 		  background: #4c5844;
           background-position: 0%;
@@ -7615,7 +7615,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     padding: 10px;
     flex: 1 0 auto; }
   .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_Description_xsBpz {
-    color: #888;
+    color: #cacbcd;
     font-size: 14px;
     line-height: 20px;
     text-overflow: ellipsis;
@@ -7634,7 +7634,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(46, 51, 58, 0.3) 2px, rgba(74, 81, 92, 0) 24px, rgba(75, 81, 92, 0.35) 100%);
   display: flex;
   flex-direction: row;
-  color: #888;
+  color: #cacbcd;
   align-items: center;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
@@ -7798,7 +7798,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   opacity: 0; }
 
 .appdetailscommunityfeed_NoContent_13Hxu {
-  color: #8c8d8d;
+  color: #cacbcd;
   font-size: 13px;
   text-align: center;
   margin: auto; }
@@ -7847,7 +7847,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     color: #ccc; }
   .appdetailstradingcardssection_BadgeInfo_3QrX3 .appdetailstradingcardssection_BadgeLevel_2PMlM {
     font-size: 14px;
-    color: #888; }
+    color: #cacbcd; }
 
 .appdetailstradingcardssection_CardsSection_21DlI {
   display: flex;
@@ -7859,7 +7859,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 
 .appdetailstradingcardssection_CardsLeft_2H1Mi {
   font-size: 13px;
-  color: #888;
+  color: #cacbcd;
   margin-bottom: 10px; }
   .appdetailstradingcardssection_CardsLeft_2H1Mi.appdetailstradingcardssection_CanLevelUp_3B2sO {
     color: white;
@@ -8970,12 +8970,12 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appdetailsscreenshotssection_ScreenshotsSection_2_TE0 .appdetailsscreenshotssection_InstructionText_2QCkj {
     text-align: left;
     vertical-align: middle;
-    color: #8c8d8d;
+    color: #cacbcd;
     margin-bottom: 16px;
     font-size: 13px; }
   .appdetailsscreenshotssection_ScreenshotsSection_2_TE0 .appdetailsscreenshotssection_NoneTaken_2_Wwn {
     font-size: 13px;
-    color: #8c8d8d;
+    color: #cacbcd;
     margin-bottom: 10px; }
 
 .appdetailsscreenshotssection_ScreenshotModal_2xAnv .DialogBody {
@@ -9353,7 +9353,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 
 .appdetailsreviewsection_AdditionalPlaytimeReminder_2dMi- {
   font-size: 14px;
-  color: #8c8d8d; }
+  color: #cacbcd; }
 
 .appdetailsreviewsection_ChangedYourMind_3RAZj {
   font-size: 13px;
@@ -9384,7 +9384,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   fill: #ec666d; }
 
 .appdetailsreviewsection_ReviewIconVoteColor_2tPd7 {
-  fill: #8c8d8d; }
+  fill: #cacbcd; }
 
 .appdetailsreviewsection_ThumbsDown_267pw {
   width: auto;
@@ -9444,7 +9444,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 
 .appdetailsreviewsection_PlayedForTime_BDa6l {
   font-size: 12px;
-  color: #8c8d8d;
+  color: #cacbcd;
   padding-bottom: 12px; }
 
 .appdetailsreviewsection_VoteUpDownContainer_RUbAG {
@@ -9746,7 +9746,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
         .appdetailsworkshopsection_WorkshopSection_2PfKa .appdetailsworkshopsection_WorkshopHeader_139ka .appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem .appdetailsworkshopsection_FeaturedItemDesc_3SzXr {
           position: relative;
           font-size: 13px;
-          color: #888;
+          color: #cacbcd;
           overflow: hidden;
           text-overflow: ellipsis;
           max-height: 60px;
@@ -12061,7 +12061,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     border: none;
     height: 3px;
     margin-top: 7px;
-    background: #888;
+    background: #cacbcd;
     box-shadow: inset 0px 11px 8px -10px #131313; }
   div.appgrid_CoverSizeSlider_U4J9B .DialogSlider_Value {
     display: none; }
@@ -16431,7 +16431,7 @@ span.partnersaledisplay_vr_required_1P__h {
   .partnersaledisplay_SaleSectionTabs_1FPIV .partnersaledisplay_SaleSectionTabsTab_3BgHm {
     background-color: black;
     padding: 0px 12px;
-    color: #888;
+    color: #cacbcd;
     font-size: 16px;
     min-width: max-content;
     width: auto;
@@ -20575,7 +20575,7 @@ div.creatorhomeembed_SocialContainer_1o1Ds {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  color: #888890;
+  color: #cacbcd890;
   font-size: 13px;
   position: absolute;
   top: 0;
