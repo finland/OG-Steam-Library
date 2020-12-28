@@ -7,7 +7,4 @@ Library theme for use with <a href="https://github.com/ungstein/OG-Steam">OG-Ste
  ![Preview](media/AppDetails.png)
  ![Preview](media/NewCollection.png)
  ![Preview](media/Uninstall.png)
-
- Stock Comparison
- -
- ![Stock](media/Stock.png)
+ 
