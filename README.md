@@ -5,6 +5,7 @@ Installing
 -
 
 * Make sure SteamFriendsPatcher.exe is running.
+* Make sure Steam Beta is checked in SteamFriendsPatcher Settings.
 * Copy the **steamui** folder into your Steam installation folder (e.g. "C:\Program Files (x86)\Steam").
 
  Preview
