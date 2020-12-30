@@ -7034,8 +7034,9 @@ img.emoticon_emoticon_AB86v {
   height: 32px; }
 
 .artworkmodal_ArtworkModal_36VpV {
-  border: 2px solid black;
-  box-sizing: border-box; }
+	border-style: solid;
+	border-width: 1px;
+	border-color: #808080 #282e22 #282e22 #808080; }
   .artworkmodal_ArtworkModal_36VpV .artworkmodal_ModalArtCloseButton_OuOr8 {
     width: 50%;
     min-width: fit-content;
@@ -7046,30 +7047,32 @@ img.emoticon_emoticon_AB86v {
 .artworkmodal_ModalBox_1Lfu7 {
   display: flex;
   flex-direction: column;
-  background: radial-gradient(132% 155% at 50% 28%, rgba(113, 125, 145, 0.5) 0%, rgba(75, 81, 92, 0) 60%), #25282e;
-  box-shadow: inset 0 0 0 6px #0003; }
+  background: #4c5844;
+  box-shadow: none; }
 
 .artworkmodal_ArtworkModalContainer_bAmL1 {
   display: flex;
   flex-direction: column;
   padding: 24px;
-  padding-bottom: 8px;
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, transparent 12px, #0003 23px, #0008 24px, black 24px, black calc( 100% - 12px), transparent calc( 100% - 6px));
+  padding-bottom: 0px;
+  webkit-mask-image: linear-gradient(to bottom, transparent 0%, transparent 12px, #0003 23px, #0008 24px, black 24px, black calc( 100% - 12px), transparent calc( 100% - 6px));
   overflow-y: scroll;
   box-sizing: border-box; }
   .artworkmodal_ArtworkModalContainer_bAmL1::-webkit-scrollbar {
+	background-color: #3e4637;
     width: 12px; }
   .artworkmodal_ArtworkModalContainer_bAmL1::-webkit-scrollbar-thumb {
+	background-color: #4c5844;
     width: 4px;
     border: 3px solid transparent;
     background-image: none; }
   .artworkmodal_ArtworkModalContainer_bAmL1::-webkit-scrollbar-track, .artworkmodal_ArtworkModalContainer_bAmL1::-webkit-scrollbar-button {
     display: none; }
   .artworkmodal_ArtworkModalContainer_bAmL1::-webkit-scrollbar-thumb:hover {
-    background-color: #606774;
+    background-color: #4c5844;
     background-clip: padding-box; }
   .artworkmodal_ArtworkModalContainer_bAmL1::-webkit-scrollbar-corner {
-    background-color: #434953; }
+    background-color: #4c5844; }
 
 .artworkmodal_ArtworkModalDetails_1sEyq {
   display: flex;
@@ -7213,10 +7216,13 @@ img.emoticon_emoticon_AB86v {
   align-items: center;
   padding: 6px 25px 8px 25px;
   height: 20px;
-  border-radius: 2px;
+  border-radius: 0px;
   cursor: pointer;
-  background: #3d4450;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  background: #4c5844;
+  box-shadow: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080 #282e22 #282e22 #808080;
   color: #dfe3e6;
   transition-property: background, color, box-shadow;
   transition-duration: 0.2s;
@@ -7224,10 +7230,13 @@ img.emoticon_emoticon_AB86v {
   .sharedialog_ShareButton_1FFkd span {
     margin-left: 10px; }
   .sharedialog_ShareButton_1FFkd:hover {
-    background: #666360;
+    background: #4c5844;
     color: white;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5); }
-
+    box-shadow: none; }
+  .sharedialog_ShareButton_1FFkd:active {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #282e22 #808080 #808080 #282e22; }
 .sharescreenshotupload_ShareScreenshotDialog_3VEpp {
   min-width: 460px; }
 
@@ -22512,7 +22521,7 @@ button.DialogButton::-moz-focus-inner {
   z-index: 1500; }
 
 .FullModalOverlay.NotReadyToRender {
-  background: black; }
+  background: #4c5844; }
 
 .FullModalOverlay .ModalPosition_Content {
   height: initial;
