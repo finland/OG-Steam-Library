@@ -4488,7 +4488,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
 
 /* stylelint-enable */
 .appactivityday_AppActivityDay_S2Fu9 {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 	background: #4c5844;
 	border-style: solid;
 	border-width: 1px;
@@ -4497,8 +4497,8 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
 	border-image-width: 3px;
 	border-image-repeat: stretch;
 	border-image-slice: 7;*/
-    padding: 5px 0px 2px 8px;
-  /*@include respond-to(narrow-right-panel) { width: 100%; }*/ }
+    padding: 5px 0px 2px 8px; }
+  /*@include respond-to(narrow-right-panel) { width: 100%; }*/
   .appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
     color: #ccc;
     text-transform: uppercase;
@@ -9262,7 +9262,18 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     perspective-origin: 0 0; }
   .appdetails_ScrollContainer_2l416 .appdetails_InnerContainer_1Svpj {
     overflow: hidden;
-    min-height: 100%; }
+    min-height: 100%;
+	animation: fadein .5s linear forwards }
+	
+@-webkit-keyframes fadein {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+}
 
 .appdetails_Throbber_NCAc- {
   margin: auto;
@@ -11240,9 +11251,11 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   transition-property: none;
   transition-duration: 0s;
   transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
-  border-top: 1px solid rgba(201, 201, 201, 0.06);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #282e22 #808080 #808080 #282e22;
+  box-shadow: none;
+  background: #3e4637
   transform-origin: 50% 50%;
   transform-style: preserve-3d;
   overflow: hidden;
@@ -11288,7 +11301,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     height: 32px;
     max-width: 20%;
     position: absolute;
-    bottom: 2%;
+    top: 2%;
     left: 5%;
     opacity: .2;
     transition-property: opacity, background-color;
@@ -11301,7 +11314,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg:hover .appportrait_UninstalledIcon_8YrRm {
     opacity: .5;
     background-color: #0008;
-    border-radius: 4px;
+    border-radius: none;
     padding: 4px; }
     .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg:hover .appportrait_UninstalledIcon_8YrRm.appportrait_ComingSoonIcon_1pvln {
       background-color: #0000; }
@@ -12329,7 +12342,8 @@ div.appgrid_CoverSizeSlider_U4J9B {
       flex: none;
       font-weight: 100;
       letter-spacing: 2px;
-      font-size: 16px; }
+      font-size: 16px;
+	  color: #c4b550; }
     .collectionview_Container_2q70u .collectionview_Header_2rqTS .collectionview_SectionCount_3Xgxj {
       margin-left: 8px;
       color: dimgray;
