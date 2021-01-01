@@ -86,7 +86,7 @@ steamui\libraryroot.custom.css
   margin: 0px 0px;
   transform: scale(0.86, 0.86) translateX(0px);
   transition-property: transform;
-  transition-duration: 0.34s;
+  transition-duration: 0s;
   transition-timing-function: cubic-bezier(0.42, 0, 0.19, 2.28);
   flex-direction: row;
   flex-shrink: 0; }
@@ -152,7 +152,7 @@ steamui\libraryroot.custom.css
   height: calc( 100% - 2px);
   width: calc( 100% - 2px);
   box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.3);
-  transition: filter .24s ease-in-out; }
+  transition: filter 0s ease-in-out; }
 
 .steamavatar_avatarFrame_X_mJE {
   position: absolute;
@@ -727,7 +727,7 @@ steamui\libraryroot.custom.css
   height: 16px;
   position: relative;
   cursor: pointer;
-  transition: opacity .2s ease-in-out; }
+  transition: none; }
   .toggle_Toggle_3POJz.toggle_Disabled_1jIKG {
     cursor: default;
     opacity: 0.6; }
@@ -742,7 +742,7 @@ steamui\libraryroot.custom.css
     background-color: #26292e; }
     .toggle_Toggle_3POJz .toggle_ToggleRail_3DiLY.toggle_Highlight_2FNJu {
       background-color: #2d5a81;
-      transition: width .2s ease-in-out; }
+      transition: none; }
       .toggle_Toggle_3POJz .toggle_ToggleRail_3DiLY.toggle_Highlight_2FNJu.toggle_On_3N31m {
         width: 36px; }
       .toggle_Toggle_3POJz .toggle_ToggleRail_3DiLY.toggle_Highlight_2FNJu.toggle_Off_1Qa-r {
@@ -754,7 +754,7 @@ steamui\libraryroot.custom.css
     box-shadow: 0px 0px 3px #000a;
     position: absolute;
     left: 0;
-    transition: transform .2s ease-in-out, background-color .2s ease-in-out; }
+    transition: none; }
     .toggle_Toggle_3POJz .toggle_ToggleSwitch_21X4K.toggle_On_3N31m {
       background-color: #16a1e1;
       background-image: linear-gradient(to bottom, #01c7f9, #3066f5);
@@ -1139,7 +1139,7 @@ body.modals_BodyNoScrollDialog_105OB {
 .DialogLabel.savecollectiondialog_Required_w_ZWy {
   color: rgba(185, 99, 99, 0.6);
   margin-left: 10px;
-  transition: all .21s ease-in-out;
+  transition: none;
   opacity: 0;
   font-weight: 400; }
   .DialogLabel.savecollectiondialog_Required_w_ZWy.savecollectiondialog_Visible_2B-bI {
@@ -1477,7 +1477,7 @@ body.modals_BodyNoScrollDialog_105OB {
           left: 0;
           right: 0;
           background: rgba(131, 0, 0, 0.5);
-          transition: all .3s linear; }
+          transition: none; }
     .gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_ .gamelistsearchbar_GameIcon_2uTOQ {
       width: 18px;
       height: 18px;
@@ -1520,7 +1520,7 @@ body.modals_BodyNoScrollDialog_105OB {
     height: 100%; }
 
 .libraryassetimage_Visibility_3d_bT {
-  transition: opacity 200ms cubic-bezier(0, 0.7, 0.8, 1) 0s; }
+  transition: opacity 0ms cubic-bezier(0, 0.7, 0.8, 1) 0s; }
   .libraryassetimage_Visibility_3d_bT.libraryassetimage_Visible_yDr03 {
     opacity: 1.0; }
   .libraryassetimage_Visibility_3d_bT.libraryassetimage_Hidden_1qs7p {
@@ -1559,7 +1559,7 @@ body.modals_BodyNoScrollDialog_105OB {
   position: fixed;
   z-index: 5000;
   perspective: 100px;
-  transition: transform .16s ease-in-out; }
+  transition: none; }
   .draganddrop_GhostContainer_Luubb .draganddrop_Ghost_9lwON {
     display: flex;
     min-width: 0px;
@@ -1580,8 +1580,8 @@ body.modals_BodyNoScrollDialog_105OB {
 
 .draganddrop_Draggable_2wgFG {
   position: relative;
-  transition-property: transform, filter, opacity, box-shadow;
-  transition-duration: .21s;
+  transition-property: none;
+  transition-duration: 0s;
   transition-timing-function: ease-in-out; }
   .draganddrop_Draggable_2wgFG.draganddrop_Active_1FSEr {
     opacity: 0.5;
@@ -1634,7 +1634,7 @@ body.modals_BodyNoScrollDialog_105OB {
   position: fixed;
   z-index: 100;
   opacity: 0;
-  transition: opacity 0.25s;
+  transition: opacity 0s;
   pointer-events: none; }
   .hoverposition_HoverPosition_3vg1v.hoverposition_Ready_1Ye_0 {
     opacity: 1; }
@@ -1708,7 +1708,7 @@ body.modals_BodyNoScrollDialog_105OB {
   padding-top: 10px;
   overflow: hidden;
   text-align: center;
-  transition-property: transform, opacity, filter;
+  transition-property: none;
   transition-duration: .3s, .3s, .12s;
   transition-timing-function: ease-in-out;
   pointer-events: none;
@@ -1749,7 +1749,7 @@ body.modals_BodyNoScrollDialog_105OB {
   overflow: hidden; }
 
 .cssgrid_Animate_1IbFa {
-  transition: height 0.3s ease-in-out; }
+  transition: none; }
 
 /* stylelint-disable */
 
@@ -1819,7 +1819,7 @@ body.modals_BodyNoScrollDialog_105OB {
   overflow: hidden;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
-  transition: all .2s ease-in-out;
+  transition: none;
   border: 2px solid transparent;
   z-index: 0; }
   .allcollections_Collection_3IWn-.Focusable:focus {
@@ -1852,7 +1852,7 @@ body.modals_BodyNoScrollDialog_105OB {
     right: 0;
     background-size: contain;
     background-repeat: no-repeat;
-    transition: all .2s ease-in-out;
+    transition: none;
     z-index: 4;
     perspective: 1000px;
     perspective-origin: 50% 50%; }
@@ -1897,7 +1897,7 @@ body.modals_BodyNoScrollDialog_105OB {
       align-content: center;
       align-items: center;
       justify-content: center;
-      transition: transform .21s ease-in-out; }
+      transition: none; }
     .allcollections_Collection_3IWn- .allcollections_CollectionImage_2ERAQ .allcollections_CapsuleImage_2zbkb {
       width: 60px;
       opacity: 1;
@@ -1908,7 +1908,7 @@ body.modals_BodyNoScrollDialog_105OB {
       border-top: 1px solid #fff4;
       border-right: 1px solid #fff4;
       box-shadow: -8px 14px 12px 0px rgba(0, 0, 0, 0.6);
-      transition: box-shadow .21s ease-in-out; }
+      transition: none; }
       .LowPerfMode .allcollections_Collection_3IWn- .allcollections_CollectionImage_2ERAQ .allcollections_CapsuleImage_2zbkb {
         filter: saturate(0.6) contrast(1) brightness(0.8); }
     .allcollections_Collection_3IWn- .allcollections_CollectionImage_2ERAQ.allcollections_Has1Apps_3R8nX .allcollections_CapsuleImage_2zbkb {
@@ -1992,7 +1992,7 @@ body.modals_BodyNoScrollDialog_105OB {
     left: calc( 50% - 16px);
     width: 32px;
     text-align: center;
-    transition: transform .21s ease-in-out; }
+    transition: none; }
   .allcollections_Collection_3IWn- .allcollections_NavTimer_2Tnpa {
     box-sizing: border-box;
     border-radius: 50%;
@@ -2023,7 +2023,7 @@ body.modals_BodyNoScrollDialog_105OB {
         stroke-width: 10px;
         stroke: #74d1ff;
         stroke-dasharray: 805;
-        transition: all .2s linear; }
+        transition: none; }
     .allcollections_Collection_3IWn- .allcollections_NavTimer_2Tnpa.allcollections_StartTimer_3rL54 .allcollections_Message_1XmVt {
       opacity: 0; }
     .allcollections_Collection_3IWn- .allcollections_NavTimer_2Tnpa.allcollections_StartTimer_3rL54 svg {
@@ -2303,7 +2303,7 @@ body.modals_BodyNoScrollDialog_105OB {
   right: 32px;
   bottom: 32px;
   -webkit-app-region: no-drag;
-  transition: all .16s ease-in-out;
+  transition: none;
   z-index: 50; }
   .sharedappdetailsheader_BoxSizerDragBox_3ICyu.sharedappdetailsheader_EdgeDown_3BLqo {
     z-index: 52;
@@ -2363,7 +2363,7 @@ body.modals_BodyNoScrollDialog_105OB {
       cursor: default;
       opacity: 0;
       -webkit-app-region: no-drag;
-      transition: all .21s ease-in-out; }
+      transition: none; }
     .sharedappdetailsheader_BoxSizerEdge_253kK.sharedappdetailsheader_Middle_193Yt .sharedappdetailsheader_BoxSizerSettings_7bAuQ {
       width: 20px;
       height: 20px;
@@ -2375,12 +2375,12 @@ body.modals_BodyNoScrollDialog_105OB {
       cursor: default;
       opacity: 0;
       -webkit-app-region: no-drag;
-      transition: all .21s ease-in-out; }
+      transition: none; }
     .sharedappdetailsheader_BoxSizerEdge_253kK.sharedappdetailsheader_Middle_193Yt .sharedappdetailsheader_BoxSizerDelete_3IBT6 line,
     .sharedappdetailsheader_BoxSizerEdge_253kK.sharedappdetailsheader_Middle_193Yt .sharedappdetailsheader_BoxSizerSettings_7bAuQ line {
       stroke-width: 26px;
       stroke: #008ada;
-      transition: all .21s ease-in-out; }
+      transition: none; }
     .sharedappdetailsheader_BoxSizerEdge_253kK.sharedappdetailsheader_Middle_193Yt:hover .sharedappdetailsheader_BoxSizerDelete_3IBT6:hover line,
     .sharedappdetailsheader_BoxSizerEdge_253kK.sharedappdetailsheader_Middle_193Yt:hover .sharedappdetailsheader_BoxSizerSettings_7bAuQ:hover line {
       stroke: #cce0ff; }
@@ -2519,7 +2519,7 @@ body.modals_BodyNoScrollDialog_105OB {
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background-color: rgba(0, 0, 0, 0.1);
-  transition: all .16s ease-in-out;
+  transition: none;
   backdrop-filter: blur(6px); }
   .appdetailsheader_InCollection_1HS4t:hover {
     color: white;
@@ -2618,7 +2618,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
       opacity: 1;
       overflow: hidden;
       z-index: 2;
-      transition: all .21s ease-in-out;
+      transition: none;
       transform: translateY(0px) translateX(0px) scale(1); }
 
 .library_TopGradient_34Cqr {
@@ -2726,7 +2726,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
   left: 0;
   transition-timing-function: ease-in-out;
   transition-property: all;
-  transition-duration: 0.0s }
+  transition-duration: 0s }
   .library_AppDetailsMain_2Nq6o.library_AppDetailsTransitionEnter_1GnH9 {
     opacity: 0; }
   .library_AppDetailsMain_2Nq6o.library_AppDetailsTransitionEnterActive_17rLG {
@@ -2991,7 +2991,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
         height: 64px;
         width: 64px; }
         .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_ShortcutRow_3_JQe .appproperties_Icon_1UxV1 .appproperties_AssetImage_3tFB_:hover {
-          transition: all .1s ease-out;
+          transition: none;
           transform: scale(1.1);
           filter: brightness(1.1); }
     .appproperties_AppProperties_1FyBL .appproperties_Page_1SvWY .appproperties_ShortcutRow_3_JQe .appproperties_Name_bP2Ip {
@@ -3322,7 +3322,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
     flex-shrink: 0;
     flex-grow: 0;
     margin-right: 8px;
-    transition: all 0.2s ease-in-out; }
+    transition: none; }
 
 .appactionbutton_StreamingSelector_2q-gZ {
   margin-left: 3px;
@@ -3528,7 +3528,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
   font-size: 15px;
   font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
   font-weight: 300;
-  transition: color .94s ease-in-out;
+  transition: color 0s ease-in-out;
   text-shadow: 1px 1px 4px #000;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -3589,7 +3589,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
   margin-bottom: 1px;
   font-size: 12px;
   display: inline-block;
-  transition: color .94s ease-in-out;
+  transition: color 0s ease-in-out;
   text-shadow: 1px 1px 3px #000; }
 
 .titleBarContainer .currentUserContainer .personanameandstatus_compactView_3bbRZ .personanameandstatus_richPresenceLabel_2Ri00 {
@@ -3625,17 +3625,17 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
 .friendRequests .bright .moMutualFriends .personanameandstatus_playerName_nOdcT,
 .friendRequests .personanameandstatus_playerName_nOdcT {
   color: white;
-  transition: color .2s ease-in-out; }
+  transition: color 0s ease-in-out; }
 
 .friendRequests .noMutualFriends .personanameandstatus_playerName_nOdcT {
   color: #aaa;
-  transition: color .2s ease-in-out; }
+  transition: color 0s ease-in-out; }
 
 .MemberListColumn .personanameandstatus_statusAndName_4ZTzG .personanameandstatus_richPresenceLabel_2Ri00,
 .MemberListColumn .personanameandstatus_statusAndName_4ZTzG .personanameandstatus_playerNickname_2saJT,
 .MemberListColumn .personanameandstatus_statusAndName_4ZTzG .personanameandstatus_playerName_nOdcT {
   text-overflow: clip;
-  transition-delay: 0.4s; }
+  transition-delay: 0s; }
 
 .MemberListColumn.MemberListViewCompact .personanameandstatus_statusAndName_4ZTzG .personanameandstatus_richPresenceLabel_2Ri00,
 .MemberListColumn.MemberListViewCompact .personanameandstatus_statusAndName_4ZTzG .personanameandstatus_playerNickname_2saJT,
@@ -3829,13 +3829,13 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100% calc(100% + 32px); }
   .overflowbox_ExplicitlyCollapsed_2oYuV .overflowbox_OverflowBoxContent_3C0is {
-    -webkit-transition: max-height 0.32s ease-in-out, -webkit-mask-position-y 0.48s ease-in-out; }
+    -webkit-transition: max-height 0.32s ease-in-out, -webkit-mask-position-y 0s ease-in-out; }
   .overflowbox_OverflowBoxContent_3C0is.overflowbox_BoxCollapsed_2jHdb {
     -webkit-mask-position-y: -32px;
-    -webkit-transition-duration: 0.32s, 0.32s; }
+    -webkit-transition-duration: 0s, 0s; }
   .overflowbox_OverflowBoxContent_3C0is.overflowbox_BoxExpanded_3QyWK {
     -webkit-mask-position-y: 0px;
-    -webkit-transition-duration: 0.32s, 0.64s; }
+    -webkit-transition-duration: 0s, 0s; }
   .overflowbox_OverflowBoxContent_3C0is.overflowbox_NoTransitions_3yX0d {
     transition: none; }
   .overflowbox_OverflowBoxContent_3C0is.overflowbox_NoMask_3gj9A {
@@ -3950,7 +3950,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
   height: 100%;
   padding-bottom: 0;
   background: linear-gradient(to top, #24282f 18px, rgba(0, 0, 0, 0) 100%), rgba(29, 34, 39, 0.75);
-  transition: background 0.21s ease-in-out;
+  transition: none;
   margin-bottom: -1px; }
   .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_PlayBar_3fLo1 {
     /* When we scroll to the sticky position, transition to solid (so we don't show text over text). Also fade in a small boundary line to make this feel more like a header.*/
@@ -3983,7 +3983,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
   position: relative;
   display: flex;
   min-width: 0;
-  transition: opacity .16s ease-out, transform .16s ease-out;
+  transition: opacity 0s ease-out, transform 0s ease-out;
   /* This is here to prevent the flex box wrap taking up 2 lines. Height must match play button */
   max-height: 46px;
   overflow: hidden;
@@ -4004,12 +4004,12 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
     .appdetailsplaysection_StatusAndStats_1YbtI.appdetailsplaysection_PermanentlyUnavailable_3CYvy .appdetailsplaysection_PlayBarLabel_34lrt {
       margin-bottom: 2px; }
   .appdetailsplaysection_StatusAndStats_1YbtI > .appdetailsplaysection_GameStatsSection_1mDAV {
-    transition: opacity .2s ease-in-out;
+    transition: opacity 0s ease-in-out;
     opacity: 0.0; }
   .appdetailsplaysection_StatusAndStats_1YbtI.appdetailsplaysection_PermanentlyUnavailable_3CYvy > .appdetailsplaysection_GameStatsSection_1mDAV {
     opacity: 1.0; }
   .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_DetailsSection_1dg8h {
-    transition: opacity .2s ease-in-out, transform .16s ease-out;
+    transition: opacity 0s ease-in-out, transform .16s ease-out;
     opacity: 1.0; }
   .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_StatusNameContainer_zjtAI {
     position: relative;
@@ -4025,7 +4025,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    transition: opacity .16s ease-out, transform .16s ease-out;
+    transition: opacity 0s ease-out, transform 0s ease-out;
     align-self: stretch; }
   .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_PlayBarIconAndGame_2MBVR {
     box-sizing: border-box;
@@ -4038,7 +4038,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
     height: 32px;
     width: 100%;
     opacity: 0;
-    transition: opacity .16s ease-out;
+    transition: opacity 0s ease-out;
     pointer-events: none; }
     .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_PlayBarIconAndGame_2MBVR {
       opacity: 1; }
@@ -4149,7 +4149,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
     line-height: 12px;
     margin-top: -2px;
 	margin-left: -1.5px;
-    transition: color .12s ease-in-out; }
+    transition: color 0s ease-in-out; }
     .appdetailsplaysection_MenuButton_3qDWQ .appdetailsplaysection_DotDotDot_zvLq1 .SVGIcon_Arrow polyline {
       stroke-width: 24px; }
     .appdetailsplaysection_MenuButton_3qDWQ .appdetailsplaysection_DotDotDot_zvLq1 .SVGIcon_Information {
@@ -4157,7 +4157,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
       height: 20px;
       margin-left: -1px; }
     .appdetailsplaysection_MenuButton_3qDWQ .appdetailsplaysection_DotDotDot_zvLq1 .SVGIcon_Information .I {
-      transition: fill .12s ease-in-out; }
+      transition: fill 0s ease-in-out; }
   .appdetailsplaysection_MenuButton_3qDWQ:hover .appdetailsplaysection_DotDotDot_zvLq1 {
     color: white; }
     .appdetailsplaysection_MenuButton_3qDWQ:hover .appdetailsplaysection_DotDotDot_zvLq1 svg circle,
@@ -4168,13 +4168,13 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
       fill: white; }
   .appdetailsplaysection_MenuButton_3qDWQ svg {
     fill: rgba(255, 255, 255, 0.5);
-    transition: transform .32s ease-in-out; }
+    transition: transform 0s ease-in-out; }
     .appdetailsplaysection_MenuButton_3qDWQ svg circle,
     .appdetailsplaysection_MenuButton_3qDWQ svg polyline {
       stroke: rgba(255, 255, 255, 0.5);
-      transition: stroke .12s ease-in-out; }
+      transition: stroke 0s ease-in-out; }
     .appdetailsplaysection_MenuButton_3qDWQ svg path {
-      transition: fill .12s ease-in-out; }
+      transition: fill 0s ease-in-out; }
   .appdetailsplaysection_MenuButton_3qDWQ .Arrow1 {
     transform: translateX(12px); }
   .appdetailsplaysection_MenuButton_3qDWQ .Arrow2 {
@@ -4236,7 +4236,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
   width: 80px;
   border-radius: 5px;
   background-color: #151619;
-  transition: height .06s ease-in-out, border-radius .06s ease-in-out; }
+  transition: height 0s ease-in-out, border-radius .06s ease-in-out; }
   .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_DetailsProgressContainer_25YVD {
     height: 2px;
     border-radius: 1px; }
@@ -4246,7 +4246,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
     background-color: #2d73ff;
     border-radius: 5px;
     height: 100%;
-    transition: all .1s linear; }
+    transition: all 0s linear; }
   .appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_PortraitBar_YWYPg {
     background-color: #64c5f2;
     box-shadow: 0 0 10px #64c5f2;
@@ -4305,7 +4305,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
 .appdetailsplaysection_PlayBarLabel_34lrt {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.52);
-  transition: margin .1s ease-in-out;
+  transition: margin 0s ease-in-out;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 16px; }
@@ -4321,7 +4321,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
 .appdetailsplaysection_PlayBarDetailLabel_2TYVG {
   font-size: 13px;
   margin-right: 10px;
-  transition: margin .1s ease-in-out; }
+  transition: margin 0s ease-in-out; }
   div.NarrowRightPanel .appdetailsplaysection_PlayBarDetailLabel_2TYVG {
     font-size: 12px;
     line-height: 16px; }
@@ -4475,7 +4475,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   width: initial;
   margin-bottom: 0;
   border-radius: 2px;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  transition: background-color 0s ease-in-out, color .2s ease-in-out;
   text-decoration: none;
   cursor: pointer;
   float: right;
@@ -4662,7 +4662,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0s ease-in-out;
     transition-delay: 0.2s;
     pointer-events: none; }
   .appactivityday_ActiveScreenshot_290Dq:hover .appactivityday_ImageWrapper_rRIYi .appactivityday_SpoilerOverlay_1oYvb {
@@ -4695,7 +4695,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
       margin-bottom: 0;
       font-size: 12px; }
   .appactivityday_ScreenshotCarousel_1pdQd .appactivityday_ScreenshotCaption_23HTp {
-    transition: all 0.25s;
+    transition: none;
     color: #717070;
     font-size: 14px; }
   .appactivityday_ScreenshotCarousel_1pdQd .appactivityday_CarouselThumbs_1tRKR {
@@ -4717,7 +4717,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
       margin-right: 6px;
       vertical-align: top;
       cursor: pointer;
-      transition: all 0.18s ease-in-out;
+      transition: none;
       opacity: 0.4;
       transform: scale(0.95);
       background: #000000;
@@ -4791,7 +4791,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
         width: 64px;
         height: 64px; }
   .appactivityday_VideoCarousel_dUAJi .appactivityday_VideoTitle_1d0ij {
-    transition: all 0.25s;
+    transition: none;
     color: #94a1a6;
     margin-top: 8px;
     font-size: 16px; }
@@ -4808,7 +4808,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
       margin: 0 4px;
       width: 150px;
       cursor: pointer;
-      transition: opacity 0.25s;
+      transition: opacity 0s;
       opacity: 0.4;
       background: black;
       overflow: hidden; }
@@ -4988,7 +4988,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   border-image-slice: 7;
   box-shadow: none;
   background: transparent;
-  transition: all 0.2s ease-out; }
+  transition: none; }
   .appactivityday_PartnerEventTextOnly_3QRf-:hover {
     background: #4c5844;
     cursor: pointer; }
@@ -5047,7 +5047,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   font-size: 13px;
   text-transform: uppercase;
   margin-right: 4px;
-  transition: all 0.2s ease-out; }
+  transition: none; }
 
 .appactivityday_PartnerEventTypeUpdate_29bW1 {
   color: #289cff;
@@ -5177,14 +5177,14 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   width: 140px;
   height: 140px;
   margin: 8px;
-  transition: all .12s ease-in-out;
+  transition: none;
   cursor: pointer; }
 
 .appactivityday_BoosterPack_38INR {
   width: 200px;
   height: 200px;
   margin: 8px;
-  transition: all .12s ease-in-out;
+  transition: none;
   cursor: pointer; }
 
 .appactivityday_BadgeSection_3G7i5 {
@@ -5198,7 +5198,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   margin-right: 10px;
   margin-top: -8px;
   margin-left: 6px;
-  transition: all .12s ease-in-out; }
+  transition: none; }
   .appactivityday_Badge_1zopS.appactivityday_EmptyCircle_3e5oo {
     box-sizing: border-box;
     width: 52px;
@@ -5380,7 +5380,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   width: 48px;
   height: 48px;
   position: relative;
-  transition: transform .1s ease-in-out;
+  transition: none;
   vertical-align: top;
   box-shadow: 0 0 3px #0005; }
   .appdetailsachievementssection_TopSection_1LRR7 .appdetailsachievementssection_Icon_zcasg {
@@ -5573,13 +5573,13 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
 
 .bbcodes_Spoiler_6P2ip:hover > .bbcodes_SpoilerText_zk53W {
   visibility: visible;
-  transition-delay: 80ms;
-  transition-duration: 120ms; }
+  transition-delay: 0ms;
+  transition-duration: 0ms; }
 
 .bbcodes_SpoilerText_zk53W {
   visibility: hidden;
-  transition-delay: 80ms;
-  transition-duration: 120ms; }
+  transition-delay: 0ms;
+  transition-duration: 0ms; }
 
 .bbcodes_DisabledMouseEvents_3Ym0J {
   pointer-events: none; }
@@ -5685,7 +5685,7 @@ img.emoticon_emoticon_AB86v {
   vertical-align: middle;
   width: 20px;
   height: 20px;
-  transition: all .1s ease-in-out; }
+  transition: none; }
   img.emoticon_emoticon_AB86v.emoticon_large_4xBaT {
     width: 32px;
     height: 32px;
@@ -5975,7 +5975,7 @@ img.emoticon_emoticon_AB86v {
   /*flex: 6;*/
   flex-shrink: 1;
   width: 100%;
-  transition: all .2s ease-in-out; }
+  transition: none; }
 
 .chatentry_chatEntryActionsGroup_2WfNo {
   padding: 2px;
@@ -6168,7 +6168,7 @@ img.emoticon_emoticon_AB86v {
   margin-left: 8px;
   box-shadow: black 0px 0px 4px inset;
   transition-property: width, max-width, min-width, border-radius, background-position;
-  transition-duration: .3s, .3s, .3s, .6s;
+  transition-duration: 0s, 0s, 0s, 0s;
   background: radial-gradient(128px 128px at 20% 50%, #1da834 0%, rgba(27, 28, 32, 0) 100%);
   background-position: -190px 0px;
   background-color: #1b1c20;
@@ -6840,7 +6840,7 @@ img.emoticon_emoticon_AB86v {
             margin: -6px; }
         .comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL .comment_thread_CommentBody_1ltVe .comment_thread_CommentControls_2-3DH .comment_thread_CommentRatingButton_2ftHa {
           border-radius: 2px;
-          transition: all 0.2s ease-out;
+          transition: none;
           margin-right: 10px;
           cursor: pointer; }
           .comment_thread_ActivityCommentThread_39nna .comment_thread_Comment_515RL .comment_thread_CommentBody_1ltVe .comment_thread_CommentControls_2-3DH .comment_thread_CommentRatingButton_2ftHa .comment_thread_CommentRating_1L2eb {
@@ -7330,7 +7330,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appdetailscommunityfeed_InnerContainer_3Uy7t.appdetailscommunityfeed_HasBlanks_2hEnQ {
     opacity: 0.2;
     animation-name: appdetailscommunityfeed_BlankItemLoop_2yovz;
-    animation-duration: 1.0s;
+    animation-duration: 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
@@ -7451,7 +7451,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   position: relative;
   display: flex;
   flex-direction: column;
-  transition: box-shadow .21s ease-in-out; }
+  transition: none; }
   .appdetailscommunityfeed_CommunityItem_3QS6O.appdetailscommunityfeed_Blank_1HAb- {
     background-color: #646464;
     opacity: 1.0; }
@@ -7701,7 +7701,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     align-items: center;
     flex-direction: row-reverse;
     opacity: 0;
-    transition: all 0.16s ease-in-out;
+    transition: none;
     transform: scale(0.5);
     background-color: #d2d2d2;
     border-radius: 2px;
@@ -7738,7 +7738,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
       fill: white; }
   .appdetailscommunityfeed_MenuButton_CwZqp svg {
     fill: rgba(255, 255, 255, 0.5);
-    transition: fill 0.21s ease-in-out; }
+    transition: none; }
   .appdetailscommunityfeed_CommunityItem_3QS6O:hover .appdetailscommunityfeed_MenuButton_CwZqp {
     opacity: 1;
     transform: scale(1); }
@@ -7798,8 +7798,8 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: opacity 0.5s ease-in-out;
-  transition-delay: 0.2s;
+  transition: opacity 0s ease-in-out;
+  transition-delay: 0s;
   pointer-events: none; }
 
 .appdetailscommunityfeed_ArtItem_1aP1b:hover .appdetailscommunityfeed_SpoilerOverlay_2uP7d,
@@ -7833,7 +7833,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   margin-right: 10px;
   margin-top: -8px;
   margin-left: 6px;
-  transition: all .12s ease-in-out; }
+  transition: none; }
   .appdetailstradingcardssection_Badge_RPcyJ.appdetailstradingcardssection_EmptyCircle_2feGA {
     box-sizing: border-box;
     width: 52px;
@@ -7889,7 +7889,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   perspective: 250px;
   transform-style: flat;
   transition-property: transform, z-index;
-  transition-duration: .32s, 0s;
+  transition-duration: 0s, 0s;
   animation: appdetailstradingcardssection_animateZ_3VKsZ .32s forwards;
   font-size: .1px; }
   .appdetailstradingcardssection_Card_1WsOn .appdetailstradingcardssection_AspectRatioBox_1PA6A {
@@ -7912,7 +7912,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     border-radius: 2px;
     border: 0.5px solid black;
     transition-property: transform, box-shadow;
-    transition-duration: 0s, 0.21s;
+    transition-duration: 0s, 0s;
     transition-timing-function: ease-in-out;
     overflow: hidden;
     background-color: black;
@@ -7957,7 +7957,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     margin-left: -6em;
     margin-top: -8em;
     opacity: 0;
-    transition: opacity .21s ease-in-out; }
+    transition: opacity 0s ease-in-out; }
   .appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Clickable_2gXzF {
     cursor: pointer; }
   .appdetailstradingcardssection_Card_1WsOn img {
@@ -7978,7 +7978,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
       box-shadow: 10px 20px 32px 1px #000000ab; }
   .appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Owned_2uDS7.appdetailstradingcardssection_AnimateHover_QljE8:active {
     transform: scale(2.35);
-    transition-duration: .06s;
+    transition-duration: 0s;
     z-index: 10; }
 
 .appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Loading_2ZOgN .appdetailstradingcardssection_CardImage_1DgYm {
@@ -8132,7 +8132,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   justify-content: flex-end;
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.25s; }
+  transition: max-height 0s; }
   .appdetailsactivitysection_StatusControlsRow_1HHZQ.appdetailsactivitysection_StatusControlsActive_3UJUK {
     max-height: 50px; }
   .appdetailsactivitysection_StatusControlsRow_1HHZQ .appdetailsactivitysection_FormattingSpacer_3RowZ {
@@ -8157,14 +8157,14 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
-  transition: background-color 0.25s; }
+  transition: background-color 0s; }
   .appdetailsactivitysection_FormattingButton_2Whi7:focus {
     outline: none; }
   .appdetailsactivitysection_FormattingButton_2Whi7 line,
   .appdetailsactivitysection_FormattingButton_2Whi7 circle,
   .appdetailsactivitysection_FormattingButton_2Whi7 path {
     stroke: #8492a4;
-    transition: stroke 0.25s; }
+    transition: stroke 0s; }
   .appdetailsactivitysection_FormattingButton_2Whi7:hover line,
   .appdetailsactivitysection_FormattingButton_2Whi7:hover circle,
   .appdetailsactivitysection_FormattingButton_2Whi7:hover path {
@@ -8662,7 +8662,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     bottom: 0;
     left: 0;
     background: linear-gradient(to bottom, rgba(235, 245, 255, 0.25) 0%, rgba(10, 10, 10, 0) 40%, rgba(10, 10, 10, 0) 65%, rgba(10, 10, 10, 0.8) 100%);
-    transition: opacity .3s;
+    transition: opacity 0s;
     opacity: .5; }
 
 .appdetailsdlcsection_Hover_1V52f {
@@ -8811,7 +8811,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   position: relative;
   grid-area: portrait;
   transform-origin: 10% 50%;
-  transition: transform .21s ease-in-out, border .21s ease-in-out;
+  transition: none;
   border: 1px solid transparent;
   height: fit-content; }
   .appdetailsgameinfopanel_Portrait_1Id6Z:hover .appdetailsgameinfopanel_ZoomInButton_2mMT5 {
@@ -8826,7 +8826,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     background-color: #666c;
     cursor: pointer;
     opacity: .25;
-    transition: opacity .18s ease-in-out; }
+    transition: opacity 0s ease-in-out; }
     .appdetailsgameinfopanel_Portrait_1Id6Z .appdetailsgameinfopanel_ZoomInButton_2mMT5:hover {
       opacity: 1; }
   .appdetailsgameinfopanel_Portrait_1Id6Z.appdetailsgameinfopanel_Expanded_YR4JA {
@@ -8870,8 +8870,8 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     text-decoration-color: #8082aa; }
 
 .appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ {
-  transition: all .3s ease-in-out, overflow 0s linear;
-  transition-delay: 0s, 1.25s;
+  transition: none;
+  transition-delay: 0s, 0s;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
@@ -8882,7 +8882,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ.appdetailsgameinfocontainer_SuppressTransition_2OLz4 {
     transition: none !important; }
   .appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ > div:not(.appdetailsgameinfocontainer_GameInfoShadow_1FXWy) {
-    transition: transform .28s ease-in-out;
+    transition: none;
     transform: scale(0.5);
     transform-origin: 50%; }
   .appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ.appdetailsgameinfocontainer_AppDetailsExpanded_3s6_6 {
@@ -8904,7 +8904,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     bottom: 0;
     background-color: #000a;
     pointer-events: none;
-    transition: opacity .4s ease-in-out;
+    transition: opacity 0s ease-in-out;
     opacity: 1;
     z-index: 10;
     border-radius: 4px;
@@ -8935,7 +8935,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   width: 19px;
   height: 19px;
   opacity: 0.2;
-  transition: opacity 0.2s ease-in-out; }
+  transition: opacity 0s ease-in-out; }
   .screenshots_ClickableScreenshot_3JNo1:hover .screenshots_ScreenshotShareIcon_gOv9M {
     opacity: 1.0; }
 
@@ -9790,7 +9790,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
         background: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
         background-position: 25%;
         background-size: 330% 100%;
-        transition: all 0.2s ease-out;
+        transition: none;
         cursor: pointer;
         padding: 4px 12px 4px 8px;
         border-radius: 2px; }
@@ -9956,7 +9956,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   background: radial-gradient(100% 80% at 64% 95%, rgba(102, 89, 151, 0.5) 0%, rgba(35, 48, 66, 0.3) 40%, rgba(21, 22, 22, 0.1) 100%), rgba(28, 23, 90, 0.308);
   box-shadow: 1px 2px 4px 1px rgba(21, 15, 26, 0.7);
   margin: 0px 16px 6px 0px;
-  transition: filter .06s ease-in-out; }
+  transition: filter 0s ease-in-out; }
   .appdetailsspotlight_NewDLCImage_2ze8W:hover {
     filter: brightness(1.2);
     background: radial-gradient(100% 80% at 64% 95%, rgba(102, 89, 151, 0.9) 0%, rgba(35, 48, 66, 0.6) 40%, rgba(21, 22, 22, 0.3) 100%), rgba(28, 23, 90, 0.308); }
@@ -10112,7 +10112,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   margin-left: auto;
   margin-right: auto;
   filter: saturate(0.9);
-  transition: transform .21s ease-in-out, filter .21s ease-in-out; }
+  transition: transform 0s ease-in-out, filter 0s ease-in-out; }
   .spotlight_MajorEventContainer_dVJB2:hover .spotlight_MajorEventImage_25fL1 {
     transform: scale(1.02);
     filter: saturate(1); }
@@ -10307,7 +10307,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   min-width: none;
   margin-right: 0;
   margin-bottom: 20px;
-  transition: margin .22s ease-in-out; }
+  transition: margin 0s ease-in-out; }
   .spotlightgameplaysummary_SummaryTradingCard_2FvCW:hover {
     transform: translateY(-30px);
     margin-top: -12px;
@@ -10326,7 +10326,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   margin: 0;
   transition-timing-function: ease-in-out;
   transition-property: all;
-  transition-duration: 0.20s; }
+  transition-duration: 0s; }
   .spotlightgameplaysummary_SummaryAchievement_qBmIH.spotlightgameplaysummary_AppDetailsTransitionEnter_2zdZr {
     opacity: 0; }
   .spotlightgameplaysummary_SummaryAchievement_qBmIH.spotlightgameplaysummary_AppDetailsTransitionEnterActive_2UnWH {
@@ -10428,7 +10428,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 
 .boxcarousel_ArrowWrapper_4GcCG {
   overflow: hidden;
-  transition: opacity .3s ease-in-out;
+  transition: opacity 0s ease-in-out;
   z-index: 5;
   opacity: 1;
   position: absolute;
@@ -10447,7 +10447,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .boxcarousel_ArrowWrapper_4GcCG svg {
     width: 150%; }
     .boxcarousel_ArrowWrapper_4GcCG svg polygon {
-      transition: fill .21s ease-in-out;
+      transition: fill 0s ease-in-out;
       fill: #a3a4a7; }
   .boxcarousel_ArrowWrapper_4GcCG.boxcarousel_Hidden_2VsTM {
     opacity: 0.0;
@@ -10464,7 +10464,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   display: flex;
   overflow-x: scroll;
   overflow-y: hidden;
-  transition: all .21s ease-in-out;
+  transition: none;
   box-sizing: border-box; }
   .boxcarousel_BoxCarouselContents_3CJct.boxcarousel_MaskRight_1urF0 {
     --negative-margin: 24px;
@@ -11201,7 +11201,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   box-sizing: border-box;
   color: transparent;
   object-fit: contain;
-  transition-property: padding, filter, opacity, transform;
+  transition-property: none;
   transition-duration: .4s, .4s, .4s, .2s;
   transition-timing-function: cubic-bezier(0, 0.7, 0.8, 1); }
   .appportrait_FeaturedCapsule_xp7A- .appportrait_PortraitImage_2IYf7.appportrait_Portrait_1Pf6J {
@@ -11237,8 +11237,8 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   position: relative;
   filter: brightness(1) contrast(1);
   cursor: pointer;
-  transition-property: filter, box-shadow, transform;
-  transition-duration: 0.6s;
+  transition-property: none;
+  transition-duration: 0s;
   transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
   border-top: 1px solid rgba(201, 201, 201, 0.06);
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
@@ -11280,7 +11280,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .NavArea .appportrait_LibraryItemBox_WYgDg {
     transform-style: initial; }
   .appportrait_LibraryItemBox_WYgDg:active, .appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV-:active, .appportrait_LibraryItemBox_WYgDg.appportrait_InPlayNext_L3xTn:active {
-    transition-duration: 0.05s;
+    transition-duration: 0s;
     transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
     filter: brightness(1.2); }
   .appportrait_LibraryItemBox_WYgDg .appportrait_UninstalledIcon_8YrRm {
@@ -11292,7 +11292,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     left: 5%;
     opacity: .2;
     transition-property: opacity, background-color;
-    transition-duration: 0.6s;
+    transition-duration: 0s;
     transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
     padding: 4px; }
   .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
@@ -11326,7 +11326,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     .NavArea .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg.appportrait_Landscape_3VOR2:hover .appportrait_PortraitImage_2IYf7.appportrait_Landscape_3VOR2 img {
       transform: initial; }
   .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg.appportrait_Landscape_3VOR2:hover .appportrait_PortraitImage_2IYf7.appportrait_Landscape_3VOR2:active {
-    transition-duration: 0.05s;
+    transition-duration: 0s;
     transition-timing-function: ease-out;
     filter: brightness(0.8) contrast(1.05) saturate(1); }
   .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg.appportrait_Landscape_3VOR2:hover .appportrait_FooterBlurImage_2nq-z {
@@ -11336,17 +11336,17 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appportrait_LibraryItemBox_WYgDg.appportrait_Landscape_3VOR2 {
     overflow: hidden; }
     .appportrait_LibraryItemBox_WYgDg.appportrait_Landscape_3VOR2 img {
-      transition-duration: 0.6s;
+      transition-duration: 0s;
       transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1); }
   .appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV-, .appportrait_LibraryItemBox_WYgDg.appportrait_InPlayNext_L3xTn, .appportrait_LibraryItemBox_WYgDg.appportrait_InFriendsActivity_3ngZC {
-    transition-duration: 0.4s;
+    transition-duration: 0s;
     transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1); }
     .appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV- .appportrait_LibraryItemBoxTitle_1tO8p, .appportrait_LibraryItemBox_WYgDg.appportrait_InPlayNext_L3xTn .appportrait_LibraryItemBoxTitle_1tO8p, .appportrait_LibraryItemBox_WYgDg.appportrait_InFriendsActivity_3ngZC .appportrait_LibraryItemBoxTitle_1tO8p {
       display: none; }
   .appportrait_LibraryItemBox_WYgDg.appportrait_InFriendsActivity_3ngZC {
     border-radius: initial; }
   .appportrait_LibraryItemBox_WYgDg.appportrait_InGameDetails_1QRCG {
-    transition-duration: 0.4s;
+    transition-duration: 0s;
     transition-timing-function: linear;
     border: none;
     margin-right: 16px;
@@ -11373,7 +11373,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   margin-right: auto;
   margin-top: -16px;
   position: relative;
-  transition: transform 0.32s cubic-bezier(0, 0.73, 0.48, 1);
+  transition: transform 0s cubic-bezier(0, 0.73, 0.48, 1);
   transform-origin: 0 100%; }
   .LibraryDisplaySizeSmall .appportrait_LibraryItemBoxSubscript_1LJqx {
     font-size: 10px; }
@@ -11448,7 +11448,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appportrait_UninstalledBar_kX-tI .appportrait_UninstalledProgressBar_mA39H {
     background-color: #20aaeb;
     height: 100%;
-    transition: all .8s ease-out; }
+    transition: none; }
 
 .appportrait_LibraryItemUpdateBadge_24AOi {
   position: absolute;
@@ -11492,7 +11492,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   box-shadow: 0px 1px 8px 0px #253553;
   overflow: hidden;
   text-overflow: ellipsis;
-  transition: transform 0.32s cubic-bezier(0, 0.73, 0.48, 1);
+  transition: transform 0s cubic-bezier(0, 0.73, 0.48, 1);
   pointer-events: none; }
   .appportrait_Draggable_1pwP4.appportrait_HoversEnabled_54PuC:not(.appportrait_Soundtrack_3Lu_5):hover .appportrait_AppPortraitBanner_N8aJr {
     transform: translateZ(12px); }
@@ -11513,7 +11513,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   align-items: center;
   opacity: 0;
   transition-property: opacity, transform, background;
-  transition-duration: .21s;
+  transition-duration: 0s;
   transition-timing-function: ease-in-out;
   transform: scale(0.75);
   z-index: 5; }
@@ -11561,16 +11561,16 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     margin-left: 9.37%;
     fill: #c1ebff;
     transition-property: fill, transform;
-    transition-duration: .21s;
+    transition-duration: 0;
     transition-timing-function: ease-in-out; }
   .appportrait_LibraryItemActionButton_3AjoL .SVGIcon_Pause {
     width: 56.25%;
     height: 56.25%;
-    transition: transform .21s ease-in-out; }
+    transition: transform 0s ease-in-out; }
   .appportrait_LibraryItemActionButton_3AjoL .SVGIcon_Download {
     width: 50.25%;
     height: 50.25%;
-    transition: transform .21s ease-in-out; }
+    transition: transform 0s ease-in-out; }
     .appportrait_LibraryItemActionButton_3AjoL .SVGIcon_Download line {
       stroke-width: 20px; }
     .appportrait_LibraryItemActionButton_3AjoL .SVGIcon_Download polyline {
@@ -11578,7 +11578,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appportrait_LibraryItemActionButton_3AjoL .SVGIcon_X_Line {
     width: 56.25%;
     height: 56.25%;
-    transition: transform .21s ease-in-out; }
+    transition: transform 0s ease-in-out; }
     .appportrait_LibraryItemActionButton_3AjoL .SVGIcon_X_Line line {
       stroke-width: 16px; }
   .appportrait_LibraryItemActionButton_3AjoL .SVGIcon_Reload {
@@ -11595,7 +11595,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     border-radius: 2px;
     position: absolute;
     transition-property: border-color, transform;
-    transition-duration: .21s;
+    transition-duration: 0s;
     transition-timing-function: ease-in-out;
     left: 6.25%;
     top: 6.25%;
@@ -11655,7 +11655,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   transform: rotateZ(212deg) translateX(12%) translateY(59%);
   z-index: 10;
   transition-property: transform, opacity;
-  transition-duration: 0.6s;
+  transition-duration: 0s;
   transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1); }
   .appportrait_HoversEnabled_54PuC :hover .appportrait_LibraryItemBoxShine_MyNb5 {
     opacity: 0.2;
@@ -11714,7 +11714,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     z-index: 4;
     top: 204px;
     transition-property: opacity;
-    transition-duration: .4s;
+    transition-duration: 0s;
     transition-timing-function: cubic-bezier(0, 0.7, 0.8, 1);
     visibility: visible; }
 
@@ -11755,7 +11755,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   padding-top: 6px;
   line-height: 12px;
   transition-property: opacity;
-  transition-duration: .4s;
+  transition-duration: 0s;
   transition-timing-function: cubic-bezier(0, 0.7, 0.8, 1); }
   .appportrait_Short_yGeS6 .appportrait_PlaytimeDetails_3bkuo {
     padding-top: 6px;
@@ -11779,7 +11779,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   padding-top: 6px;
   line-height: 12px;
   transition-property: opacity;
-  transition-duration: .4s;
+  transition-duration: 0s;
   transition-timing-function: cubic-bezier(0, 0.7, 0.8, 1); }
   .appportrait_Short_yGeS6 .appportrait_PortraitMessage_3gwMk {
     padding-top: 6px;
@@ -11817,7 +11817,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     position: absolute;
     right: 0px;
     bottom: -18px;
-    transition: all .32s ease-in-out;
+    transition: none;
     margin-right: 4px;
     margin-bottom: 0px; }
     .appportrait_FriendsBar_3dncO.appportrait_IconsView_1WWmQ.appportrait_PortraitHover_301ft {
@@ -11872,7 +11872,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     color: #ccc; }
   .appportrait_FriendsBar_3dncO.appportrait_InFriendsActivity_3ngZC {
     position: absolute;
-    transition: all .32s ease-in-out;
+    transition: none;
     display: flex;
     justify-content: center;
     margin-top: -16px;
@@ -12032,7 +12032,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   font-weight: 100;
   letter-spacing: 1px;
   color: #ccc;
-  transition: all .16s ease-in-out; }
+  transition: none; }
   .appgrid_InstalledCheckBox_3S2E4:hover {
     color: white; }
   .appgrid_InstalledCheckBox_3S2E4.DialogCheckbox_Container {
@@ -12048,7 +12048,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     width: 15px;
     background-color: transparent;
     border: 1px solid #969696;
-    transition: all .16s ease-in-out;
+    transition: none;
     margin-top: 1px; }
     .appgrid_InstalledCheckBox_3S2E4 .DialogCheckbox svg {
       width: 100%;
@@ -12220,7 +12220,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   filter: brightness(1) contrast(1);
   cursor: pointer;
   transition-property: all;
-  transition-duration: 0.6s;
+  transition-duration: 0s;
   transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
   user-select: none; }
   .appgrid_ReadyToPlayBigButton_3wbWH .appgrid_CountGamesExcluded_2R_HL {
@@ -12294,7 +12294,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     box-shadow: 0px 14px 22px 0px rgba(0, 0, 0, 0.3);
     z-index: 12; }
     .appgrid_ReadyToPlayBigButton_3wbWH:hover:active {
-      transition-duration: 0.05s;
+      transition-duration: 0s;
       transition-timing-function: ease-out;
       filter: brightness(0.8) contrast(1.05) saturate(1); }
 
@@ -12396,7 +12396,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
         background: rgba(0, 0, 0, 0.25);
         text-transform: uppercase;
         flex: 1;
-        transition: all .16s ease-in-out;
+        transition: none;
         box-shadow: inset 0 0 12px transparent; }
         .collectionview_Container_2q70u .collectionview_Header_2rqTS .DialogInput_Wrapper .DialogTextInputBase:hover {
           background: #1e1f23; }
@@ -12459,7 +12459,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
       width: 16px;
       margin-top: -3px; }
   .collectionview_Container_2q70u .collectionview_CollectionEditor_2xpzK {
-    transition: all .21s ease-in-out; }
+    transition: none; }
 
 .gamelistentry_Container_2-O4Z {
   box-sizing: border-box;
@@ -12586,7 +12586,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     .gamelistentry_AppIconDownloading_2kzMb svg circle {
       stroke-width: 60px;
       stroke: #74d1ff;
-      transition: all .2s linear; }
+      transition: none; }
   .gamelistentry_AppIconDownloading_2kzMb .gamelistentry_GameIcon_ga1hy {
     margin-left: 0;
     position: absolute;
@@ -12669,7 +12669,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     .collapseicon_Container_3SFRZ .SVGIcon_PlusCircle .verticalLine {
       transform: scaleY(0);
       transform-origin: 50% 50%;
-      transition: transform .21s ease-in-out; }
+      transition: none; }
   .collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ:hover {
     stroke: white; }
   .collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
@@ -12994,7 +12994,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   flex-shrink: 1;
   border: none;
   min-width: 0;
-  transition: min-width .21s ease-out, margin .21s ease-out;
+  transition: min-width 0s ease-out, margin 0s ease-out;
   margin-left: 0; }
   .gamelistdropdown_ScrollToTop_uE7Pj.gamelistdropdown_Visible_rkfSf {
     flex-shrink: 0;
@@ -13128,7 +13128,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   width: 30px;
   height: 30px;
   border-radius: 4px;
-  transition: all .16s ease-in-out;
+  transition: none;
   cursor: pointer;
   display: grid;
   grid-template-columns: 9px 9px;
@@ -13143,7 +13143,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     width: 100%;
     height: 100%;
     background: #4c4d50;
-    transition: all .16s ease-in-out; }
+    transition: none; }
 
 .gamelisthome_CollectionBar_xeuK3 {
   position: relative; }
@@ -13458,7 +13458,7 @@ b {
 
 .partnereventshared_Button_1ABCO {
   color: #dfe3e6;
-  transition: all 0.2s ease-out;
+  transition: none;
   background: #3d4450;
   padding: 6px 25px 6px 25px;
   border-radius: 2px;
@@ -13472,7 +13472,7 @@ b {
 
 .partnereventshared_Button_1ABCO.partnereventshared_Icon_1dDpS {
   color: #dfe3e6;
-  transition: all 0.2s ease-out;
+  transition: none;
   background: #3d4450;
   padding: 6px 25px 8px 25px;
   height: 20px;
@@ -15836,7 +15836,7 @@ textarea:-webkit-autofill:focus,
   overflow: hidden;
   position: relative;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-  transition: all 0.2s ease-out; }
+  transition: none; }
   .salepreviewwidgets_CapsuleContainer_22Acx:hover {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
 
@@ -15938,7 +15938,7 @@ textarea:-webkit-autofill:focus,
   width: auto;
   min-width: unset;
   padding: 9px 20px;
-  transition: all 0.2s ease-out;
+  transition: none;
   height: 38px;
   box-sizing: border-box;
   color: #dfe3e6;
@@ -16808,7 +16808,7 @@ span.partnersaledisplay_vr_required_1P__h {
   background-color: #0006;
   border: 1px solid #aaa3;
   opacity: .75;
-  transition: all .16s ease-in-out; }
+  transition: none; }
   .salesectioneventschedule_VideoThumbnail_TxIKn:hover .salesectioneventschedule_VideoPlayButton_3D5uj {
     opacity: 1; }
     .salesectioneventschedule_VideoThumbnail_TxIKn:hover .salesectioneventschedule_VideoPlayButton_3D5uj .SVGIcon_Play {
@@ -16819,7 +16819,7 @@ span.partnersaledisplay_vr_required_1P__h {
     height: 50%;
     margin-left: 18px;
     margin-top: 15px;
-    transition: all .16s ease-in-out; }
+    transition: none; }
 
 .salesectioneventschedule_VideoLargeContainer_3WfQM {
   position: absolute;
@@ -17693,7 +17693,7 @@ span.partnersaledisplay_vr_required_1P__h {
   fill: #5dc2fe;
   stroke: black;
   stroke-width: 10px;
-  transition: all .16s ease-in-out; }
+  transition: none; }
 
 .STV_timelineContainer:not(.grabberDown) .STV_timelineGrabber.grabberOffScreenRight .grabber, .STV_timelineContainer:not(.grabberDown) .STV_timelineGrabber.grabberOffScreenLeft .grabber {
   opacity: 1;
@@ -17701,7 +17701,7 @@ span.partnersaledisplay_vr_required_1P__h {
   fill: #5dc2fe;
   stroke: black;
   stroke-width: 10px;
-  transition: all .16s ease-in-out; }
+  transition: none; }
 
 .STV_timelineGrabberArrow {
   width: 24px;
@@ -17766,7 +17766,7 @@ span.partnersaledisplay_vr_required_1P__h {
   fill: #886b48;
   transform: scale(0.6) translateY(26px);
   transform-origin: 50% 50%;
-  transition: all .16s ease-in-out; }
+  transition: none; }
 
 .timelineMarker:hover .timelineMarkerIcon .SVGIcon_STVTimelineMarker .pointer {
   transform: scale(1) translateY(0px); }
@@ -17992,7 +17992,7 @@ span.partnersaledisplay_vr_required_1P__h {
 
 .ToggleBroadcastChat .SVGIcon_DoubleArrow {
   transform: rotateZ(180deg);
-  transition: all .16s ease-in-out; }
+  transition: none; }
 
 .ChatCollapsed .ToggleBroadcastChat .SVGIcon_DoubleArrow {
   transform: rotateZ(0deg); }
@@ -20791,7 +20791,7 @@ div.creatorhomeembed_SocialContainer_1o1Ds {
     background: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
     background-position: 25%;
     background-size: 330% 100%;
-    transition: all 0.2s ease-out;
+    transition: none;
     cursor: pointer;
     color: white; }
   .libraryhomemajorupdates_LibraryHomeMajorUpdates_oo2nr .libraryhomemajorupdates_DetailsButton_3ygk3 {
