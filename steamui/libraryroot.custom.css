@@ -3159,7 +3159,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
       cursor: pointer; }
   button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY {
     text-align: right;
-    margin-top: 8px;
+    margin-top: -10px;
     padding: 4px 12px; }
     button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY:hover {
       background-color: rgba(101, 113, 128, 0.356);
@@ -3848,8 +3848,9 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
 .appdetailsfriendssection_Subsection_39bm0 {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
-  padding-bottom: 2px;
+  margin-bottom: 0px;
+  float: left;
+  padding-bottom: 0px;
   overflow: hidden; }
   .appdetailsfriendssection_Subsection_39bm0 .appdetailsfriendssection_SubsectionHeader_nTb1N {
     color: #cacbcd;
@@ -7341,7 +7342,8 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 
 .appdetailscommunityfeed_CommunityContentContainer_A6G1l {
   font-size: 16px;
-  color: #616970; }
+  color: #616970;
+  float: left; }
 
 .appdetailscommunityfeed_HeaderStyles_2lNdD {
   padding-top: 8px;
@@ -7445,18 +7447,21 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     display: grid; }
 
 .appdetailscommunityfeed_CommunityItem_3QS6O {
-  background-color: #3e4047;
-  border-radius: 6px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  background-color: #4c5844;
+  border-radius: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080 #282e22 #282e22 #808080;
+  box-shadow: none;
   position: relative;
   display: flex;
   flex-direction: column;
   transition: none; }
   .appdetailscommunityfeed_CommunityItem_3QS6O.appdetailscommunityfeed_Blank_1HAb- {
-    background-color: #646464;
+    background-color: none;
     opacity: 1.0; }
   .appdetailscommunityfeed_CommunityItem_3QS6O:hover {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 14px 14px rgba(0, 0, 0, 0.25), 0 10px 5px rgba(0, 0, 0, 0.22); }
+    box-shadow: none; }
   .appdetailscommunityfeed_CommunityItem_3QS6O .appdetailscommunityfeed_ChildItem_2EOPV {
     flex: 1 0 auto; }
   .appdetailscommunityfeed_CommunityItem_3QS6O.appdetailscommunityfeed_Blank_1HAb- .appdetailscommunityfeed_ChildItem_2EOPV {
@@ -7640,7 +7645,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   box-sizing: border-box;
   padding: 10px;
   flex: 0 0 auto;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(46, 51, 58, 0.3) 2px, rgba(74, 81, 92, 0) 24px, rgba(75, 81, 92, 0.35) 100%);
+  background: none;
   display: flex;
   flex-direction: row;
   color: #cacbcd;
@@ -8001,7 +8006,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 {
   color: white;
   margin-bottom: 0px;
-  max-width: 66%; }
+  max-width: 100%; }
   div.NarrowRightPanel .appdetailsactivitysection_ActivityFeedContainer_3yTl3 {
     max-width: 100%; }
   .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {
@@ -9468,7 +9473,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   padding-bottom: 12px; }
 
 .appdetailsreviewsection_VoteUpDownContainer_RUbAG {
-  padding-bottom: 12px; }
+  padding-bottom: 0px; }
   .appdetailsreviewsection_VoteUpDownContainer_RUbAG :first-child {
     margin-inline-end: 8px; }
 
@@ -9981,6 +9986,10 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   cursor: pointer; }
 
 .appdetailsspotlight_ReviewContainer_3LE-6 {
+  display: none; }
+
+/*
+.appdetailsspotlight_ReviewContainer_3LE-6 {
   background-color: #4c5844;
   box-sizing: border-box;
   border-style: solid;
@@ -10013,6 +10022,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     width: fit-content;
     height: fit-content;
     flex-direction: row; }
+*/
 
 .appdetailsspotlight_Glassy_el0c2.appdetailsspotlight_AppDetailsSpotlight_gh6du {
   background-color: transparent; }
@@ -10751,12 +10761,15 @@ div.sharescreenshotupload_Spoiler_tmUAv {
         padding: 0px 10px 0px 10px; }
   .appdetailsoverview_Container_27RcN .appdetailsoverview_LeftColumn_1sZgB {
     box-sizing: border-box;
-    flex: none; }
+    flex: none;
+    display: block;
+    float: left;
+	width: 50%; }
     div.UltraNarrowRightPanel .appdetailsoverview_Container_27RcN .appdetailsoverview_LeftColumn_1sZgB {
       width: 100%;
       margin-top: 0px; }
   .appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
-    width: 33%;
+    width: 50%;
     margin-left: 0px;
     flex: none;
     display: flex;
@@ -21784,15 +21797,15 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     height: 2px;
     align-self: center;
     margin-left: 0px;
-    background-color: rgba(255, 255, 255, 0.05);
-    transition: height .21s ease-in-out; }
+    background-color: none;
+    transition: height 0s ease-in-out; }
   .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_PostDropdownRule_NR6cm {
     flex-grow: 1;
     height: 2px;
     margin-left: 6px;
-    background: grey;
+    background: none;
     align-self: center;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: none;
     transition: height .21s ease-in-out; }
   .libraryhomeshowcases_ShowcaseHeader_23Snl:hover .libraryhomeshowcases_Rule_1PhK8 {
     height: 16px; }
@@ -21858,13 +21871,16 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     border-radius: 2px;
     padding: 10px;
     margin-bottom: 0px;
-    background-color: rgba(62, 64, 71, 0.4); }
+    background-color: #4c5844;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #808080 #282e22 #282e22 #808080; }
     .libraryhomeshowcases_ShowcaseHeader_23Snl.libraryhomeshowcases_Reordering_2Ho8z .libraryhomeshowcases_Rule_1PhK8 {
       opacity: 0; }
   .libraryhomeshowcases_DragElement_176H2 .libraryhomeshowcases_ShowcaseHeader_23Snl {
-    border: 1px solid #1e90ff;
-    background-color: #64666e;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    border: 1px solid none;
+    background-color: none;
+    box-shadow: none;
     margin: 0px; }
   .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_DragHandle_1OGfH {
     position: absolute;
@@ -21875,7 +21891,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     opacity: 0;
     pointer-events: none;
     margin-top: 2px;
-    transition: opacity 0.2s ease-in-out; }
+    transition: opacity 0s ease-in-out; }
   .libraryhomeshowcases_Reordering_2Ho8z .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_DragHandle_1OGfH {
     margin-top: 0px; }
   .libraryhomeshowcases_ShowcaseHeader_23Snl:hover .libraryhomeshowcases_DragHandle_1OGfH {
@@ -21891,7 +21907,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     display: inline-block;
     height: 18px;
     width: 18px;
-    transition: opacity 0.2s ease-in-out;
+    transition: opacity 0s ease-in-out;
     opacity: 0; }
     .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_DeleteButton_3cK5j svg path {
       stroke: #a0a1a5; }
@@ -22023,20 +22039,20 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     .libraryhomeshowcases_AddShowcaseRow_3SkuN svg line,
     .libraryhomeshowcases_AddShowcaseRow_3SkuN svg circle {
       stroke: #a9a9a9;
-      transition: all .21s ease-in-out; }
+      transition: none; }
   .libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_Rule_1PhK8 {
     flex-grow: 1;
     height: 0;
     align-self: center;
-    background-color: rgba(255, 255, 255, 0.05);
-    transition: all .21s ease-in-out; }
+    background-color: #3e4637;
+    transition: none; }
   .libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_AddShowcase_2aw5a {
     padding: 4px 8px;
     margin-left: 5px;
     margin-right: 5px;
     text-transform: uppercase;
     cursor: pointer;
-    transition: all .21s ease-in-out;
+    transition: none;
     display: flex;
     align-items: center; }
     .libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_AddShowcase_2aw5a.libraryhomeshowcases_Disabled_1MNhU {
@@ -22052,7 +22068,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
   font-size: 14px;
   height: 0px;
   overflow: hidden;
-  transition: height .21s ease-in-out; }
+  transition: none; }
   .libraryhomeshowcases_DoneReorderingRow_1dy2s .libraryhomeshowcases_DoneReordering_MXh6n {
     width: fit-content;
     padding: 0px 20px;
@@ -23053,7 +23069,7 @@ button.DialogButton {
   /*margin-bottom: 22px;*/
   cursor: pointer;
   transition: none;
-  max-width: 200px;
+  max-width: 50%;
   background-position: 99% 1%;
   background-size: 300% 300%;
   position: relative; }
