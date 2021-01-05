@@ -1,5 +1,22 @@
 steamui\libraryroot.custom.css
 
+/*
+----------------------------------------------
+
+Let's define colours based on steamscheme.res
+
+LightGreenBG: #5a6a50
+GreenBG: #4c5844
+DarkGreenBG: #3e4637
+BorderBright: #808080
+BorderDark: #282e22
+OffWhite: #d8ded3
+Maize: #c4b550
+MaizeBG: #91863c
+
+----------------------------------------------
+*/
+
 .DialogTextInputBase {
   background: #3e4637;
   color: #fff;
@@ -6887,8 +6904,7 @@ img.emoticon_emoticon_AB86v {
   align-items: center;
   font-size: 13px;
   width: 100%;
-  opacity: 0;
-  margin-top: -10px; }
+  opacity: 0; }
   .comment_thread_RatingBar_1yWgP > :first-child {
     margin-left: auto; }
   .comment_thread_RatingBar_1yWgP.comment_thread_IsVisible_1XYMA {
