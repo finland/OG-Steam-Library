@@ -12454,15 +12454,15 @@ div.appgrid_CoverSizeSlider_U4J9B {
       border-bottom: 1px solid dodgerblue;
       border-radius: 0px 0px 8px 8px; }
   .gamelistentry_Container_2-O4Z .gamelistentry_GameIcon_ga1hy {
-    height: 16px;
-    width: 16px;
+    height: 20px;
+    width: 20px;
     vertical-align: middle;
     margin-right: 5px;
     border-radius: 0px;
     flex-shrink: 0;
     transition: none; }
   .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B {
-    font-size: 12px;
+    font-size: 16px;
 	display: flex;
     box-sizing: border-box;
     flex-direction: row;
@@ -12610,7 +12610,8 @@ div.appgrid_CoverSizeSlider_U4J9B {
   .collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ:hover {
     stroke: white; }
   .collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
-    stroke: #c4b550; }
+    stroke: #c4b550;
+	margin-top: 1px; }
 
 .collapseicon_Collapsed_2hFLg {
   /* stylelint-disable-next-line selector-class-pattern */ }
@@ -12694,7 +12695,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     fill: #a2a2a3; }
 
 .gamelistsectionheader_SectionName_2mZ8L {
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 1px;
   height: 16px;
   overflow: hidden;
@@ -12702,7 +12703,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   text-overflow: ellipsis; }
 
 .gamelistsectionheader_SectionCount_29ute {
-  font-size: 12px;
+  font-size: 16px;
   height: 12px;
   margin: 0px 4px 3px;
   color: rgba(255, 255, 255, 0.2); }
@@ -12725,7 +12726,8 @@ div.appgrid_CoverSizeSlider_U4J9B {
   flex-shrink: 1;
   user-select: none;
   outline: none;
-  background: #3e4637;  }
+  background: #3e4637;
+  zoom: 75% }
   .gamelist_Container_1ijTa .ReactVirtualized__Grid {
     outline: none; }
 
