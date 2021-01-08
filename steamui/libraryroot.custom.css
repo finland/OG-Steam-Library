@@ -11307,6 +11307,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   cursor: pointer; }
 
 .appdetailsspotlight_ReviewContainer_3LE-6 {
+  display: none;
   background-color: var(--GreenBG);
   box-sizing: border-box;
   border-style: solid;
@@ -11315,7 +11316,6 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   width: 100%;
   padding-left: 8px;
   padding-right: 10px;
-							
   color: #969696;
   font-size: 12px;
   font-weight: 200; }
@@ -11752,7 +11752,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     height: 90px; }
   .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI:after {
     content: '';
-    box-shadow: inset 1px 1px 12px black;
+    box-shadow: none;
     position: absolute;
     top: 0;
     left: 0;
