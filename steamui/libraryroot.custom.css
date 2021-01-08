@@ -8135,7 +8135,7 @@ body.in_global_drag .title-area {
   align-items: center;
   justify-content: flex-end;
   padding-top: 0px;
-  opacity: 0; }
+  opacity: 1; }
   .comment_thread_ActivityCommentThreadMinimized_EhWKR.comment_thread_IsVisible_1XYMA {
     opacity: 1; }
   .comment_thread_ActivityCommentThreadMinimized_EhWKR .comment_thread_RateButton_2y_jV {
@@ -8365,7 +8365,7 @@ body.in_global_drag .title-area {
   align-items: center;
   font-size: 13px;
   width: 100%;
-  opacity: 0; }
+  opacity: 1; }
   .comment_thread_RatingBar_1yWgP > :first-child {
     margin-left: auto; }
   .comment_thread_RatingBar_1yWgP.comment_thread_IsVisible_1XYMA {
