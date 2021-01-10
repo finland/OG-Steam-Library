@@ -10585,18 +10585,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     perspective-origin: 0 0; }
   .appdetails_ScrollContainer_2l416 .appdetails_InnerContainer_1Svpj {
     overflow: hidden;
-    min-height: 100%;
-	animation: fadein .5s linear forwards }
-	
-@-webkit-keyframes fadein {
-  0% { opacity: 0; }
-  50% { opacity: 1; }
-}
-
-@keyframes fadein {
-  0% { opacity: 0; }
-  50% { opacity: 1; }
-}										
+    min-height: 100%; }										
 
 .appdetails_Throbber_NCAc- {
   margin: auto;
