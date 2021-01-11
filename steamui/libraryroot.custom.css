@@ -1636,14 +1636,14 @@ body.modals_BodyNoScrollDialog_105OB {
   flex-direction: column; }
 
 .gamelistcollectionmenu_CollectionDeleteContainer_nYduu .gamelistcollectionmenu_CollectionDelete_gx3va {
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
   pointer-events: none;
   position: relative;
   display: flex;
   flex-direction: row;
-  margin: 6px 0;
-  margin-right: 32px;
+  margin-top: 20px;
+  margin-right: 0px;
   flex-shrink: 0; }
 
 .gamelistcollectionmenu_CollectionDeleteContainer_nYduu .gamelistcollectionmenu_CollectionDeleteIconOutline_143lq,
@@ -6847,7 +6847,7 @@ button.DialogButton::-moz-focus-inner {
   justify-content: space-around; }
 
 .DialogContent_InnerWidth {
-  max-width: 500px;
+  max-width: 800px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -6902,7 +6902,7 @@ button.DialogButton::-moz-focus-inner {
   user-select: none;
   margin-top: -10px;
   margin-bottom: 0px;
-  margin-left: 19px;
+  margin-left: 14px;
   margin-right: 0px; }
 
 .DialogSubHeader {
@@ -6929,7 +6929,7 @@ button.DialogButton::-moz-focus-inner {
   color: #4297f8; }
 
 .DialogFooter {
-  margin: 0px 0px 0px 15px;
+  margin: 61px 0px 0px 15px;
   flex-shrink: 0; }
 
 .DialogBodyText {
@@ -7415,7 +7415,7 @@ button.TextButton:focus {
 
 ._DialogColLayout {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   justify-content: flex-end;
   margin-bottom: 0px; }					   
 
