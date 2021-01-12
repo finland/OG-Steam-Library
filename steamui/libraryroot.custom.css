@@ -11,6 +11,36 @@
 	--Maize: #c4b550 !important;
 	--MaizeBG: #91863c !important; }
 
+/* No Bullshit Mode */
+/*
+.sharedappdetailsheader_TopCapsule_NZMJ6.sharedappdetailsheader_TopCapsule_NZMJ6 {
+  display: none !important; }
+
+.appdetailsplaysection_Row_9EHg9 {
+  border: 1px solid var(--LightGreenBG) !important;
+  padding: 24px !important; }
+
+.appactivityday_AppActivityDay_S2Fu9 {
+  background: transparent !important;
+  border: 1px solid var(--LightGreenBG) !important; }
+
+.appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
+  border: 1px solid var(--LightGreenBG) !important;
+  background: transparent !important; }
+
+.appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_LinksSectionBody_25f0f {
+  background: var(--DarkGreenBG) !important; }
+
+.appdetailssection_Highlight_38t1m {
+  background: transparent !important; }
+
+.appactivityday_PartnerEventMediumImage_Container_1HZy7 {
+  background: var(--DarkGreenBG) !important; }
+
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 {
+  margin-right: 16px !important; }
+*/
+
 .friendsnooze_SnoozeContainer_1Dsum {
   position: relative;
   overflow: hidden;
@@ -4373,7 +4403,7 @@ div.UltraNarrowRightPanel .appdetailsplaysection_MiniAchievements_UAhWi {
 
 .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_Glassy_3DeO9 {
   backdrop-filter: blur(8px);
-  background-color: rgba(39, 44, 53, 0.7);
+  background-color: var(--DarkGreenBG);
   margin-top: -15px;
   padding-top: 15px; }
   div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_Glassy_3DeO9 {
@@ -4932,7 +4962,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   max-height: 154px; }
 
 .appactivityday_PartnerEvent_1AYE1 {
-  border: 1px solid transparent;
+  border: none;
   border-image-source: none;
   border-image-width: 1px;
   border-image-repeat: stretch;
@@ -4943,7 +4973,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
     margin-bottom: 8px; }
 
 .appactivityday_PartnerEventUpdate_fmLfu {
-  border: 1px solid transparent;
+  border: none;
   border-image-source: none;
   border-image-width: 1px;
   border-image-repeat: stretch;
@@ -4953,7 +4983,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
     margin-bottom: 0; }
 
 .appactivityday_PartnerEventLargeUpdate_39Zk3 {
-  border: 1px solid transparent;
+  border: none;
   border-image-source: none;
   border-image-width: 1px;
   border-image-repeat: stretch;
@@ -4972,7 +5002,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   background: transparent;
   transition: all 0.2s ease-out; }
   .appactivityday_PartnerEventTextOnly_3QRf-:hover {
-    background: var(--GreenBG);
+    background: none;
     cursor: pointer; }
     .appactivityday_PartnerEventTextOnly_3QRf-:hover .appactivityday_PartnerEventTextOnly_Title_1Cva_ {
       color: #fff; }
@@ -6902,7 +6932,7 @@ button.DialogButton::-moz-focus-inner {
   user-select: none;
   margin-top: -10px;
   margin-bottom: 0px;
-  margin-left: 14px;
+  margin-left: 21px;
   margin-right: 0px; }
 
 .DialogSubHeader {
