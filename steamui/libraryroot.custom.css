@@ -1021,6 +1021,7 @@ html.contextmenu_ContextMenuPopup_14wqd .contextmenu_contextMenuItem_1n7Wl {
   min-width: 140px;
   max-width: 220px;
   padding-left: 24px;
+  padding-right: 24px;
   padding-top: 40px;
   display: flex;
   flex-direction: column;
