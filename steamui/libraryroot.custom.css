@@ -6878,7 +6878,7 @@ button.DialogButton::-moz-focus-inner {
   justify-content: space-around; }
 
 .DialogContent_InnerWidth {
-  max-width: 800px;
+  max-width: 600px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -6960,7 +6960,7 @@ button.DialogButton::-moz-focus-inner {
   color: #4297f8; }
 
 .DialogFooter {
-  margin: 61px 0px 0px 15px;
+  margin: 15px 0px 0px 15px;
   flex-shrink: 0; }
 
 .DialogBodyText {
