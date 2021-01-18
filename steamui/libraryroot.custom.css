@@ -23381,7 +23381,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
-    color: #ffffff80; }
+    color: var(--Maize); }
     .libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer.DialogDropDown:hover {
       box-shadow: none;
       color: #fff; }
